@@ -78,5 +78,21 @@ class TestSaveJson(unittest.TestCase):
             self.assertTrue(collect.save_json(p, {"generated_at": "2", "a": 2}))
 
 
+class TestNewsCache(unittest.TestCase):
+    def test_reuses_same_day_candidates(self):
+        import tempfile, datetime
+        today = datetime.datetime.now(collect.KST).strftime("%Y-%m-%d")
+        with tempfile.TemporaryDirectory() as t:
+            orig = collect.OUT_PATH
+            try:
+                collect.OUT_PATH = os.path.join(t, "data.json")
+                collect.save_json(collect.OUT_PATH,
+                                  {"candidates_date": today, "candidates": [{"title": "x"}]})
+                self.assertEqual(collect.load_cached_candidates(today), [{"title": "x"}])
+                self.assertIsNone(collect.load_cached_candidates("1999-01-01"))
+            finally:
+                collect.OUT_PATH = orig
+
+
 if __name__ == "__main__":
     unittest.main()

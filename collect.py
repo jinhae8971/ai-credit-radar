@@ -180,6 +180,25 @@ def fetch_news_candidates(names: list[str], limit: int = 6) -> list[dict]:
     return uniq
 
 
+def load_cached_candidates(today: str) -> list[dict] | None:
+    """같은 날 이미 수집한 뉴스가 있으면 재사용한다.
+
+    Google News RSS는 호출마다 다른 세트를 돌려주므로, 재실행할 때마다
+    data.json이 바뀌어 의미 없는 커밋이 쌓인다. 날짜 단위로 고정한다.
+    """
+    if not os.path.exists(OUT_PATH):
+        return None
+    try:
+        with open(OUT_PATH, "r", encoding="utf-8") as f:
+            prev = json.load(f)
+    except (json.JSONDecodeError, OSError):
+        return None
+    if prev.get("candidates_date") == today:
+        print(f"[news] {today} 수집분 재사용 ({len(prev.get('candidates', []))}건)")
+        return prev.get("candidates", [])
+    return None
+
+
 # ── 메인 ───────────────────────────────────────────────────────────────
 def build() -> dict:
     with open(SEED_PATH, "r", encoding="utf-8") as f:
@@ -234,13 +253,19 @@ def build() -> dict:
             "cds": cds,
         })
 
+    today = datetime.now(KST).strftime("%Y-%m-%d")
+    candidates = load_cached_candidates(today)
+    if candidates is None:
+        candidates = fetch_news_candidates([e["name"] for e in ENTITIES])
+
     return {
         "generated_at": datetime.now(KST).isoformat(timespec="seconds"),
         "asof": asof,
         "macro": {"bbb_oas_bp": macro_last, "percentile_2y": round(macro_pct, 3),
                   "series": macro_series},
         "entities": entities,
-        "candidates": fetch_news_candidates([e["name"] for e in ENTITIES]),
+        "candidates_date": today,
+        "candidates": candidates,
         "method": {
             "csi": "0.35×낙폭(252d) + 0.30×20일변동성 백분위 + 0.20×60일 모멘텀 + 0.15×BBB OAS 백분위",
             "disclaimer": "CSI는 CDS 호가가 아니라 주가·매크로 기반 대리지표다. 실측 CDS는 보도 기준 큐레이션 값이다.",
