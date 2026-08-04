@@ -25,9 +25,9 @@
     {
       "bp_hint": null,
       "entity": "Nvidia",
-      "link": "https://news.google.com/rss/articles/CBMitAFBVV95cUxPNmk5UlpuWFRvald0NzgwcV9mRFNwV0J0MVJZRmhHV0VIcHFuMXFNUHFSUlZLMXNISGkxSGptdjktTzNycGItWVk1RWVvRlo4NFNaM0tsR0JqZXY3NUJrZVE1SERtT3BiSVJhZmR6X25qREJwX3hmWWFrYzhsRVlNU0dGaFFpYUtpTHd1dWxwelg3eVNhMzFDWGV3Qzh4SF94S3o1WUVYekVDdXduMmlObmZBZC0?oc=5",
-      "published": "Thu, 30 Jul 2026 17:43:54 GMT",
-      "title": "How Much Of The AI Ecosystem Can Nvidia's Balance Sheet Support - Forbes"
+      "link": "https://news.google.com/rss/articles/CBMikwJBVV95cUxNdVVBelRMaHJrZFhvcW1ERG41aEl6SU81Y19qci1KNlBCckxHVnB6ZHJnXzYwZXN3YUdVTXZaOHpOTkJBWnlMcF9UalQ3VEJ5cHJkZlh4WGRRejhJZGtQWjB2UXA5ZjFPSHFOaXNCZEt6NWltRnIxd0c3RmJBZjVkYjFZZEZQMXdTc2J3cEU3a0dZZHRrVng2ZjNPVkM3Q3kzWmxjT25majIxc1RVVDR5eWJPUG5Jcmgxb04xM3pwMUxyZXRyUnNheDAxLUwyeVRseTcyS1Vkamk4bXJYQlFEb1FjZXg3R2tTVXVBemY0cHhLMVUyUE9kMmhQVjZGVC1vMVo2VmVhWHFlUjJfeWliUUhiWQ?oc=5",
+      "published": "Wed, 29 Jul 2026 06:21:24 GMT",
+      "title": "Michael Burry Warns Nvidia's 'Overreaching' Is Pushing Circular Spending to 'Biblical Proportions' Amid S - benzinga.com"
     },
     {
       "bp_hint": null,
@@ -114,6 +114,7 @@
       "title": "Oracle leads record widening in hyperscaler CDS spreads (XT:NASDAQ) - Seeking Alpha"
     }
   ],
+  "candidates_date": "2026-08-04",
   "entities": [
     {
       "basket": {
@@ -4178,7 +4179,7 @@
       "type": "proxy"
     }
   ],
-  "generated_at": "2026-08-04T21:29:32+09:00",
+  "generated_at": "2026-08-04T21:31:24+09:00",
   "macro": {
     "bbb_oas_bp": 99.0,
     "percentile_2y": 0.271,
