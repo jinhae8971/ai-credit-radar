@@ -1,0 +1,323 @@
+<!DOCTYPE html>
+<html lang="ko">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>AI Credit Radar — CDS 스프레드 추적</title>
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Archivo:wght@500;700;800&family=Inter:wght@400;500;600&family=JetBrains+Mono:wght@400;600;700&display=swap" rel="stylesheet">
+<style>
+  :root{
+    --ink:#131A22; --ink-2:#4A555F; --ink-3:#7B858E;
+    --paper:#E4E7EA; --card:#F8F9FA; --rule:#C6CDD4;
+    --wide:#A8322A;      /* 확대 = 나쁨 */
+    --tight:#136457;     /* 축소 = 좋음 */
+    --watch:#A97612;     /* 관망 */
+    --proxy:#42566F;     /* 대리지표 */
+    --shadow:0 1px 0 rgba(19,26,34,.06), 0 8px 24px -18px rgba(19,26,34,.5);
+  }
+  *{box-sizing:border-box}
+  html,body{margin:0}
+  body{
+    background:var(--paper); color:var(--ink);
+    font-family:Inter,system-ui,-apple-system,"Malgun Gothic",sans-serif;
+    font-size:15px; line-height:1.55;
+    padding:clamp(16px,4vw,44px) clamp(14px,4vw,32px) 64px;
+  }
+  .wrap{max-width:960px;margin:0 auto}
+  .mono{font-family:"JetBrains Mono",ui-monospace,monospace;font-variant-numeric:tabular-nums}
+
+  /* ── 헤더 ── */
+  header{border-bottom:2px solid var(--ink);padding-bottom:14px;margin-bottom:6px}
+  .eyebrow{font-family:Archivo,sans-serif;font-weight:700;font-size:11px;
+    letter-spacing:.22em;text-transform:uppercase;color:var(--ink-3)}
+  h1{font-family:Archivo,sans-serif;font-weight:800;font-size:clamp(30px,6.2vw,50px);
+    line-height:1.02;letter-spacing:-.022em;margin:.18em 0 .1em}
+  .sub{color:var(--ink-2);font-size:14px;max-width:56ch}
+  .stamp{display:flex;flex-wrap:wrap;gap:6px 18px;margin-top:12px;
+    font-size:11.5px;letter-spacing:.06em;color:var(--ink-3);text-transform:uppercase}
+  .stamp b{color:var(--ink);font-weight:600}
+
+  /* ── 판정 스트립 ── */
+  .verdict{display:flex;align-items:baseline;gap:14px;flex-wrap:wrap;
+    padding:16px 0 20px;border-bottom:1px solid var(--rule);margin-bottom:26px}
+  .verdict .word{font-family:Archivo,sans-serif;font-weight:800;
+    font-size:clamp(20px,4.4vw,30px);letter-spacing:-.015em}
+  .verdict .why{color:var(--ink-2);font-size:13.5px}
+
+  /* ── 섹션 ── */
+  section{margin-bottom:34px}
+  .shead{display:flex;align-items:baseline;justify-content:space-between;gap:12px;
+    border-bottom:1px solid var(--ink);padding-bottom:7px;margin-bottom:16px}
+  .shead h2{font-family:Archivo,sans-serif;font-weight:700;font-size:14px;
+    letter-spacing:.12em;text-transform:uppercase;margin:0}
+  .shead span{font-size:11.5px;color:var(--ink-3);letter-spacing:.05em}
+
+  /* ── 온도계(시그니처) ── */
+  .gauge{background:var(--card);border:1px solid var(--rule);border-radius:3px;
+    padding:16px 18px 14px;margin-bottom:10px;box-shadow:var(--shadow)}
+  .grow{display:flex;align-items:baseline;justify-content:space-between;gap:10px}
+  .gname{font-family:Archivo,sans-serif;font-weight:700;font-size:19px;letter-spacing:-.01em}
+  .badge{font-size:10px;font-weight:700;letter-spacing:.12em;text-transform:uppercase;
+    padding:2px 6px;border-radius:2px;vertical-align:2px;margin-left:8px}
+  .b-traded{background:#DDE3E9;color:var(--proxy)}
+  .b-proxy{background:transparent;color:var(--proxy);border:1px dashed var(--proxy)}
+  .gval{text-align:right;white-space:nowrap}
+  .gval .n{font-family:"JetBrains Mono",monospace;font-weight:700;font-size:23px;
+    font-variant-numeric:tabular-nums}
+  .gval .d{font-family:"JetBrains Mono",monospace;font-size:12.5px;margin-left:7px}
+  .up{color:var(--wide)} .down{color:var(--tight)} .flat{color:var(--ink-3)}
+
+  .track{position:relative;height:8px;background:#DCE1E6;border-radius:0;margin:13px 0 5px}
+  .fill{position:absolute;left:0;top:0;bottom:0}
+  .tick{position:absolute;top:-4px;bottom:-4px;width:2px;background:var(--ink)}
+  .scale{display:flex;justify-content:space-between;font-size:10.5px;color:var(--ink-3);
+    letter-spacing:.04em}
+
+  .gmeta{display:flex;flex-wrap:wrap;gap:8px 20px;margin-top:11px;padding-top:11px;
+    border-top:1px dotted var(--rule);font-size:12.5px;color:var(--ink-2)}
+  .gmeta .k{color:var(--ink-3);text-transform:uppercase;font-size:10.5px;
+    letter-spacing:.1em;margin-right:6px}
+  .gnote{margin-top:8px;font-size:12.5px;color:var(--ink-2);line-height:1.5}
+  .spark{display:block;margin-top:10px}
+
+  /* ── 차트 ── */
+  .chart{background:var(--card);border:1px solid var(--rule);border-radius:3px;
+    padding:14px 8px 6px;box-shadow:var(--shadow)}
+  .legend{display:flex;flex-wrap:wrap;gap:8px 18px;padding:8px 12px 4px;font-size:12px}
+  .legend i{display:inline-block;width:16px;height:3px;vertical-align:3px;margin-right:6px}
+
+  /* ── 뉴스 ── */
+  ul.news{list-style:none;margin:0;padding:0}
+  ul.news li{padding:9px 0;border-bottom:1px dotted var(--rule);font-size:13.5px}
+  ul.news a{color:var(--ink);text-decoration:none;border-bottom:1px solid var(--rule)}
+  ul.news a:hover{border-color:var(--ink)}
+  ul.news .who{font-size:10.5px;letter-spacing:.1em;text-transform:uppercase;
+    color:var(--ink-3);margin-right:9px}
+  .hint{color:var(--wide);font-weight:600}
+
+  footer{margin-top:40px;padding-top:16px;border-top:1px solid var(--rule);
+    font-size:12px;color:var(--ink-3);line-height:1.65}
+  footer code{font-family:"JetBrains Mono",monospace;font-size:11.5px;color:var(--ink-2)}
+  .err{padding:20px;border:1px solid var(--wide);color:var(--wide);border-radius:3px}
+  a:focus-visible,[tabindex]:focus-visible{outline:2px solid var(--proxy);outline-offset:2px}
+  @media (prefers-reduced-motion:no-preference){
+    .gauge{animation:rise .45s cubic-bezier(.2,.7,.3,1) backwards}
+    @keyframes rise{from{opacity:0;transform:translateY(7px)}}
+  }
+</style>
+</head>
+<body>
+<div class="wrap">
+  <header>
+    <div class="eyebrow">Credit Desk · AI Infrastructure</div>
+    <h1>AI 크레딧 레이더</h1>
+    <p class="sub">엔비디아 · 오라클 · OpenAI · 앤트로픽의 부도보험 가격과 신용 스트레스를 매일 추적합니다.</p>
+    <div class="stamp" id="stamp"></div>
+  </header>
+
+  <div class="verdict" id="verdict"></div>
+
+  <section>
+    <div class="shead"><h2>스프레드 온도계</h2><span>실측 CDS 레인지 · 일간 스트레스 지수</span></div>
+    <div id="gauges"></div>
+  </section>
+
+  <section>
+    <div class="shead"><h2>실측 5Y CDS 궤적</h2><span>보도 기준 관측치 · bp</span></div>
+    <div class="chart"><div id="cdschart"></div><div class="legend" id="cdslegend"></div></div>
+  </section>
+
+  <section>
+    <div class="shead"><h2>시장 전체 대비</h2><span>ICE BofA BBB OAS · FRED</span></div>
+    <div class="chart"><div id="macrochart"></div><div class="legend" id="macronote"></div></div>
+  </section>
+
+  <section>
+    <div class="shead"><h2>신규 수치 후보</h2><span>최근 7일 보도 · 시드 갱신용</span></div>
+    <ul class="news" id="news"></ul>
+  </section>
+
+  <footer id="foot"></footer>
+</div>
+
+<script>
+const PAL = {oracle:"#A8322A", nvidia:"#A97612", openai:"#42566F", anthropic:"#136457"};
+const $ = s => document.querySelector(s);
+const esc = s => String(s ?? "").replace(/[&<>"]/g, c => ({"&":"&amp;","<":"&lt;",">":"&gt;",'"':"&quot;"}[c]));
+
+function bandOf(v){
+  if (v >= 75) return {c:"var(--wide)",  t:"과열"};
+  if (v >= 60) return {c:"#C4562B",      t:"확대"};
+  if (v >= 40) return {c:"var(--watch)", t:"관망"};
+  return {c:"var(--tight)", t:"안정"};
+}
+function delta(cur, prev){
+  if (prev == null) return {cls:"flat", txt:"―"};
+  const d = cur - prev;
+  if (d >= 0.5)  return {cls:"up",   txt:"▲" + d.toFixed(1)};
+  if (d <= -0.5) return {cls:"down", txt:"▼" + Math.abs(d).toFixed(1)};
+  return {cls:"flat", txt:"― 0.0"};
+}
+
+/* 의존성 없는 SVG 라인차트 */
+function lineChart(el, seriesList, opt){
+  const W = 900, H = opt.height || 260, P = {t:14, r:52, b:26, l:44};
+  const all = seriesList.flatMap(s => s.pts);
+  if (!all.length){ el.innerHTML = '<p style="padding:14px;color:var(--ink-3)">데이터 없음</p>'; return; }
+  const xs = all.map(p => p[0]), ys = all.map(p => p[1]);
+  const x0 = Math.min(...xs), x1 = Math.max(...xs);
+  let y0 = Math.min(...ys), y1 = Math.max(...ys);
+  const pad = (y1 - y0) * 0.12 || 1; y0 -= pad; y1 += pad;
+  if (opt.zeroFloor) y0 = Math.max(0, y0);
+  const sx = v => P.l + (x1 === x0 ? 0 : (v - x0) / (x1 - x0)) * (W - P.l - P.r);
+  const sy = v => H - P.b - (v - y0) / (y1 - y0) * (H - P.t - P.b);
+
+  let g = "";
+  for (let i = 0; i <= 4; i++){
+    const v = y0 + (y1 - y0) * i / 4, y = sy(v);
+    g += `<line x1="${P.l}" x2="${W-P.r}" y1="${y}" y2="${y}" stroke="var(--rule)" stroke-width="1" ${i?'stroke-dasharray="2 4"':''}/>`
+       + `<text x="${P.l-8}" y="${y+4}" text-anchor="end" font-size="11" fill="var(--ink-3)" font-family="JetBrains Mono">${Math.round(v)}</text>`;
+  }
+  const fmt = t => { const d = new Date(t); return String(d.getMonth()+1).padStart(2,"0") + "/" + String(d.getDate()).padStart(2,"0"); };
+  [x0, (x0+x1)/2, x1].forEach((t, i) => {
+    g += `<text x="${sx(t)}" y="${H-7}" text-anchor="${i===0?"start":i===2?"end":"middle"}" font-size="11" fill="var(--ink-3)" font-family="JetBrains Mono">${fmt(t)}</text>`;
+  });
+
+  for (const s of seriesList){
+    const d = s.pts.map((p, i) => (i ? "L" : "M") + sx(p[0]).toFixed(1) + " " + sy(p[1]).toFixed(1)).join(" ");
+    g += `<path d="${d}" fill="none" stroke="${s.color}" stroke-width="${s.width||2.2}" stroke-linejoin="round" stroke-linecap="round" ${s.dash?'stroke-dasharray="5 4"':''}/>`;
+    if (s.dots) for (const p of s.pts) g += `<circle cx="${sx(p[0])}" cy="${sy(p[1])}" r="3" fill="${s.color}"/>`;
+    const last = s.pts[s.pts.length-1];
+    g += `<text x="${W-P.r+7}" y="${sy(last[1])+4}" font-size="11.5" font-weight="700" fill="${s.color}" font-family="JetBrains Mono">${Math.round(last[1])}</text>`;
+  }
+  el.innerHTML = `<svg viewBox="0 0 ${W} ${H}" width="100%" height="${H}" role="img" aria-label="${esc(opt.label||"차트")}">${g}</svg>`;
+}
+
+function sparkline(pts, color){
+  const W = 300, H = 34;
+  if (pts.length < 2) return "";
+  const ys = pts.map(p => p[1]), y0 = Math.min(...ys), y1 = Math.max(...ys) || 1;
+  const d = pts.map((p, i) =>
+    (i ? "L" : "M") + (i / (pts.length - 1) * W).toFixed(1) + " " +
+    (H - 3 - (p[1] - y0) / ((y1 - y0) || 1) * (H - 6)).toFixed(1)).join(" ");
+  return `<svg class="spark" viewBox="0 0 ${W} ${H}" width="100%" height="${H}" preserveAspectRatio="none" aria-hidden="true">
+    <path d="${d}" fill="none" stroke="${color}" stroke-width="1.6" stroke-linejoin="round"/></svg>`;
+}
+
+function render(d){
+  $("#stamp").innerHTML =
+    `<span>기준 <b>${esc(d.asof)}</b> 종가</span>` +
+    `<span>갱신 <b>${esc((d.generated_at||"").replace("T"," ").slice(0,16))}</b> KST</span>` +
+    `<span>추적 <b>${d.entities.length}</b>개 축</span>`;
+
+  const rising = d.entities.filter(e => e.csi > (e.csi_prev ?? e.csi)).length;
+  const worst = [...d.entities].sort((a,b) => b.csi - a.csi)[0];
+  const vb = bandOf(worst.csi);
+  const word = rising >= 3 ? "확대 국면" : rising === 0 ? "진정 국면" : "혼조";
+  $("#verdict").innerHTML =
+    `<span class="word" style="color:${vb.c}">${word}</span>` +
+    `<span class="why">${d.entities.length}축 중 ${rising}축 상승 · 최고 스트레스는 <b>${esc(worst.name)}</b> ${worst.csi.toFixed(1)}` +
+    (d.macro && d.macro.bbb_oas_bp != null
+      ? ` · BBB OAS ${Math.round(d.macro.bbb_oas_bp)}bp(2년 백분위 ${Math.round(d.macro.percentile_2y*100)}%)` : "") + `</span>`;
+
+  // 온도계
+  $("#gauges").innerHTML = d.entities.map((e, i) => {
+    const b = bandOf(e.csi), dl = delta(e.csi, e.csi_prev), c = e.cds || {};
+    const col = PAL[e.key] || "var(--proxy)";
+    let rangeRow = "";
+    if (c.last != null && c.ytd_high){
+      const lo = Math.min(c.ytd_low, c.last), hi = Math.max(c.ytd_high, c.last);
+      if (hi === lo){
+        rangeRow = `
+        <div class="track" role="img" aria-label="관측 1건 ${lo}bp">
+          <div class="tick" style="left:calc(50% - 1px);background:${col}"></div>
+        </div>
+        <div class="scale mono"><span></span><span>관측 1건 · ${lo}bp</span><span></span></div>`;
+      } else {
+      const pos = (c.last - lo) / (hi - lo) * 100;
+      rangeRow = `
+        <div class="track" role="img" aria-label="CDS 레인지 ${lo}~${hi}bp, 현재 ${c.last}bp">
+          <div class="fill" style="width:${pos.toFixed(1)}%;background:${col};opacity:.25"></div>
+          <div class="tick" style="left:calc(${pos.toFixed(1)}% - 1px);background:${col}"></div>
+        </div>
+        <div class="scale mono"><span>${lo}bp</span><span>관측 레인지</span><span>${hi}bp</span></div>`;
+      }
+    }
+    return `<article class="gauge" style="animation-delay:${i*60}ms">
+      <div class="grow">
+        <div>
+          <span class="gname">${esc(e.name)}</span>
+          <span class="badge ${e.type==="traded"?"b-traded":"b-proxy"}">${e.type==="traded"?"CDS 거래":"대리지표"}</span>
+        </div>
+        <div class="gval">
+          <span class="n" style="color:${b.c}">${e.csi.toFixed(1)}</span>
+          <span class="d ${dl.cls}">${dl.txt}</span>
+        </div>
+      </div>
+      ${rangeRow}
+      ${sparkline(e.csi_hist.slice(-120), col)}
+      <div class="gmeta">
+        <span><span class="k">실측 CDS</span><b class="mono">${c.last != null ? c.last + "bp" : "—"}</b>
+          ${c.last_date ? `<span style="color:var(--ink-3)"> @${esc(c.last_date)}</span>` : ""}</span>
+        <span><span class="k">스트레스</span>${b.t}</span>
+        <span><span class="k">구성</span><span class="mono">${Object.entries(e.basket).map(([t,w])=>`${t} ${Math.round(w*100)}%`).join(" · ")}</span></span>
+      </div>
+      <p class="gnote">${esc(e.note)}${c.source ? ` <span style="color:var(--ink-3)">출처: ${esc(c.source)}</span>` : ""}</p>
+    </article>`;
+  }).join("");
+
+  // CDS 궤적
+  const cdsSeries = d.entities
+    .filter(e => (e.cds.series || []).length >= 2)
+    .map(e => ({
+      name: e.name + (e.type === "proxy" ? " (대리)" : ""),
+      color: PAL[e.key] || "var(--proxy)",
+      dash: e.type === "proxy", dots: true,
+      pts: e.cds.series.map(([dt, v]) => [Date.parse(dt), v])
+    }));
+  // 855bp(CoreWeave)는 축을 뭉갠다 — 별도 표기하고 주축에서 제외
+  const off = cdsSeries.filter(s => Math.max(...s.pts.map(p=>p[1])) > 400);
+  lineChart($("#cdschart"), cdsSeries.filter(s => !off.includes(s)), {label:"5년 CDS 궤적", zeroFloor:true});
+  $("#cdslegend").innerHTML =
+    cdsSeries.filter(s=>!off.includes(s)).map(s => `<span><i style="background:${s.color}"></i>${esc(s.name)}</span>`).join("") +
+    off.map(s => `<span style="color:var(--ink-3)"><i style="background:${s.color};opacity:.5"></i>${esc(s.name)} ${Math.round(s.pts[s.pts.length-1][1])}bp — 축 스케일 밖, 별도 관측</span>`).join("");
+
+  // 매크로
+  const m = d.macro || {};
+  if ((m.series || []).length > 2){
+    lineChart($("#macrochart"), [{name:"BBB OAS", color:"var(--proxy)", width:1.8,
+      pts:m.series.map(([dt,v]) => [Date.parse(dt), v])}], {height:170, label:"BBB OAS"});
+    const p = Math.round((m.percentile_2y||0)*100);
+    $("#macronote").innerHTML = `<span>${p < 50
+      ? "투자등급 지수는 2년 평균보다 <b>타이트</b> — 스트레스가 개별 AI 이름에 국한돼 있습니다."
+      : "투자등급 지수까지 <b>확대</b> — 개별 이슈를 넘어 시스템 전이 가능성을 점검하세요."}
+      (현재 ${Math.round(m.bbb_oas_bp)}bp, 2년 백분위 ${p}%)</span>`;
+  }
+
+  // 뉴스
+  const n = (d.candidates || []).slice(0, 12);
+  $("#news").innerHTML = n.length ? n.map(c => `<li>
+      <span class="who">${esc(c.entity)}</span>
+      <a href="${esc(c.link)}" target="_blank" rel="noopener">${esc(c.title)}</a>
+      ${c.bp_hint ? `<span class="hint mono"> ${c.bp_hint}bp</span>` : ""}
+    </li>`).join("")
+    : `<li style="color:var(--ink-3)">최근 7일 신규 보도 없음.</li>`;
+
+  $("#foot").innerHTML =
+    `<b>읽는 법</b> — 실측 CDS는 무료 실시간 피드가 없어 <code>cds_seed.json</code>에 보도 기준으로 큐레이션합니다.
+     매일 움직이는 값은 주가·매크로에서 산출한 스트레스 지수(CSI)이며, CDS 호가가 아닙니다.<br>
+     <b>CSI 산식</b> — <code>${esc((d.method||{}).csi || "")}</code><br>
+     <b>대리지표</b> — OpenAI·앤트로픽은 단일종목 CDS가 없습니다. 위험이 전가된 상장 보증인의 크레딧으로 읽습니다.<br>
+     소스: yfinance · FRED(ICE BofA) · Google News RSS. 투자 판단의 책임은 이용자에게 있습니다.`;
+}
+
+fetch("./data.json?v=" + Date.now())
+  .then(r => { if (!r.ok) throw new Error("HTTP " + r.status); return r.json(); })
+  .then(render)
+  .catch(e => { $("#gauges").innerHTML =
+    `<div class="err">데이터를 불러오지 못했습니다 (${esc(e.message)}). 수집 워크플로우가 <code>docs/data.json</code>을 커밋했는지 확인하세요.</div>`; });
+</script>
+</body>
+</html>

@@ -1,0 +1,25 @@
+{
+  "_readme": "5Y CDS 실측 관측치. 무료 실시간 피드가 없어 보도 기준으로 큐레이션한다. 새 수치를 확인하면 여기에 한 줄 추가하고 push 하면 대시보드/브리프에 즉시 반영된다.",
+  "_schema": ["date(YYYY-MM-DD)", "bp(float)", "source(str)"],
+  "oracle": [
+    ["2026-01-02", 145.0, "Bloomberg(연초 기준치)"],
+    ["2026-04-10", 198.0, "Motley Fool"],
+    ["2026-07-20", 196.6, "LSEG / Seeking Alpha"],
+    ["2026-07-24", 198.2, "Investing.com"],
+    ["2026-07-27", 203.0, "FT / LSEG"],
+    ["2026-07-28", 215.0, "Bloomberg / Investing.com"]
+  ],
+  "nvidia": [
+    ["2026-06-26", 42.0, "Crypto Briefing"],
+    ["2026-07-15", 57.0, "Crypto Briefing"],
+    ["2026-07-20", 69.0, "LSEG"],
+    ["2026-07-27", 82.0, "ICE Data Services / Bloomberg"],
+    ["2026-07-28", 95.0, "Financial Post / Benzinga"]
+  ],
+  "openai": [
+    ["2026-07-28", 855.0, "CoreWeave 5Y CDS (대리지표) / Protos"]
+  ],
+  "anthropic": [
+    ["2026-07-27", 67.0, "Alphabet 5Y CDS (대리지표) / LSEG"]
+  ]
+}
