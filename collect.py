@@ -169,7 +169,15 @@ def fetch_news_candidates(names: list[str], limit: int = 6) -> list[dict]:
                     break
         except Exception as e:  # 뉴스는 부가 기능 — 실패해도 파이프라인은 계속
             print(f"[news] {name} 수집 실패: {e}")
-    return out
+    # RSS 정렬 흔들림이 매 실행 커밋을 만들지 않도록 결정론적으로 고정
+    seen, uniq = set(), []
+    for o in out:
+        k = o["link"] or o["title"]
+        if k not in seen:
+            seen.add(k)
+            uniq.append(o)
+    uniq.sort(key=lambda o: (o["entity"], o["title"]))
+    return uniq
 
 
 # ── 메인 ───────────────────────────────────────────────────────────────
