@@ -121,8 +121,8 @@
         "ORCL": 1.0
       },
       "cds": {
-        "last": 215.0,
-        "last_date": "2026-07-28",
+        "last": 200.0,
+        "last_date": "2026-07-29",
         "series": [
           [
             "2026-01-02",
@@ -142,14 +142,14 @@
           ],
           [
             "2026-07-27",
-            203.0
+            215.0
           ],
           [
-            "2026-07-28",
-            215.0
+            "2026-07-29",
+            200.0
           ]
         ],
-        "source": "Bloomberg / Investing.com",
+        "source": "S&P Global Market Intelligence / Reuters",
         "ytd_high": 215.0,
         "ytd_low": 145.0
       },
@@ -1208,8 +1208,8 @@
         "NVDA": 1.0
       },
       "cds": {
-        "last": 95.0,
-        "last_date": "2026-07-28",
+        "last": 78.0,
+        "last_date": "2026-07-29",
         "series": [
           [
             "2026-06-26",
@@ -1229,11 +1229,15 @@
           ],
           [
             "2026-07-28",
-            95.0
+            79.0
+          ],
+          [
+            "2026-07-29",
+            78.0
           ]
         ],
-        "source": "Financial Post / Benzinga",
-        "ytd_high": 95.0,
+        "source": "S&P Global Market Intelligence / Reuters",
+        "ytd_high": 82.0,
         "ytd_low": 42.0
       },
       "csi": 37.2,
@@ -4179,7 +4183,7 @@
       "type": "proxy"
     }
   ],
-  "generated_at": "2026-08-04T21:31:24+09:00",
+  "generated_at": "2026-08-04T21:59:43+09:00",
   "macro": {
     "bbb_oas_bp": 99.0,
     "percentile_2y": 0.271,
