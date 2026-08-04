@@ -17,13 +17,6 @@
     },
     {
       "bp_hint": null,
-      "entity": "Anthropic",
-      "link": "https://news.google.com/rss/articles/CBMimgFBVV95cUxOQVZTQXVtZXJRMGU1cjBMcThoZUhRQWp5ZTFNc09QaHFYTzJZemZrS3lYYnVKVU9wZzdlRTdDWGlXWmFhRFBSaFRXRTdJR1huUmFaOW5YU3dFd1ZueWVWRjNjMWZKYWgybVJZUWpjSkxYQWxHYUd6T2pRRVJFUGRBUUtuSzg2UUVYVWFqREY1T2tpdzBCUzVIVGhR?oc=5",
-      "published": "Tue, 28 Jul 2026 14:30:08 GMT",
-      "title": "Safe Superintelligence Secures NVIDIA Backing for Research - N24 Haber"
-    },
-    {
-      "bp_hint": null,
       "entity": "Nvidia",
       "link": "https://news.google.com/rss/articles/CBMixwFBVV95cUxOOWhoTUN1dVRRN2Qzc3Q3dER3M3FrSExvS1lqdDdQNzdsbWhyQlEtVzhwV3loNm92WmxXbEtWUVVDN3VxbFZhTXVwRUE2M1RWNFdxVER4TjRJUmFuaGltTHdmV1IxU0dNMUVUTFdaQmxKdGlsQU1fVS02LU1za0hoaEluejBLajh4QzNlNkhnVXdOdmk3N2syY2NwMmJhQU02dDJmNjBjN3gxcDVGMTE2c1JwRDhCTmI5X0RUT2VrUFhHOW96YkNj?oc=5",
       "published": "Thu, 30 Jul 2026 14:59:13 GMT",
@@ -4185,7 +4178,7 @@
       "type": "proxy"
     }
   ],
-  "generated_at": "2026-08-04T21:28:26+09:00",
+  "generated_at": "2026-08-04T21:29:32+09:00",
   "macro": {
     "bbb_oas_bp": 99.0,
     "percentile_2y": 0.271,
