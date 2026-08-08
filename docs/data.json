@@ -26,7 +26,7 @@
       "bp_hint": null,
       "entity": "Nvidia",
       "link": "https://news.google.com/rss/articles/CBMi3AFBVV95cUxNQ1hhcF84bmJlMTYtZTJJMTRLZ0MzZjRYamZZN2JtYlBSSVN6ZEN0OTRwblpjaHRiR09oQXFBNFVjeHI0aHhkcGtrNUVCUEdEcUNXN2YtdDQ2Q29kVGoyTHNyaTd0dllmS21uZEFaVzdaOFBab2hqZWpkakl4NHFXYW9sNDBBQ3FqSFUwYWVwZGRkQVN0TkU0ekl5Nk9DTlFYd2JxajVGRXBmX0ZMMHo5WFl6Mi00VndVRkJNSDZoZUxGOHZCNXdzbEdCWmJJZ2ZRb0U3MXFQQjFYT3Nw?oc=5",
-      "published": "Sat, 01 Aug 2026 09:05:49 GMT",
+      "published": "Sat, 08 Aug 2026 04:33:58 GMT",
       "title": "Nvidia’s OpenAI and SK Group Deals Fuel $750B ‘Circular Financing’ Debate，Why are Investors Concerned? - TradingKey"
     },
     {
@@ -35,13 +35,6 @@
       "link": "https://news.google.com/rss/articles/CBMipwFBVV95cUxQdTU5dGNPSFdJNW9vWGNuekdBYmQ4ZldKblNteTNZZ09yS2tKOWEyYzdIYlVHS210eWZ2M2kzbGpibjA2cWlMdmU4RUgzVldPb0NMa3o0S01mT3Fzck1kUmZmV2p6QmtkOEFJYmlldTJ4eFlpR3dHLTEyUmZra3A1RjFGN0ZNcHhuVlZmNXU1ZDBZQmc3dkFYLWx5Z2F4WE5hVEN6d1JPOA?oc=5",
       "published": "Mon, 03 Aug 2026 16:15:00 GMT",
       "title": "Wall Street Looks a Bit Too Much Like Las Vegas for My Taste - TheStreet Pro"
-    },
-    {
-      "bp_hint": null,
-      "entity": "OpenAI",
-      "link": "https://news.google.com/rss/articles/CBMi_wFBVV95cUxOTEttWFlEdXdKOFRicGpBLV81ZndYWlo4cmxrOWkzUUVWOTdzR0gyZXhSSjhaV2NzUXJjYkRad2E1SXZ3X2pkMkROck53VFMtRm44QTlTY0ZKT1ZVaHltMjBud2JiZzduR2paMUZSUk1fUmtrVWRENklCZWVJZllqUnpmWHU4b0ExSjBKSEplYlAyUjc1UUE2MWNyakNRV1ZYYjZHZUU3OW5sR29NLVdnMmszYUlMdFRxcnAwdjRCbGJ5T3loQm5FZkJPUS1qN09zRTQ0TVpTTzFkQmhCWDFUYTJWS2JSZ3E0R181OEljZlpIeXFHTXQzZ3ZlYnFsYnc?oc=5",
-      "published": "Wed, 05 Aug 2026 20:21:00 GMT",
-      "title": "Here's Why Oracle's Stock Continues to Lag its Peers Like Amazon, Microsoft, and Alphabet - The Globe and Mail"
     },
     {
       "bp_hint": null,
@@ -56,6 +49,13 @@
       "link": "https://news.google.com/rss/articles/CBMirgFBVV95cUxPLVVNdUd0Vmswa1FpLWI4VU9yZVRGVlZiQ2hvNXFPVTNqSkN0bl9XWEt3ZnhuSDJlSnhBNzZwWHVrYWRVZ2tIbkhkTXJTckxxVG9QWWR4dGI2VzVHcDFfcDNqcWJKdnRuOEE5NC1xbjdERVAxUkJpUlRWR21DdTFvNkQwWDJ3dS1pSHo0ZV82dHZOV1hmUk5aSXExcC1DejJSbzh0THRyb0pQdWdEMVE?oc=5",
       "published": "Tue, 04 Aug 2026 06:14:00 GMT",
       "title": "SoftBank's AI funding plans to face reckoning at earnings - Reuters"
+    },
+    {
+      "bp_hint": null,
+      "entity": "OpenAI",
+      "link": "https://news.google.com/rss/articles/CBMitAFBVV95cUxPUk9iWGp1T3NsY0p4c0g3WUpGZFVPeU40T3RSRUxOUFdwNGtnM0pzZ3UxMWRfN2lic0c0cDN0TlJwSzN1R2t3TF84X1ZCZ2ZFYy0xOFlidkdWQ05uQ1hrZkg0bi1iQW5FSEU1TjU4Ym84emJIYmJQX0lDNExTZndTdk9CNm4xTVZsTXB5WFBJUTNNZXpTZmZlal9Oa0xHOFdtdFRHRHlIMUVtTDhwUnp1MEtYdXI?oc=5",
+      "published": "Tue, 04 Aug 2026 09:05:12 GMT",
+      "title": "SoftBank's earnings report arrives Thursday: Rising leverage fuels credit concerns—can it keep funding OpenAI? - Moomoo"
     },
     {
       "bp_hint": null,
@@ -107,7 +107,7 @@
       "title": "Why is Oracle stock sliding today? - Investing.com"
     }
   ],
-  "candidates_date": "2026-08-08",
+  "candidates_date": "2026-08-09",
   "entities": [
     {
       "basket": {
@@ -4192,7 +4192,7 @@
       "type": "proxy"
     }
   ],
-  "generated_at": "2026-08-08T08:06:41+09:00",
+  "generated_at": "2026-08-09T07:58:17+09:00",
   "macro": {
     "bbb_oas_bp": 97.0,
     "percentile_2y": 0.19,
