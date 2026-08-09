@@ -11,9 +11,9 @@
     {
       "bp_hint": null,
       "entity": "Nvidia",
-      "link": "https://news.google.com/rss/articles/CBMikwFBVV95cUxPQ1pzU3BwdGY0ZnRSZzV1cFk3U3lKOHNuSG0xWE82Y0ZmWWoxTklnYWRCMGdBbmI5Qlc1R2IyV0Y1dmFXZUljbnNxMWk0S1dPSk8wVWZETnFXQmhCWlBaN0wzbWxhUHMwaWJ6V0tEU3ExTUU3enI1QXFCOE1PRnRPNkgwb1l2WDVTM01XeTRfR0pQTVk?oc=5",
-      "published": "Sun, 02 Aug 2026 13:08:25 GMT",
-      "title": "Nvidia (NVDA) Stock May Be 15% Below Fair Value As AI Debt Risk Grows - Yahoo Finance"
+      "link": "https://news.google.com/rss/articles/CBMiaEFVX3lxTE9vVTRmTFJjMjhFUVZIdGduMEJNNV9GOHpaT01jNVRwYmp6T1VVZ2M5ajB6dTNuZ3BnLTNlT2NnUzBBTnF1VFdkQk1ZazVUVzNYbEs4N01mUzJSUVBLMmdhQnNTb0lxc04z?oc=5",
+      "published": "Tue, 04 Aug 2026 07:00:00 GMT",
+      "title": "Looking beyond ‘Mag 7’? - Good Money Guide"
     },
     {
       "bp_hint": null,
@@ -74,6 +74,13 @@
     {
       "bp_hint": null,
       "entity": "Oracle",
+      "link": "https://news.google.com/rss/articles/CBMimwFBVV95cUxNejc2SWlFenZ6WEZqVDhJaHQyekdGdlZvS1g5SnN4VFJreE9oNDFBMEwzWHJaM3VJRTFpaXJYR3ktVTk0d1ROd0Z6MmRHZFF3U283TWRPYzcwUHQxUFIycVBfTER3NnAzSVlhWjlZZmFxSnNhLXRTSngxX3VuY2JFM0JuWElMOEJ1UFJlSXh0R2pqcENDS3B1LTcwMA?oc=5",
+      "published": "Wed, 05 Aug 2026 12:00:38 GMT",
+      "title": "Oracle Stock Tumbles as Debt Risk Just Hit a Record High - GuruFocus"
+    },
+    {
+      "bp_hint": null,
+      "entity": "Oracle",
       "link": "https://news.google.com/rss/articles/CBMiwwFBVV95cUxOSkJFVDVBeExhblFHaUJENVRlWjVZZFFKTENoSEtvSGFDVklRWXpTQzVuU3RfVlJlWC1uS3AxS1E0SlZDVXk2V1VyWFFYU0J3cTQzc091cjZHdVFyWnFkaVNTLW1ldGI1X0tYWW5GZ0lxM0FucVNiTEN3eEM1OXphOFVNNEo5d3ExQ1g4T0drZ3J6VTd5TFdFclZqQWxteS1mYjlKa0MwWEV2X2VHeUtkU2xCb2ZJT044cUVnZlRNVzMzRm8?oc=5",
       "published": "Wed, 05 Aug 2026 13:00:00 GMT",
       "title": "Oracle stock is rebounding despite the soaring CDS spread: is it a buy? - TradingView"
@@ -98,16 +105,9 @@
       "link": "https://news.google.com/rss/articles/CBMiigFBVV95cUxOdUJ3bXpiWE1Ca1Z4OWp4ak5KUldVS2t0UHlVakNBTWRaOE02NzFhcFh4TzJFREFJRzRQSzZFTVdydDVVcTR1LXFMdDNXdDlCN19UU3JTRjYtWGFrNGpORGc0RGZ5aXVtNmlrX1lsZ1lGMnZkeklmVDlfaTY0SkFkUGU2d2pLX21sT1E?oc=5",
       "published": "Wed, 05 Aug 2026 06:41:00 GMT",
       "title": "Why Credit Default Swaps Spook AI Investors - Technology Org"
-    },
-    {
-      "bp_hint": null,
-      "entity": "Oracle",
-      "link": "https://news.google.com/rss/articles/CBMipgFBVV95cUxOOTg3RFdkdC14WE42eVJMWlRPYVZzLXhYWXZGNm5WTWpvdmptejZZSVFaOG1VbG51Qm9ySkhRYXNjbXBuWFFGUzFTeGVFNU5CczZ0WUMtTWVGbVdOeGpydnR3VUU2blBnSmJkWGl4aDNwSS1ud3BkcmNWQVpRNVNBWnkwVDlYR0daU2dpYjZvbzl2VS1KRXFyWXdFOUFlZWc2NlpSbFhB?oc=5",
-      "published": "Thu, 06 Aug 2026 11:06:37 GMT",
-      "title": "Why is Oracle stock sliding today? - Investing.com"
     }
   ],
-  "candidates_date": "2026-08-09",
+  "candidates_date": "2026-08-10",
   "entities": [
     {
       "basket": {
@@ -4192,7 +4192,7 @@
       "type": "proxy"
     }
   ],
-  "generated_at": "2026-08-09T07:58:17+09:00",
+  "generated_at": "2026-08-10T08:00:42+09:00",
   "macro": {
     "bbb_oas_bp": 97.0,
     "percentile_2y": 0.19,
