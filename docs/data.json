@@ -38,6 +38,13 @@
     },
     {
       "bp_hint": null,
+      "entity": "OpenAI",
+      "link": "https://news.google.com/rss/articles/CBMif0FVX3lxTFB1eFNJN2lVME51MXdMVWFwYUZOczlPTUlQTm5RbXRhRnBiYWlIYU14clBkTE5KYlphQjd2UlBEZk5XOWhzZjJJOGh6QUFMMVpXQkhxVTZ0ZFpVcG44cVhzY0Nhd0RaVnlDWjNjQTFndGZxMEtSMGpYY0h3amR2ZUU?oc=5",
+      "published": "Sat, 15 Aug 2026 04:15:12 GMT",
+      "title": "NVIDIA Cuts OpenAI Guarantee to Less Than Half, Casting a 'Circular Financing' Shadow Over $500 Billion Plan - XenoSpectrum"
+    },
+    {
+      "bp_hint": null,
       "entity": "Oracle",
       "link": "https://news.google.com/rss/articles/CBMilwFBVV95cUxPeHdkNzI4bW5sX1ZSVDJPcDQ3b2MzN0sxWXdkdGZYTXVYZG9JdVk0N2N6Smh1ZElWXy1kZktyT1ZBMGIwRVNnMVlrTGdvWVhudGp5R0lVSUFNQUlRR0xrUlEyaEFZRWhKNF9JUlJONkZEWjZKUmJuYlotbjJLWlBCNGlPRDRjV0RZRlJtNUh3VHBQbVA4M2hr?oc=5",
       "published": "Mon, 10 Aug 2026 21:28:45 GMT",
@@ -79,7 +86,7 @@
       "title": "Weekly Recap: Negative FY26 cash flow and ORCL shares -2% after CDS - TradingView"
     }
   ],
-  "candidates_date": "2026-08-15",
+  "candidates_date": "2026-08-16",
   "entities": [
     {
       "basket": {
@@ -4184,7 +4191,7 @@
       "type": "proxy"
     }
   ],
-  "generated_at": "2026-08-15T07:50:06+09:00",
+  "generated_at": "2026-08-16T07:48:25+09:00",
   "macro": {
     "bbb_oas_bp": 98.0,
     "percentile_2y": 0.238,
