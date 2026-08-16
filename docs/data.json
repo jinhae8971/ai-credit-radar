@@ -1,92 +1,7 @@
 {
   "asof": "2026-08-14",
-  "candidates": [
-    {
-      "bp_hint": null,
-      "entity": "Nvidia",
-      "link": "https://news.google.com/rss/articles/CBMinAFBVV95cUxNNE4xNzMzR0QtWk9iQjAweDJsOHpiTXBsbDYzNTEyYWdfSkNnbGZRZzdlQklwdW5ReVd2TUp3Z2Z2WTBHTGN1MTd0LXBZdWVDZ0ZwbXJwT3hjekVMWE1CYmV4Y1RWcHp2N0hmUlJBTDV5OTRCQWlxMnRlREhlTlYya2dmU1B6WGNENFJiS0ZWbG1WcXJ6LUpHOHk0OWo?oc=5",
-      "published": "Thu, 13 Aug 2026 07:01:11 GMT",
-      "title": "Michael Burry Calls Nvidia’s $500B Wall Street Tie-Up A ‘Sign Of Desperation’ — and Rising Default Expectations Aren't Helping - Yahoo Finance"
-    },
-    {
-      "bp_hint": null,
-      "entity": "Nvidia",
-      "link": "https://news.google.com/rss/articles/CBMiU0FVX3lxTE1EeHhwcFV0VjJrOVYtUkIzcHlnai1TOWxwa1JMWUZoYnN3TG5kZGoxUVUxa2poZnE3clpUcmhEZGxGaHdYR3d0RjdMMDRhbWJ3YTZB?oc=5",
-      "published": "Tue, 11 Aug 2026 07:52:07 GMT",
-      "title": "NVIDIA CDS Surges: The $500 Billion Off-Balance-Sheet \"Debt Ghost\" Detonates - 36Kr"
-    },
-    {
-      "bp_hint": null,
-      "entity": "Nvidia",
-      "link": "https://news.google.com/rss/articles/CBMingFBVV95cUxQMk1abkxhNWJOalJUUlJQSWVSeUh4UXVfUXJjNUZYQ0ZLc2FuZGVSVVlZWkpSem1fS1B4Q0lhOXJtN2R5MVg1ZXZsVVdoVXh3anNQWDYtMTVRQ0k1R0YzZDJtNE5lQk9EWVZVMEdVV08xMXpBUDFmQlE3dTFYWW1hSFhQZ085d2pFMGJpQTRPYkRDbXhWNGw4NmZrWVZ0UQ?oc=5",
-      "published": "Mon, 10 Aug 2026 20:57:55 GMT",
-      "title": "NVIDIA partners with six Wall Street giants to raise $500 billion betting on AI infrastructure, as credit default swaps post their largest two-week gain. - 富途牛牛"
-    },
-    {
-      "bp_hint": null,
-      "entity": "Nvidia",
-      "link": "https://news.google.com/rss/articles/CBMisgFBVV95cUxObzI5U05JenNGS3hLbVYyMWV3VzVzbW1fbFlOQUI1T3RPQzEzZFVrS3dkemt6czZPQTl5emk0aUFUdFZRdGRMUEFJMy1vcV9qcHEyY1IyemhTTE1jQ3VIbzREQmJ3REEtV2pTV1NVOHM3Q21EcHFGQVJWV2x6eHZjRGd0SHFtZEtUeE1JWTc4VVV5c2FUZlU3aTFTQW9RTTVwdEdzQWgzb0hPOWFZMEV3ekd3?oc=5",
-      "published": "Wed, 12 Aug 2026 03:45:12 GMT",
-      "title": "NVIDIA's $500 Billion Compute Financing Plan: From Chip King to AI Infrastructure Empire - Moomoo"
-    },
-    {
-      "bp_hint": null,
-      "entity": "Nvidia",
-      "link": "https://news.google.com/rss/articles/CBMi0wFBVV95cUxQRlowX3ZxSjhSa180WEtBbnVZVm5JNUVBeTlkS2hRNm12Um9hOXo0THhnUVdlOEtQY1cyN2FMUDMxbGNZZTAwMVR2TGRSdzQ3UnV1Q3NIM0VEVXpUSm1SLVliMnJWdl9ITHJIME9GQTRWenh4bm1JRVRQOUdQYks5NWxDZjZ6S0tVNVBvTzhVaVVKWkg5cjcyc2E0ZHFDNkhpY1BQdG5nMlNPdGoyMEh3LVIwTEFUZndlWmN2eVl5MkgxU3cxRnU1YUVEeGdudEs2eEJn?oc=5",
-      "published": "Tue, 11 Aug 2026 00:59:44 GMT",
-      "title": "Nvidia’s $500 billion AI financing consortium and what it means for the stock - Investing.com"
-    },
-    {
-      "bp_hint": null,
-      "entity": "OpenAI",
-      "link": "https://news.google.com/rss/articles/CBMif0FVX3lxTFB1eFNJN2lVME51MXdMVWFwYUZOczlPTUlQTm5RbXRhRnBiYWlIYU14clBkTE5KYlphQjd2UlBEZk5XOWhzZjJJOGh6QUFMMVpXQkhxVTZ0ZFpVcG44cVhzY0Nhd0RaVnlDWjNjQTFndGZxMEtSMGpYY0h3amR2ZUU?oc=5",
-      "published": "Sat, 15 Aug 2026 04:15:12 GMT",
-      "title": "NVIDIA Cuts OpenAI Guarantee to Less Than Half, Casting a 'Circular Financing' Shadow Over $500 Billion Plan - XenoSpectrum"
-    },
-    {
-      "bp_hint": null,
-      "entity": "Oracle",
-      "link": "https://news.google.com/rss/articles/CBMilwFBVV95cUxPeHdkNzI4bW5sX1ZSVDJPcDQ3b2MzN0sxWXdkdGZYTXVYZG9JdVk0N2N6Smh1ZElWXy1kZktyT1ZBMGIwRVNnMVlrTGdvWVhudGp5R0lVSUFNQUlRR0xrUlEyaEFZRWhKNF9JUlJONkZEWjZKUmJuYlotbjJLWlBCNGlPRDRjV0RZRlJtNUh3VHBQbVA4M2hr?oc=5",
-      "published": "Mon, 10 Aug 2026 21:28:45 GMT",
-      "title": "Hidden Debt: Is Our Hyperscaler Thesis Wrong? - Advisor Perspectives"
-    },
-    {
-      "bp_hint": null,
-      "entity": "Oracle",
-      "link": "https://news.google.com/rss/articles/CBMiqAFBVV95cUxNRVFCSmsyVExQdDR5MmR3S2NndWRYVTNRNDUtUi01a0o4a3hSRzhnMlV4Vkt4aFdqMU56d2xSWXBzMy12bkg5a2FYOC1iWUZTaXFZSmxKVUNZVm1HNzkyVWZaMGtXcXJWa3V3emltWnQwVWd1bXRWUVdwSTlRTjBKNngteE1SVXpmWUlsZjBBRE5GekNtaXNDWU95QjZ5QzAtVFcyYTI5ZEc?oc=5",
-      "published": "Fri, 14 Aug 2026 14:33:00 GMT",
-      "title": "Oracle junk bond fears, debt surge sound alarms for investors - thestreet.com"
-    },
-    {
-      "bp_hint": null,
-      "entity": "Oracle",
-      "link": "https://news.google.com/rss/articles/CBMiyAFBVV95cUxQZFd0OVRjUGYzOTlJUXhEbWxOLTBXUlp2ZEtLcGcxSXBqWnZOZE9LdnV4dmNBUkNlbmEzMzRIRXg5ZE9YOWRiTl95cWNTWmRXT18wRUFhY1d3aTNCakI1MkNHdXZvRHVBbUNDcjNsalQ4Z1lraFBNMTJjUm5jQV9VcmdYS3lGZ0djLUozcjJyeGdNalZmdmhsUTIzUTZMTEd3N0hvcEliRmRNNDI2TWF2cUcwc19vT0JfSFR6bTYzSnU4WVZIQkYzdg?oc=5",
-      "published": "Wed, 12 Aug 2026 13:24:51 GMT",
-      "title": "Oracle vs. Nebius: AI hype, a -42% one-year return, and rising credit risk - Investing.com"
-    },
-    {
-      "bp_hint": null,
-      "entity": "Oracle",
-      "link": "https://news.google.com/rss/articles/CBMiqgFBVV95cUxNMmxVVDdYSkthRWxTS2NzMkpTNFdDVUM4TVM3V2pZcVIwWGUtd05QNXg0VzdZcTZ5MWgwMm5IRlMxSWFPc3dJMFYzV01EeGhPTjdic2xNNFdIRllxM1lZal9yc0hFMnE1MkJ6MmpOU3lkM3lpU2ZVNHBXbkdpVUM2QXk4aG1XclJwUkJrc1k4d200TEFocVRrVEJYLXlzSXA4TTdmTzNZQlB4dw?oc=5",
-      "published": "Tue, 11 Aug 2026 20:32:00 GMT",
-      "title": "Oracle’s stock has taken a hit as AI spending concerns resurface - MarketWatch"
-    },
-    {
-      "bp_hint": null,
-      "entity": "Oracle",
-      "link": "https://news.google.com/rss/articles/CBMixgFBVV95cUxOMFFnWUNMaWpDeWFxYlNzUndyNi16SWZKVmEyZ3hDckhWTlJNMGROV2VfMngxbzljVDhkRE9YTFluaVJQbVBJb1FvREFmREZlVGl1TjAtZzNmMjFnNm1HdW5lM3ZOellSMHA2M1lXYklvSVRKdWJ5Tk1abnZyZ2V4WWlZZGtrOW9GelhCZlV6dGpIamZzWFZ0djNfY0lIcXRsYTdtSExzZ2ZMWHN2NHRkMC1OajNEOW1qeFZpNzZndmpXUnZHblE?oc=5",
-      "published": "Wed, 12 Aug 2026 23:30:38 GMT",
-      "title": "Soaring AI hyperscaler default hedges aren't what they seem - Reuters"
-    },
-    {
-      "bp_hint": null,
-      "entity": "Oracle",
-      "link": "https://news.google.com/rss/articles/CBMixAFBVV95cUxNT3FxS3FHeFpiSkp5R3JDOWsydHVqVkZhZnJPdm1MYncyNWJqMWN0ajJzNXAzeUExOW1rS3FKWjdDQ2FnSG85cU5NTEJEV3JhOUt2T3F1WUdvRlNoYkx1djR4WUN3N2VZY3h2ZnozM3NhOXMyREppR25nMGd2TmhSTE9fQ1JtbFlVTE1UVGhIMkl5NERoSGZHLWdwMFF1RkFrRXhlVzBucWtPSHNQNzEwVVpsZ3pBVnVDa3p2NVdkWXQtOEtE?oc=5",
-      "published": "Mon, 10 Aug 2026 11:37:13 GMT",
-      "title": "Weekly Recap: Negative FY26 cash flow and ORCL shares -2% after CDS - TradingView"
-    }
-  ],
-  "candidates_date": "2026-08-16",
+  "candidates": [],
+  "candidates_date": "2026-08-17",
   "entities": [
     {
       "basket": {
@@ -4191,7 +4106,7 @@
       "type": "proxy"
     }
   ],
-  "generated_at": "2026-08-16T07:48:25+09:00",
+  "generated_at": "2026-08-17T07:48:14+09:00",
   "macro": {
     "bbb_oas_bp": 98.0,
     "percentile_2y": 0.238,
