@@ -2,6 +2,20 @@
   "asof": "2026-08-21",
   "candidates": [
     {
+      "bp_hint": 122.0,
+      "entity": "Anthropic",
+      "link": "https://news.google.com/rss/articles/CBMiaEFVX3lxTE5ZR1VsME5kMmZobkYwMXdFbFY4aFFGclRrMEViVUQ5cklFNTZ4UWRsdzVGcHp4ZDRfTDZlaWdCdjdEMUJVME51eVd2QTR3c3JHQmt5blluMXVmR214N1NqeER4aGZjblFf?oc=5",
+      "published": "Sat, 22 Aug 2026 01:59:02 GMT",
+      "title": "Broadcom CDS surges to record 122 basis points amid massive off-balance-sheet AI chip debt deal - Crypto Briefing"
+    },
+    {
+      "bp_hint": null,
+      "entity": "Anthropic",
+      "link": "https://news.google.com/rss/articles/CBMi1gFBVV95cUxPUDVwb25zLVBMTzF3V1JORWhrTFhLSlNiRE1WZy1iN3d4ek1LbGtzcThHWHhuMWdicE9ueXVKdElJN0kwMTA2SVQwaGo5b29CX1hIWmRheUpOWVJMZ0hMRTAtdXgwY0k1Nmlwb0Y5SVBLcFlZTHRRY0pmU2ppQV9jWjhtbW9EZFYxYnBXT0lpMDZiVWthdXcwOHIxTUE5WEoycUpzd284Y0VfT0ozaHU1bGFDZU1ES3JCMWNrd0Y4OUFId0ZVU1A0ek1SNENlMElvSUFIOE1n?oc=5",
+      "published": "Sat, 22 Aug 2026 10:03:44 GMT",
+      "title": "Broadcom's $100 Billion Credit Question: AI Ambition Meets a Market's Skepticism - Ad-hoc-news.de"
+    },
+    {
       "bp_hint": null,
       "entity": "Nvidia",
       "link": "https://news.google.com/rss/articles/CBMidkFVX3lxTFBxeVZXNmlQVExzWUd5OVh6MjFaRHd1a0x1S3JqMDFrN2IwNHRmWGY1aTNuRGxxWE1xaHlMbDFYWm45bnVpMUVCQmFGUGVTcV83MmZaeEZHQXpSTGFucWVTWUdfRVAwU2pzdXhQS2Vlc2x2NEVVZ0E?oc=5",
@@ -11,23 +25,23 @@
     {
       "bp_hint": null,
       "entity": "Nvidia",
-      "link": "https://news.google.com/rss/articles/CBMitAFBVV95cUxQLUxBRnBaekg4SXMzb203bVdGNXBxRmQ4NFU5YkM4aGtBSWp1NnFpSTNWMXg4eGg4dFpvOWUyM1ExRW02Y3Vld3V4YzRrcFR1MnE3emM1S2hSVUhPVFJJX2FxY3lLRFJ0RkV4ei1mMklFY0R2S0tycWppUGFtNXpvUUtzN3R6WjdqNDJEcWNJOWxwbmJKU3dfSDN0ODd1WGlFeVA3RDlMVVctX05hR2FWdlQ5MlA?oc=5",
-      "published": "Wed, 19 Aug 2026 20:07:58 GMT",
-      "title": "NVDA Looks 42.7% Undervalued on GF Value™ Amid Mixed Insider and Guru Activity - GuruFocus"
+      "link": "https://news.google.com/rss/articles/CBMigwFBVV95cUxNclFvR1JielJtd3gxZ2JvalJhRllhbFJ0UmVsWGFKX21TMFZPVnRGcW1kYmpzUUtvU0oxdnBuSUg5Yll1WmhzOC03SWFSTGIzMnVEYUJxQ2NpSjJVS216NGlLU05QUXlQYjdvWHpxTGZFZ0xSTU1yZXlzUS1HNGg4SWdGdw?oc=5",
+      "published": "Tue, 18 Aug 2026 19:19:26 GMT",
+      "title": "NVDA Looks 42.5% Undervalued on GF Value™ - GuruFocus"
     },
     {
       "bp_hint": null,
       "entity": "Nvidia",
-      "link": "https://news.google.com/rss/articles/CBMickFVX3lxTE9lbHBkdThsc2lCd3piWDAxbk9QREFqTWVqMm9MT0FyRXFQMGE2LUxWN1dTQm5LWGZub0ZhRkY3dG1Ic01IMXNWWjhnTFM2eUtBM1p4ellSektIWWlrR2hvVnNiUlJsMjY2ZHJOSEVBdGVaUQ?oc=5",
-      "published": "Tue, 18 Aug 2026 10:25:53 GMT",
-      "title": "NVIDIA's Biggest Earnings Bet Yet: $733 Billion in AI Spending vs Market That's Already Priced It In - Memeburn"
+      "link": "https://news.google.com/rss/articles/CBMilwFBVV95cUxQYkxHOUtmS0dXOVc0VE5rNUJUMHdlUTA1eklpVlAzcnhuY3hiT3FTdUJ2ajU4OGNaX2VtLXJBRHdFX25XOFFWWE9hZUU3WTE4elg4cjJrRV9ad2dSUjVaN1h4dnN1SUNGTUxfLTJqUi1SMDVOd3dJTkY2enlPamYwNjlydWk4UllGSHhyZjdnTzFwZGdYT0Zz?oc=5",
+      "published": "Sat, 22 Aug 2026 13:30:07 GMT",
+      "title": "Nvidia’s $500 Billion AI Funding Plan Calms Credit Markets - equiti.com"
     },
     {
       "bp_hint": null,
       "entity": "OpenAI",
-      "link": "https://news.google.com/rss/articles/CBMif0FVX3lxTFB1eFNJN2lVME51MXdMVWFwYUZOczlPTUlQTm5RbXRhRnBiYWlIYU14clBkTE5KYlphQjd2UlBEZk5XOWhzZjJJOGh6QUFMMVpXQkhxVTZ0ZFpVcG44cVhzY0Nhd0RaVnlDWjNjQTFndGZxMEtSMGpYY0h3amR2ZUU?oc=5",
-      "published": "Sat, 15 Aug 2026 04:15:12 GMT",
-      "title": "NVIDIA Cuts OpenAI Guarantee to Less Than Half, Casting a 'Circular Financing' Shadow Over $500 Billion Plan - XenoSpectrum"
+      "link": "https://news.google.com/rss/articles/CBMi2AFBVV95cUxONVZZYjc0Ul9hU09FcFR0T01RSkVQbGpGaTJPSzRUdF9YUlFaVXpaWHM3VFJRNUJWV3U5QWlvdUxfeU9uWmFGdWxsNm1QcklKWlM0TU13NWJrdFRvTWQxWENlZEM3OFNoalIzNVdUZ1JGY1JOUmVPb1ZvUmhOMkkzMF9RS3NsWFhBLVdKaXBkZnFwSTZVcHlVckEtNlVqRE5pRU9TM0xodVFRMGRpRjV5R0NlM3N5MlhBM0Q3cTliMTNGUVh0OVFrU1hXby00akp2cEp6YTYtNnU?oc=5",
+      "published": "Sat, 22 Aug 2026 11:02:05 GMT",
+      "title": "Broadcom's Balance Sheet Becomes the New Battleground as AI Ambitions Collide With Credit Market Jit - Ad-hoc-news.de"
     },
     {
       "bp_hint": null,
@@ -49,13 +63,6 @@
       "link": "https://news.google.com/rss/articles/CBMiswFBVV95cUxPZWkyWEFOZUc5cWptMjZiY01OYTZWRUJaQUIwbmRHVkpGMVJNam01cWxza3VocTFTdXRRYTlfdE1lMGg5MTZLLWhld1FsN2Q1UGJtOUF6dkQxQVhDWEc0bDhYNnB2djdRNUtiV1pBNnV6WGRCbXF4VWdFLTl6aVkzN0tkX1ZBTE44WVhHOVRLZ3pKd2MxS2NrQlpZdkV3WGJ1dGpBQXktM1Q1QWhCLUtBTkZrcw?oc=5",
       "published": "Wed, 19 Aug 2026 12:59:13 GMT",
       "title": "The $3 Trillion Pipeline Funding Big Tech’s AI Expansion - Forbes"
-    },
-    {
-      "bp_hint": null,
-      "entity": "Oracle",
-      "link": "https://news.google.com/rss/articles/CBMijgFBVV95cUxOM1ZKVThQb3VXWTFrZk5MdndDSjc2YWMxYTRfY01mUTN5VTROMXh6b2xVYVdCdEZVY2FnX0Q3X3VyUWoxQXpDT1VBRjBhMHh0TjRkemRQYWpZYzdkbXlJM2tYRnVqQmt1WnVSU0RyaEMtQ1dxWVRGcGwyQ1NGMnhaZ1JYelN1X0Jmc04xQnRB?oc=5",
-      "published": "Tue, 18 Aug 2026 05:37:50 GMT",
-      "title": "KB Securities Warns 5%+ U.S. Yield Could Risk Stock Market - 조선일보"
     },
     {
       "bp_hint": null,
@@ -91,9 +98,16 @@
       "link": "https://news.google.com/rss/articles/CBMingFBVV95cUxNVHAzQjBlb2FqaUROaUxNVVZBNnhKaVZrQ2plWDlwZVpjSE9oTzQxUWsyTTY3aWhhSjVUUWFUWlZ6WW1TT0JUZEYyeXd0amNvd3E3ZEpVcU02VGJTTms4VzRnV2ZpeDZRcWsyUG9TNkVHYUtxVFJLeHJoU1ByWXFOd0J2TFlLWkh2SUtLYWdLYmlrVmtLWjRQMzcxVnlHUQ?oc=5",
       "published": "Tue, 18 Aug 2026 06:01:52 GMT",
       "title": "What the $489B AI Debt Wave Means for Treasury Risk - The Global Treasurer"
+    },
+    {
+      "bp_hint": null,
+      "entity": "Oracle",
+      "link": "https://news.google.com/rss/articles/CBMiV0FVX3lxTFAtSG1FNlNSVzl2WjlxUnN5Y1dmTGVPR21RNVdjNWtiT2ZMWGE0OHpHcUdYVEhGMUJlU3VMZ3V6R2E2Vy05UkgyODFRZm45NnR0ejMxNXlCbw?oc=5",
+      "published": "Wed, 19 Aug 2026 08:01:37 GMT",
+      "title": "“Revenue Later, Costs Now”: Oracle’s Aggressive AI Infrastructure Bet Brings Financial, Credit, and Collateral Pressure - economy.ac"
     }
   ],
-  "candidates_date": "2026-08-22",
+  "candidates_date": "2026-08-23",
   "entities": [
     {
       "basket": {
@@ -4218,7 +4232,7 @@
       "type": "proxy"
     }
   ],
-  "generated_at": "2026-08-22T07:51:43+09:00",
+  "generated_at": "2026-08-23T07:49:05+09:00",
   "macro": {
     "bbb_oas_bp": 100.0,
     "percentile_2y": 0.362,
