@@ -32,8 +32,15 @@
     {
       "bp_hint": null,
       "entity": "Nvidia",
+      "link": "https://news.google.com/rss/articles/CBMickFVX3lxTE9lbHBkdThsc2lCd3piWDAxbk9QREFqTWVqMm9MT0FyRXFQMGE2LUxWN1dTQm5LWGZub0ZhRkY3dG1Ic01IMXNWWjhnTFM2eUtBM1p4ellSektIWWlrR2hvVnNiUlJsMjY2ZHJOSEVBdGVaUQ?oc=5",
+      "published": "Tue, 18 Aug 2026 10:25:53 GMT",
+      "title": "NVIDIA's Biggest Earnings Bet Yet: $733 Billion in AI Spending vs Market That's Already Priced It In - Memeburn"
+    },
+    {
+      "bp_hint": null,
+      "entity": "Nvidia",
       "link": "https://news.google.com/rss/articles/CBMilwFBVV95cUxQYkxHOUtmS0dXOVc0VE5rNUJUMHdlUTA1eklpVlAzcnhuY3hiT3FTdUJ2ajU4OGNaX2VtLXJBRHdFX25XOFFWWE9hZUU3WTE4elg4cjJrRV9ad2dSUjVaN1h4dnN1SUNGTUxfLTJqUi1SMDVOd3dJTkY2enlPamYwNjlydWk4UllGSHhyZjdnTzFwZGdYT0Zz?oc=5",
-      "published": "Sat, 22 Aug 2026 13:30:07 GMT",
+      "published": "Sun, 23 Aug 2026 13:51:03 GMT",
       "title": "Nvidia’s $500 Billion AI Funding Plan Calms Credit Markets - equiti.com"
     },
     {
@@ -67,9 +74,9 @@
     {
       "bp_hint": null,
       "entity": "Oracle",
-      "link": "https://news.google.com/rss/articles/CBMid0FVX3lxTE9JRlU4YXlzR200dTdKSDVhc0dlTDJOSDdySHBhb1pxT1hrN3JjZEw1NHZyZkZWYUN4SXhWbjdXSWc3cDBvOW9BeHpXLXY1LVpVY0ZsQ2RxaEZiVXVDVlJ4UV9IYVRiOFFXd0VRTUhEUmRHQUNLVUZj?oc=5",
-      "published": "Fri, 21 Aug 2026 16:23:10 GMT",
-      "title": "Nvidia and Oracle stocks rise despite credit ri... - Pluang"
+      "link": "https://news.google.com/rss/articles/CBMijgFBVV95cUxOM1ZKVThQb3VXWTFrZk5MdndDSjc2YWMxYTRfY01mUTN5VTROMXh6b2xVYVdCdEZVY2FnX0Q3X3VyUWoxQXpDT1VBRjBhMHh0TjRkemRQYWpZYzdkbXlJM2tYRnVqQmt1WnVSU0RyaEMtQ1dxWVRGcGwyQ1NGMnhaZ1JYelN1X0Jmc04xQnRB?oc=5",
+      "published": "Tue, 18 Aug 2026 05:37:50 GMT",
+      "title": "KB Securities Warns 5%+ U.S. Yield Could Risk Stock Market - 조선일보"
     },
     {
       "bp_hint": null,
@@ -107,7 +114,7 @@
       "title": "“Revenue Later, Costs Now”: Oracle’s Aggressive AI Infrastructure Bet Brings Financial, Credit, and Collateral Pressure - economy.ac"
     }
   ],
-  "candidates_date": "2026-08-23",
+  "candidates_date": "2026-08-24",
   "entities": [
     {
       "basket": {
@@ -4232,7 +4239,7 @@
       "type": "proxy"
     }
   ],
-  "generated_at": "2026-08-23T07:49:05+09:00",
+  "generated_at": "2026-08-24T07:48:35+09:00",
   "macro": {
     "bbb_oas_bp": 100.0,
     "percentile_2y": 0.362,
