@@ -1,12 +1,12 @@
 {
-  "asof": "2026-08-24",
+  "asof": "2026-08-25",
   "candidates": [
     {
       "bp_hint": null,
       "entity": "Anthropic",
-      "link": "https://news.google.com/rss/articles/CBMibkFVX3lxTE5QZjVxOWYtNXBqZk5jNUZDQTRwNlhmU0JmQnIzS1BMbC1kU1poOEl3Q2xsNVdiLUNZV0IyU0dPNVRoR243YlNwdDhmS2dUeUIyaGxDRVlSN0pYOS11cndELUg0bldRcGtIQUxRbXFB?oc=5",
-      "published": "Mon, 24 Aug 2026 19:56:24 GMT",
-      "title": "Bond traders raise credit risk measures for Broadcom amid massive AI financing push - Crypto Briefing"
+      "link": "https://news.google.com/rss/articles/CBMilwFBVV95cUxQc1pHU2U4WkdaaXducjUtd05kQURWTTAyV2VrYy1uN3pxYlFmZGZ2SjBzMFVGNmdxWGRSczhBR1pQWWlNSVZMVGZoQnd5X2Y0cjRCWUphaG1nNEdnNGlOTFdKeG5MR0FneDJIa3BpZDh6bnNKa1hLWmdrOGJCaEZtSnA4UHlTaERpQXFyOXB0VGRydWNqRlJV?oc=5",
+      "published": "Tue, 25 Aug 2026 08:33:25 GMT",
+      "title": "Broadcom (AVGO) Stock Drops 3% Amid Rising Credit Default Swap Concerns - Blockonomi"
     },
     {
       "bp_hint": 122.0,
@@ -14,6 +14,13 @@
       "link": "https://news.google.com/rss/articles/CBMiaEFVX3lxTE5ZR1VsME5kMmZobkYwMXdFbFY4aFFGclRrMEViVUQ5cklFNTZ4UWRsdzVGcHp4ZDRfTDZlaWdCdjdEMUJVME51eVd2QTR3c3JHQmt5blluMXVmR214N1NqeER4aGZjblFf?oc=5",
       "published": "Sat, 22 Aug 2026 01:59:02 GMT",
       "title": "Broadcom CDS surges to record 122 basis points amid massive off-balance-sheet AI chip debt deal - Crypto Briefing"
+    },
+    {
+      "bp_hint": null,
+      "entity": "Anthropic",
+      "link": "https://news.google.com/rss/articles/CBMidkFVX3lxTE5DeFRITEU1bEVZa1NxQWxvTVBrQzRJdnBKVXRRUl9TWWVKTE9lRzhYRjVVNjVISkgwQXE1MmduYXFtWG5JaE5DbFNSQUc3eEZCMHVicTRyaWFQVGk2V3Uyd2duWnJaWmtrb1lFbVVHVEhkNWgtOUE?oc=5",
+      "published": "Mon, 24 Aug 2026 22:55:00 GMT",
+      "title": "Broadcom Credit Risk Surges as AI Financing Backstops Raise Phantom Leverage Concerns - finance.biggo.com"
     },
     {
       "bp_hint": null,
@@ -39,13 +46,6 @@
     {
       "bp_hint": null,
       "entity": "Nvidia",
-      "link": "https://news.google.com/rss/articles/CBMidkFVX3lxTFBxeVZXNmlQVExzWUd5OVh6MjFaRHd1a0x1S3JqMDFrN2IwNHRmWGY1aTNuRGxxWE1xaHlMbDFYWm45bnVpMUVCQmFGUGVTcV83MmZaeEZHQXpSTGFucWVTWUdfRVAwU2pzdXhQS2Vlc2x2NEVVZ0E?oc=5",
-      "published": "Mon, 24 Aug 2026 03:58:40 GMT",
-      "title": "Michael Burry Says Nvidia's $500 Billion AI Funding Deal Has 'Shades of Enron' - finance.biggo.com"
-    },
-    {
-      "bp_hint": null,
-      "entity": "Nvidia",
       "link": "https://news.google.com/rss/articles/CBMitAFBVV95cUxQLUxBRnBaekg4SXMzb203bVdGNXBxRmQ4NFU5YkM4aGtBSWp1NnFpSTNWMXg4eGg4dFpvOWUyM1ExRW02Y3Vld3V4YzRrcFR1MnE3emM1S2hSVUhPVFJJX2FxY3lLRFJ0RkV4ei1mMklFY0R2S0tycWppUGFtNXpvUUtzN3R6WjdqNDJEcWNJOWxwbmJKU3dfSDN0ODd1WGlFeVA3RDlMVVctX05hR2FWdlQ5MlA?oc=5",
       "published": "Wed, 19 Aug 2026 20:07:58 GMT",
       "title": "NVDA Looks 42.7% Undervalued on GF Value™ Amid Mixed Insider and Guru Activity - GuruFocus"
@@ -59,6 +59,13 @@
     },
     {
       "bp_hint": null,
+      "entity": "Nvidia",
+      "link": "https://news.google.com/rss/articles/CBMiwAFBVV95cUxQNTg3TVdyaGNuZFVZTUdudl9yRG45UlVfLWNGd3hHODdOd3FBVVVma0FMd2ZRcHFTUXlSUDhFLTNKSWpjbS1JUVZBRGRUSWQyQWo1aXY0RGJvVU12S2dDLTVhcXh6TkRxcF9oLUkyM19xRGN2Vkg0VmZKeGpCWUt2RnpOQWRMREFUU09FNEFlZnFvZEZYNmdDWVZraWtEUjBkLWoxcm9UNzdiVGRUWFRaZHRVdnBubmFjVVZQOFZkN0w?oc=5",
+      "published": "Fri, 21 Aug 2026 08:04:40 GMT",
+      "title": "The Era of Compute Securitization Has Arrived: Will AI Repeat the 2008 Subprime Crisis? - MacroMicro"
+    },
+    {
+      "bp_hint": null,
       "entity": "OpenAI",
       "link": "https://news.google.com/rss/articles/CBMi2AFBVV95cUxONVZZYjc0Ul9hU09FcFR0T01RSkVQbGpGaTJPSzRUdF9YUlFaVXpaWHM3VFJRNUJWV3U5QWlvdUxfeU9uWmFGdWxsNm1QcklKWlM0TU13NWJrdFRvTWQxWENlZEM3OFNoalIzNVdUZ1JGY1JOUmVPb1ZvUmhOMkkzMF9RS3NsWFhBLVdKaXBkZnFwSTZVcHlVckEtNlVqRE5pRU9TM0xodVFRMGRpRjV5R0NlM3N5MlhBM0Q3cTliMTNGUVh0OVFrU1hXby00akp2cEp6YTYtNnU?oc=5",
       "published": "Sat, 22 Aug 2026 11:02:05 GMT",
@@ -66,24 +73,17 @@
     },
     {
       "bp_hint": null,
-      "entity": "OpenAI",
-      "link": "https://news.google.com/rss/articles/CBMixAFBVV95cUxORUJLa1pObzdKN1EtRFZCOGlnYnJ4aGRLQUl3RVdfQTV6alUtVER2SDVSZmNudFBaQkhGVXRqcFZNSXROQml6YnpGcEpfaERwazV3RjY2dEs1c1N2S2g2QzYyTzlvU2hFX1lJVzJvNFh5X3lUcmJMemN6a3pvZktrbUtIMDNUYWluT0xzNFQwMEVoMFpHMVVMN3NlSzVCUUJ1Q3h3d3NYVURQM0U3UEltdkEtSmowVVJGZHJiNmJjR1dSWWMz?oc=5",
-      "published": "Thu, 20 Aug 2026 20:11:27 GMT",
-      "title": "Oracle faces pressure on data center costs and OpenAI exposure - scanx.trade"
-    },
-    {
-      "bp_hint": null,
-      "entity": "OpenAI",
-      "link": "https://news.google.com/rss/articles/CBMiswFBVV95cUxPZWkyWEFOZUc5cWptMjZiY01OYTZWRUJaQUIwbmRHVkpGMVJNam01cWxza3VocTFTdXRRYTlfdE1lMGg5MTZLLWhld1FsN2Q1UGJtOUF6dkQxQVhDWEc0bDhYNnB2djdRNUtiV1pBNnV6WGRCbXF4VWdFLTl6aVkzN0tkX1ZBTE44WVhHOVRLZ3pKd2MxS2NrQlpZdkV3WGJ1dGpBQXktM1Q1QWhCLUtBTkZrcw?oc=5",
-      "published": "Wed, 19 Aug 2026 12:59:13 GMT",
-      "title": "The $3 Trillion Pipeline Funding Big Tech’s AI Expansion - Forbes"
+      "entity": "Oracle",
+      "link": "https://news.google.com/rss/articles/CBMipwFBVV95cUxNUmp0U0FGUEhfOWJMcVhDMVMteU9WckhjMEtwaXg5eHY3ekhsOWtFSFpHMGc2V0ZhRTZmcUlIOXNfa05hejQtdVlMY0xCQm9uS2l0YnM0V0ZOX2xIN25rb0lFTFBWdVpacmlyWHo0UUpmTHlBTkx4NzRlQWZUR2dNUk1ZVFJhcEJPTG9MV0NvMHNQRVc2Tnk3NGZrb0ZCdlZJbGNyZU5Maw?oc=5",
+      "published": "Fri, 21 Aug 2026 15:40:05 GMT",
+      "title": "AI Stocks May Be Ignoring A Growing Risk Seen In Credit Markets - Seeking Alpha"
     },
     {
       "bp_hint": null,
       "entity": "Oracle",
-      "link": "https://news.google.com/rss/articles/CBMijgFBVV95cUxOM1ZKVThQb3VXWTFrZk5MdndDSjc2YWMxYTRfY01mUTN5VTROMXh6b2xVYVdCdEZVY2FnX0Q3X3VyUWoxQXpDT1VBRjBhMHh0TjRkemRQYWpZYzdkbXlJM2tYRnVqQmt1WnVSU0RyaEMtQ1dxWVRGcGwyQ1NGMnhaZ1JYelN1X0Jmc04xQnRB?oc=5",
-      "published": "Tue, 18 Aug 2026 05:37:50 GMT",
-      "title": "KB Securities Warns 5%+ U.S. Yield Could Risk Stock Market - 조선일보"
+      "link": "https://news.google.com/rss/articles/CBMihgFBVV95cUxPSVRraTJKb2ZnQy1CYVdZZmJXOHN3dDliajBUaFE1M1JaMGp4a2YxXzN0MGZlX0sxLVA1ZnNYTTFtSHRvdlIyTzBFcTJHQjZSSnBYZEpra3pMYURzbDlBTjhmMHRoMHc2UWpxcGNMS3RrLTl5ZElUbGgzckVRYkFhM0pUWkJZQQ?oc=5",
+      "published": "Mon, 24 Aug 2026 21:28:29 GMT",
+      "title": "Broadcom's Risk Rises as It Backs More AI Chip Debt - Briefs Finance"
     },
     {
       "bp_hint": null,
@@ -102,16 +102,9 @@
     {
       "bp_hint": null,
       "entity": "Oracle",
-      "link": "https://news.google.com/rss/articles/CBMijAFBVV95cUxOUHhXVnM1RndWc3QwU0pWNXhWeE45enRYck03UmdKNkZSalRsT3hvaVlicjUwREd3WXVNcVl3Y2dNUnM3Q0kzeTR4WVdlYngxTzBVZWVqb2x1cjgzRUoweEdVbXp0SkZXeDBKdV9TWS1LWm54b29TTTBlQUJvMVNkYjFVTVpWLVV1TzVEdA?oc=5",
-      "published": "Tue, 18 Aug 2026 18:45:47 GMT",
-      "title": "Nvidia's credit default swaps surpass July peak (NVDA:NASDAQ) - Seeking Alpha"
-    },
-    {
-      "bp_hint": null,
-      "entity": "Oracle",
-      "link": "https://news.google.com/rss/articles/CBMingFBVV95cUxNVHAzQjBlb2FqaUROaUxNVVZBNnhKaVZrQ2plWDlwZVpjSE9oTzQxUWsyTTY3aWhhSjVUUWFUWlZ6WW1TT0JUZEYyeXd0amNvd3E3ZEpVcU02VGJTTms4VzRnV2ZpeDZRcWsyUG9TNkVHYUtxVFJLeHJoU1ByWXFOd0J2TFlLWkh2SUtLYWdLYmlrVmtLWjRQMzcxVnlHUQ?oc=5",
-      "published": "Tue, 18 Aug 2026 06:01:52 GMT",
-      "title": "What the $489B AI Debt Wave Means for Treasury Risk - The Global Treasurer"
+      "link": "https://news.google.com/rss/articles/CBMiswFBVV95cUxPZWkyWEFOZUc5cWptMjZiY01OYTZWRUJaQUIwbmRHVkpGMVJNam01cWxza3VocTFTdXRRYTlfdE1lMGg5MTZLLWhld1FsN2Q1UGJtOUF6dkQxQVhDWEc0bDhYNnB2djdRNUtiV1pBNnV6WGRCbXF4VWdFLTl6aVkzN0tkX1ZBTE44WVhHOVRLZ3pKd2MxS2NrQlpZdkV3WGJ1dGpBQXktM1Q1QWhCLUtBTkZrcw?oc=5",
+      "published": "Wed, 19 Aug 2026 12:59:13 GMT",
+      "title": "The $3 Trillion Pipeline Funding Big Tech’s AI Expansion - Forbes"
     },
     {
       "bp_hint": null,
@@ -121,7 +114,7 @@
       "title": "“Revenue Later, Costs Now”: Oracle’s Aggressive AI Infrastructure Bet Brings Financial, Credit, and Collateral Pressure - economy.ac"
     }
   ],
-  "candidates_date": "2026-08-25",
+  "candidates_date": "2026-08-26",
   "entities": [
     {
       "basket": {
@@ -160,13 +153,9 @@
         "ytd_high": 215.0,
         "ytd_low": 145.0
       },
-      "csi": 80.6,
-      "csi_5d": 81.8,
+      "csi": 80.5,
+      "csi_5d": 83.6,
       "csi_hist": [
-        [
-          "2025-08-12",
-          13.4
-        ],
         [
           "2025-08-13",
           20.4
@@ -181,7 +170,7 @@
         ],
         [
           "2025-08-18",
-          15.2
+          15.3
         ],
         [
           "2025-08-19",
@@ -209,7 +198,7 @@
         ],
         [
           "2025-08-27",
-          25.6
+          25.7
         ],
         [
           "2025-08-28",
@@ -245,7 +234,7 @@
         ],
         [
           "2025-09-10",
-          35.4
+          35.5
         ],
         [
           "2025-09-11",
@@ -269,7 +258,7 @@
         ],
         [
           "2025-09-18",
-          44.7
+          44.8
         ],
         [
           "2025-09-19",
@@ -277,7 +266,7 @@
         ],
         [
           "2025-09-22",
-          35.1
+          35.2
         ],
         [
           "2025-09-23",
@@ -321,7 +310,7 @@
         ],
         [
           "2025-10-07",
-          48.6
+          48.7
         ],
         [
           "2025-10-08",
@@ -329,11 +318,11 @@
         ],
         [
           "2025-10-09",
-          35.3
+          35.4
         ],
         [
           "2025-10-10",
-          34.5
+          34.6
         ],
         [
           "2025-10-13",
@@ -353,7 +342,7 @@
         ],
         [
           "2025-10-17",
-          37.8
+          37.9
         ],
         [
           "2025-10-20",
@@ -365,7 +354,7 @@
         ],
         [
           "2025-10-22",
-          41.7
+          41.8
         ],
         [
           "2025-10-23",
@@ -381,11 +370,11 @@
         ],
         [
           "2025-10-28",
-          36.3
+          36.4
         ],
         [
           "2025-10-29",
-          37.6
+          37.7
         ],
         [
           "2025-10-30",
@@ -401,7 +390,7 @@
         ],
         [
           "2025-11-04",
-          52.3
+          52.4
         ],
         [
           "2025-11-05",
@@ -429,7 +418,7 @@
         ],
         [
           "2025-11-13",
-          60.0
+          60.1
         ],
         [
           "2025-11-14",
@@ -437,7 +426,7 @@
         ],
         [
           "2025-11-17",
-          57.7
+          57.8
         ],
         [
           "2025-11-18",
@@ -489,7 +478,7 @@
         ],
         [
           "2025-12-05",
-          77.3
+          77.4
         ],
         [
           "2025-12-08",
@@ -529,7 +518,7 @@
         ],
         [
           "2025-12-19",
-          85.5
+          85.6
         ],
         [
           "2025-12-22",
@@ -549,7 +538,7 @@
         ],
         [
           "2025-12-29",
-          83.3
+          83.4
         ],
         [
           "2025-12-30",
@@ -593,7 +582,7 @@
         ],
         [
           "2026-01-14",
-          75.4
+          75.5
         ],
         [
           "2026-01-15",
@@ -609,7 +598,7 @@
         ],
         [
           "2026-01-21",
-          73.5
+          73.6
         ],
         [
           "2026-01-22",
@@ -665,11 +654,11 @@
         ],
         [
           "2026-02-10",
-          85.9
+          86.0
         ],
         [
           "2026-02-11",
-          86.0
+          86.1
         ],
         [
           "2026-02-12",
@@ -709,7 +698,7 @@
         ],
         [
           "2026-02-26",
-          86.2
+          86.3
         ],
         [
           "2026-02-27",
@@ -721,7 +710,7 @@
         ],
         [
           "2026-03-03",
-          86.4
+          86.5
         ],
         [
           "2026-03-04",
@@ -781,7 +770,7 @@
         ],
         [
           "2026-03-24",
-          78.0
+          78.1
         ],
         [
           "2026-03-25",
@@ -793,7 +782,7 @@
         ],
         [
           "2026-03-27",
-          77.7
+          77.8
         ],
         [
           "2026-03-30",
@@ -825,11 +814,11 @@
         ],
         [
           "2026-04-09",
-          71.2
+          71.3
         ],
         [
           "2026-04-10",
-          71.1
+          71.2
         ],
         [
           "2026-04-13",
@@ -893,7 +882,7 @@
         ],
         [
           "2026-05-04",
-          68.4
+          68.5
         ],
         [
           "2026-05-05",
@@ -901,7 +890,7 @@
         ],
         [
           "2026-05-06",
-          68.4
+          68.5
         ],
         [
           "2026-05-07",
@@ -921,7 +910,7 @@
         ],
         [
           "2026-05-13",
-          59.8
+          59.9
         ],
         [
           "2026-05-14",
@@ -969,23 +958,23 @@
         ],
         [
           "2026-06-01",
-          53.9
+          54.0
         ],
         [
           "2026-06-02",
-          55.0
+          55.1
         ],
         [
           "2026-06-03",
-          62.5
+          62.6
         ],
         [
           "2026-06-04",
-          60.1
+          60.2
         ],
         [
           "2026-06-05",
-          68.4
+          68.5
         ],
         [
           "2026-06-08",
@@ -993,7 +982,7 @@
         ],
         [
           "2026-06-09",
-          69.0
+          69.1
         ],
         [
           "2026-06-10",
@@ -1041,7 +1030,7 @@
         ],
         [
           "2026-06-26",
-          68.5
+          68.6
         ],
         [
           "2026-06-29",
@@ -1057,7 +1046,7 @@
         ],
         [
           "2026-07-02",
-          60.2
+          60.3
         ],
         [
           "2026-07-06",
@@ -1077,7 +1066,7 @@
         ],
         [
           "2026-07-10",
-          66.1
+          66.2
         ],
         [
           "2026-07-13",
@@ -1089,7 +1078,7 @@
         ],
         [
           "2026-07-15",
-          70.0
+          70.1
         ],
         [
           "2026-07-16",
@@ -1105,7 +1094,7 @@
         ],
         [
           "2026-07-21",
-          77.9
+          78.0
         ],
         [
           "2026-07-22",
@@ -1202,9 +1191,13 @@
         [
           "2026-08-24",
           80.6
+        ],
+        [
+          "2026-08-25",
+          80.5
         ]
       ],
-      "csi_prev": 78.8,
+      "csi_prev": 80.6,
       "key": "oracle",
       "name": "Oracle",
       "note": "AI 부채 공포의 대리지표. IG 지수 최대 비금융 발행사.",
@@ -1247,20 +1240,16 @@
         "ytd_high": 82.0,
         "ytd_low": 42.0
       },
-      "csi": 29.1,
-      "csi_5d": 24.9,
+      "csi": 26.0,
+      "csi_5d": 28.9,
       "csi_hist": [
-        [
-          "2025-08-12",
-          5.9
-        ],
         [
           "2025-08-13",
           7.0
         ],
         [
           "2025-08-14",
-          6.7
+          6.8
         ],
         [
           "2025-08-15",
@@ -1288,7 +1277,7 @@
         ],
         [
           "2025-08-25",
-          8.4
+          8.5
         ],
         [
           "2025-08-26",
@@ -1304,7 +1293,7 @@
         ],
         [
           "2025-08-29",
-          12.1
+          12.2
         ],
         [
           "2025-09-02",
@@ -1440,7 +1429,7 @@
         ],
         [
           "2025-10-17",
-          22.8
+          22.9
         ],
         [
           "2025-10-20",
@@ -1452,7 +1441,7 @@
         ],
         [
           "2025-10-22",
-          20.2
+          20.3
         ],
         [
           "2025-10-23",
@@ -1476,7 +1465,7 @@
         ],
         [
           "2025-10-30",
-          24.3
+          24.4
         ],
         [
           "2025-10-31",
@@ -1488,7 +1477,7 @@
         ],
         [
           "2025-11-04",
-          28.3
+          28.4
         ],
         [
           "2025-11-05",
@@ -1556,7 +1545,7 @@
         ],
         [
           "2025-11-28",
-          38.5
+          38.6
         ],
         [
           "2025-12-01",
@@ -1604,7 +1593,7 @@
         ],
         [
           "2025-12-16",
-          29.3
+          29.4
         ],
         [
           "2025-12-17",
@@ -1612,7 +1601,7 @@
         ],
         [
           "2025-12-18",
-          29.8
+          29.9
         ],
         [
           "2025-12-19",
@@ -1620,7 +1609,7 @@
         ],
         [
           "2025-12-22",
-          25.4
+          25.5
         ],
         [
           "2025-12-23",
@@ -1648,7 +1637,7 @@
         ],
         [
           "2026-01-02",
-          21.4
+          21.5
         ],
         [
           "2026-01-05",
@@ -1672,7 +1661,7 @@
         ],
         [
           "2026-01-12",
-          22.7
+          22.8
         ],
         [
           "2026-01-13",
@@ -1704,7 +1693,7 @@
         ],
         [
           "2026-01-23",
-          18.5
+          18.6
         ],
         [
           "2026-01-26",
@@ -1732,7 +1721,7 @@
         ],
         [
           "2026-02-03",
-          31.6
+          31.7
         ],
         [
           "2026-02-04",
@@ -1772,7 +1761,7 @@
         ],
         [
           "2026-02-18",
-          33.5
+          33.6
         ],
         [
           "2026-02-19",
@@ -1804,7 +1793,7 @@
         ],
         [
           "2026-03-02",
-          40.5
+          40.6
         ],
         [
           "2026-03-03",
@@ -1820,7 +1809,7 @@
         ],
         [
           "2026-03-06",
-          45.0
+          45.1
         ],
         [
           "2026-03-09",
@@ -1840,7 +1829,7 @@
         ],
         [
           "2026-03-13",
-          30.8
+          30.9
         ],
         [
           "2026-03-16",
@@ -1880,7 +1869,7 @@
         ],
         [
           "2026-03-27",
-          42.7
+          42.8
         ],
         [
           "2026-03-30",
@@ -1888,11 +1877,11 @@
         ],
         [
           "2026-03-31",
-          41.8
+          41.9
         ],
         [
           "2026-04-01",
-          39.7
+          39.8
         ],
         [
           "2026-04-02",
@@ -1940,7 +1929,7 @@
         ],
         [
           "2026-04-20",
-          17.5
+          17.6
         ],
         [
           "2026-04-21",
@@ -1992,7 +1981,7 @@
         ],
         [
           "2026-05-07",
-          27.2
+          27.3
         ],
         [
           "2026-05-08",
@@ -2020,7 +2009,7 @@
         ],
         [
           "2026-05-18",
-          33.9
+          34.0
         ],
         [
           "2026-05-19",
@@ -2040,7 +2029,7 @@
         ],
         [
           "2026-05-26",
-          34.0
+          34.1
         ],
         [
           "2026-05-27",
@@ -2060,7 +2049,7 @@
         ],
         [
           "2026-06-02",
-          31.6
+          31.7
         ],
         [
           "2026-06-03",
@@ -2096,7 +2085,7 @@
         ],
         [
           "2026-06-15",
-          36.5
+          36.6
         ],
         [
           "2026-06-16",
@@ -2120,7 +2109,7 @@
         ],
         [
           "2026-06-24",
-          44.8
+          44.9
         ],
         [
           "2026-06-25",
@@ -2128,7 +2117,7 @@
         ],
         [
           "2026-06-26",
-          47.7
+          47.8
         ],
         [
           "2026-06-29",
@@ -2196,11 +2185,11 @@
         ],
         [
           "2026-07-22",
-          26.7
+          26.8
         ],
         [
           "2026-07-23",
-          32.0
+          32.1
         ],
         [
           "2026-07-24",
@@ -2232,7 +2221,7 @@
         ],
         [
           "2026-08-04",
-          37.6
+          37.7
         ],
         [
           "2026-08-05",
@@ -2289,9 +2278,13 @@
         [
           "2026-08-24",
           29.1
+        ],
+        [
+          "2026-08-25",
+          26.0
         ]
       ],
-      "csi_prev": 29.2,
+      "csi_prev": 29.1,
       "key": "nvidia",
       "name": "Nvidia",
       "note": "대차대조표가 아닌 벤더 파이낸싱·보증이 스프레드를 움직인다.",
@@ -2315,8 +2308,8 @@
         "ytd_high": 855.0,
         "ytd_low": 855.0
       },
-      "csi": 82.3,
-      "csi_5d": 68.3,
+      "csi": 82.2,
+      "csi_5d": 81.2,
       "csi_hist": [
         [
           "2025-10-16",
@@ -2336,7 +2329,7 @@
         ],
         [
           "2025-10-22",
-          41.8
+          41.9
         ],
         [
           "2025-10-23",
@@ -2344,7 +2337,7 @@
         ],
         [
           "2025-10-24",
-          36.0
+          36.1
         ],
         [
           "2025-10-27",
@@ -2396,7 +2389,7 @@
         ],
         [
           "2025-11-12",
-          53.9
+          54.0
         ],
         [
           "2025-11-13",
@@ -2408,7 +2401,7 @@
         ],
         [
           "2025-11-17",
-          60.9
+          61.0
         ],
         [
           "2025-11-18",
@@ -2424,7 +2417,7 @@
         ],
         [
           "2025-11-21",
-          67.4
+          67.5
         ],
         [
           "2025-11-24",
@@ -2460,7 +2453,7 @@
         ],
         [
           "2025-12-05",
-          71.7
+          71.8
         ],
         [
           "2025-12-08",
@@ -2472,7 +2465,7 @@
         ],
         [
           "2025-12-10",
-          67.1
+          67.2
         ],
         [
           "2025-12-11",
@@ -2484,7 +2477,7 @@
         ],
         [
           "2025-12-15",
-          72.8
+          72.9
         ],
         [
           "2025-12-16",
@@ -2524,7 +2517,7 @@
         ],
         [
           "2025-12-30",
-          80.7
+          80.8
         ],
         [
           "2025-12-31",
@@ -2616,7 +2609,7 @@
         ],
         [
           "2026-02-03",
-          70.1
+          70.2
         ],
         [
           "2026-02-04",
@@ -2664,7 +2657,7 @@
         ],
         [
           "2026-02-20",
-          71.1
+          71.2
         ],
         [
           "2026-02-23",
@@ -2728,7 +2721,7 @@
         ],
         [
           "2026-03-16",
-          63.2
+          63.3
         ],
         [
           "2026-03-17",
@@ -2740,7 +2733,7 @@
         ],
         [
           "2026-03-19",
-          64.7
+          64.8
         ],
         [
           "2026-03-20",
@@ -2812,7 +2805,7 @@
         ],
         [
           "2026-04-15",
-          60.3
+          60.4
         ],
         [
           "2026-04-16",
@@ -2820,7 +2813,7 @@
         ],
         [
           "2026-04-17",
-          57.0
+          57.1
         ],
         [
           "2026-04-20",
@@ -2888,7 +2881,7 @@
         ],
         [
           "2026-05-12",
-          54.0
+          54.1
         ],
         [
           "2026-05-13",
@@ -2940,7 +2933,7 @@
         ],
         [
           "2026-06-01",
-          53.1
+          53.2
         ],
         [
           "2026-06-02",
@@ -2964,7 +2957,7 @@
         ],
         [
           "2026-06-09",
-          55.5
+          55.6
         ],
         [
           "2026-06-10",
@@ -3028,7 +3021,7 @@
         ],
         [
           "2026-07-02",
-          54.9
+          55.0
         ],
         [
           "2026-07-06",
@@ -3064,7 +3057,7 @@
         ],
         [
           "2026-07-16",
-          66.9
+          67.0
         ],
         [
           "2026-07-17",
@@ -3088,7 +3081,7 @@
         ],
         [
           "2026-07-24",
-          76.7
+          76.8
         ],
         [
           "2026-07-27",
@@ -3100,11 +3093,11 @@
         ],
         [
           "2026-07-29",
-          78.5
+          78.6
         ],
         [
           "2026-07-30",
-          83.9
+          84.0
         ],
         [
           "2026-07-31",
@@ -3140,7 +3133,7 @@
         ],
         [
           "2026-08-12",
-          69.8
+          69.9
         ],
         [
           "2026-08-13",
@@ -3156,7 +3149,7 @@
         ],
         [
           "2026-08-18",
-          81.1
+          81.2
         ],
         [
           "2026-08-19",
@@ -3173,9 +3166,13 @@
         [
           "2026-08-24",
           82.3
+        ],
+        [
+          "2026-08-25",
+          82.2
         ]
       ],
-      "csi_prev": 79.8,
+      "csi_prev": 82.3,
       "key": "openai",
       "name": "OpenAI",
       "note": "단일종목 CDS 없음. 컴퓨트 파트너(CoreWeave·Oracle) 크레딧으로 전가.",
@@ -3199,13 +3196,9 @@
         "ytd_high": 67.0,
         "ytd_low": 67.0
       },
-      "csi": 50.2,
-      "csi_5d": 53.2,
+      "csi": 48.4,
+      "csi_5d": 53.6,
       "csi_hist": [
-        [
-          "2025-08-12",
-          19.7
-        ],
         [
           "2025-08-13",
           20.1
@@ -3216,15 +3209,15 @@
         ],
         [
           "2025-08-15",
-          19.0
+          19.1
         ],
         [
           "2025-08-18",
-          17.8
+          17.9
         ],
         [
           "2025-08-19",
-          19.4
+          19.5
         ],
         [
           "2025-08-20",
@@ -3232,7 +3225,7 @@
         ],
         [
           "2025-08-21",
-          20.8
+          20.9
         ],
         [
           "2025-08-22",
@@ -3252,7 +3245,7 @@
         ],
         [
           "2025-08-28",
-          18.6
+          18.7
         ],
         [
           "2025-08-29",
@@ -3284,11 +3277,11 @@
         ],
         [
           "2025-09-10",
-          26.6
+          26.7
         ],
         [
           "2025-09-11",
-          25.6
+          25.7
         ],
         [
           "2025-09-12",
@@ -3324,11 +3317,11 @@
         ],
         [
           "2025-09-24",
-          30.0
+          30.1
         ],
         [
           "2025-09-25",
-          31.4
+          31.5
         ],
         [
           "2025-09-26",
@@ -3336,7 +3329,7 @@
         ],
         [
           "2025-09-29",
-          31.8
+          31.9
         ],
         [
           "2025-09-30",
@@ -3344,7 +3337,7 @@
         ],
         [
           "2025-10-01",
-          19.0
+          19.1
         ],
         [
           "2025-10-02",
@@ -3376,7 +3369,7 @@
         ],
         [
           "2025-10-13",
-          18.6
+          18.7
         ],
         [
           "2025-10-14",
@@ -3420,7 +3413,7 @@
         ],
         [
           "2025-10-28",
-          21.2
+          21.3
         ],
         [
           "2025-10-29",
@@ -3456,7 +3449,7 @@
         ],
         [
           "2025-11-10",
-          25.9
+          26.0
         ],
         [
           "2025-11-11",
@@ -3496,7 +3489,7 @@
         ],
         [
           "2025-11-24",
-          36.0
+          36.1
         ],
         [
           "2025-11-25",
@@ -3556,7 +3549,7 @@
         ],
         [
           "2025-12-16",
-          28.9
+          29.0
         ],
         [
           "2025-12-17",
@@ -3568,7 +3561,7 @@
         ],
         [
           "2025-12-19",
-          25.9
+          26.0
         ],
         [
           "2025-12-22",
@@ -3588,7 +3581,7 @@
         ],
         [
           "2025-12-29",
-          15.4
+          15.5
         ],
         [
           "2025-12-30",
@@ -3596,7 +3589,7 @@
         ],
         [
           "2025-12-31",
-          15.1
+          15.2
         ],
         [
           "2026-01-02",
@@ -3616,7 +3609,7 @@
         ],
         [
           "2026-01-08",
-          12.8
+          12.9
         ],
         [
           "2026-01-09",
@@ -3648,7 +3641,7 @@
         ],
         [
           "2026-01-21",
-          14.4
+          14.5
         ],
         [
           "2026-01-22",
@@ -3656,11 +3649,11 @@
         ],
         [
           "2026-01-23",
-          14.0
+          14.1
         ],
         [
           "2026-01-26",
-          13.3
+          13.4
         ],
         [
           "2026-01-27",
@@ -3668,11 +3661,11 @@
         ],
         [
           "2026-01-28",
-          13.4
+          13.5
         ],
         [
           "2026-01-29",
-          13.9
+          14.0
         ],
         [
           "2026-01-30",
@@ -3688,7 +3681,7 @@
         ],
         [
           "2026-02-04",
-          17.8
+          17.9
         ],
         [
           "2026-02-05",
@@ -3796,7 +3789,7 @@
         ],
         [
           "2026-03-16",
-          29.3
+          29.4
         ],
         [
           "2026-03-17",
@@ -3844,7 +3837,7 @@
         ],
         [
           "2026-04-01",
-          45.9
+          46.0
         ],
         [
           "2026-04-02",
@@ -3860,11 +3853,11 @@
         ],
         [
           "2026-04-08",
-          41.7
+          41.8
         ],
         [
           "2026-04-09",
-          40.3
+          40.4
         ],
         [
           "2026-04-10",
@@ -3876,11 +3869,11 @@
         ],
         [
           "2026-04-14",
-          33.7
+          33.8
         ],
         [
           "2026-04-15",
-          32.6
+          32.7
         ],
         [
           "2026-04-16",
@@ -3904,11 +3897,11 @@
         ],
         [
           "2026-04-23",
-          27.1
+          27.2
         ],
         [
           "2026-04-24",
-          24.1
+          24.2
         ],
         [
           "2026-04-27",
@@ -3920,7 +3913,7 @@
         ],
         [
           "2026-04-29",
-          18.1
+          18.2
         ],
         [
           "2026-04-30",
@@ -3928,11 +3921,11 @@
         ],
         [
           "2026-05-01",
-          28.8
+          28.9
         ],
         [
           "2026-05-04",
-          29.4
+          29.5
         ],
         [
           "2026-05-05",
@@ -4012,7 +4005,7 @@
         ],
         [
           "2026-06-02",
-          28.5
+          28.6
         ],
         [
           "2026-06-03",
@@ -4040,7 +4033,7 @@
         ],
         [
           "2026-06-11",
-          29.4
+          29.5
         ],
         [
           "2026-06-12",
@@ -4100,7 +4093,7 @@
         ],
         [
           "2026-07-06",
-          35.0
+          35.1
         ],
         [
           "2026-07-07",
@@ -4112,7 +4105,7 @@
         ],
         [
           "2026-07-09",
-          35.7
+          35.8
         ],
         [
           "2026-07-10",
@@ -4136,11 +4129,11 @@
         ],
         [
           "2026-07-17",
-          39.9
+          40.0
         ],
         [
           "2026-07-20",
-          38.8
+          38.9
         ],
         [
           "2026-07-21",
@@ -4152,7 +4145,7 @@
         ],
         [
           "2026-07-23",
-          57.5
+          57.6
         ],
         [
           "2026-07-24",
@@ -4176,7 +4169,7 @@
         ],
         [
           "2026-07-31",
-          47.5
+          47.6
         ],
         [
           "2026-08-03",
@@ -4241,24 +4234,24 @@
         [
           "2026-08-24",
           50.2
+        ],
+        [
+          "2026-08-25",
+          48.4
         ]
       ],
-      "csi_prev": 52.3,
+      "csi_prev": 50.2,
       "key": "anthropic",
       "name": "Anthropic",
       "note": "단일종목 CDS 없음. 리스 백스톱 제공자(Alphabet·Amazon) 크레딧으로 전가.",
       "type": "proxy"
     }
   ],
-  "generated_at": "2026-08-25T07:54:27+09:00",
+  "generated_at": "2026-08-26T07:55:57+09:00",
   "macro": {
     "bbb_oas_bp": 100.0,
-    "percentile_2y": 0.363,
+    "percentile_2y": 0.364,
     "series": [
-      [
-        "2025-08-28",
-        99.0
-      ],
       [
         "2025-08-29",
         101.0
@@ -5293,6 +5286,10 @@
       ],
       [
         "2026-08-21",
+        100.0
+      ],
+      [
+        "2026-08-24",
         100.0
       ]
     ]
