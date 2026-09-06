@@ -1,5 +1,5 @@
 {
-  "asof": "2026-09-03",
+  "asof": "2026-09-04",
   "candidates": [
     {
       "bp_hint": null,
@@ -24,10 +24,10 @@
     },
     {
       "bp_hint": null,
-      "entity": "Nvidia",
-      "link": "https://news.google.com/rss/articles/CBMi3gFBVV95cUxObWNnNjFvVlEycW1fUlkwWTdWNUs5cHk5a1c0SmEzUTFRR0djMHRGMDlEYUVOeW9Ga0t1ZDMyNWUzalBIT1MzZ2duemJrZFNuS1g5ZXBobWczSXN3c1FFQk9EOXBiTXN6NjFQWHB5VXBVakl3TXYwWDhtSUo5QTlkY3p4RFFRUk1RVVA5MEMtUm5kYXBBekt2a3RoV09BU1hJSVlvTmpoNGdWaUltMFdNT21oR20zS3EzQ01fdDFIR2hTVUhSYnV6SV9Dd013UlpDRGYtWW0xcjFiSmpWakE?oc=5",
-      "published": "Sat, 29 Aug 2026 00:32:00 GMT",
-      "title": "Steve Eisman Flags AI Concentration Risk Threatening Nvidia (NASDAQ: NVDA) And Palantir (NASDAQ: PLTR) - foreignpolicyjournal.com"
+      "entity": "OpenAI",
+      "link": "https://news.google.com/rss/articles/CBMiYEFVX3lxTFBIdDVKXzBzekk1NzRjTjFYTF8ybmNfVk5CSDh2MUdHVXhfaWdja2JYTG1aekRIYWRWLVpwb3ZCN3J4N0hBRGk1eldyZkx5ZWdIXzNQcVNXN25TYzVFTVFXNQ?oc=5",
+      "published": "Sat, 05 Sep 2026 08:48:17 GMT",
+      "title": "IT'S OVER: China Is About To Pop The $7.6 Trillion AI Bubble! Giuli (YnaAEuXsok) - mshale.com"
     },
     {
       "bp_hint": null,
@@ -42,13 +42,6 @@
       "link": "https://news.google.com/rss/articles/CBMiiwFBVV95cUxQWWVkZmw0YTJoTE4teFFLblUtMVZPUjVKMjZHS1FRbWhVWEFBWEhpN1NqTzdJRlVOVnVxZzZmc3E1ek1NMFFsSFE2eXJuM0J4T3JmNy1jbzZoQzlNZm1KWVYtM29GUGgtWHVKdEYwZldXa2Z2amY3a19mZFRQZGFTLU5MTVJoR1lDdlFv?oc=5",
       "published": "Thu, 03 Sep 2026 14:15:28 GMT",
       "title": "Oracle Corp Stock (ORCL) Moved Up by 3.14% on Sep 3: What Signal Does It Send? - TradingKey"
-    },
-    {
-      "bp_hint": null,
-      "entity": "Oracle",
-      "link": "https://news.google.com/rss/articles/CBMioAFBVV95cUxPc3dSUGw1U1ZMSi12MmVHN093RmV0UUZLaG1Pc3JuVTlWVFJJQi1IWDhxOTVlLW4wZUNmYTl0TEFaRm9kcDZBTWppOUdhZTNOdEpmV2YxWkpkQTluQWpnZHVHUlRsbmN4dnUtS2JRWU9oX3QxQWZfMmpYYVlfZmxmQWtoNzg0NEx0YjQtcHZ0Qmo5UWNKN3haRzJ1QWpZOHRo?oc=5",
-      "published": "Tue, 01 Sep 2026 14:46:20 GMT",
-      "title": "The AI Infrastructure Buildout Is Hitting Major Roadblocks (NYSEARCA:SPY) - Seeking Alpha"
     },
     {
       "bp_hint": null,
@@ -72,7 +65,7 @@
       "title": "Why Oracle stock is down around 5% on Tuesday - TradingView"
     }
   ],
-  "candidates_date": "2026-09-05",
+  "candidates_date": "2026-09-06",
   "entities": [
     {
       "basket": {
@@ -111,13 +104,9 @@
         "ytd_high": 215.0,
         "ytd_low": 145.0
       },
-      "csi": 76.2,
-      "csi_5d": 77.7,
+      "csi": 73.2,
+      "csi_5d": 77.8,
       "csi_hist": [
-        [
-          "2025-08-22",
-          26.3
-        ],
         [
           "2025-08-25",
           26.4
@@ -1153,9 +1142,13 @@
         [
           "2026-09-03",
           76.2
+        ],
+        [
+          "2026-09-04",
+          73.2
         ]
       ],
-      "csi_prev": 72.8,
+      "csi_prev": 76.2,
       "key": "oracle",
       "name": "Oracle",
       "note": "AI 부채 공포의 대리지표. IG 지수 최대 비금융 발행사.",
@@ -1198,13 +1191,9 @@
         "ytd_high": 82.0,
         "ytd_low": 42.0
       },
-      "csi": 32.7,
-      "csi_5d": 30.8,
+      "csi": 31.5,
+      "csi_5d": 37.9,
       "csi_hist": [
-        [
-          "2025-08-22",
-          10.0
-        ],
         [
           "2025-08-25",
           8.7
@@ -2240,9 +2229,13 @@
         [
           "2026-09-03",
           32.7
+        ],
+        [
+          "2026-09-04",
+          31.5
         ]
       ],
-      "csi_prev": 34.1,
+      "csi_prev": 32.7,
       "key": "nvidia",
       "name": "Nvidia",
       "note": "대차대조표가 아닌 벤더 파이낸싱·보증이 스프레드를 움직인다.",
@@ -2266,8 +2259,8 @@
         "ytd_high": 855.0,
         "ytd_low": 855.0
       },
-      "csi": 71.0,
-      "csi_5d": 81.1,
+      "csi": 66.0,
+      "csi_5d": 80.7,
       "csi_hist": [
         [
           "2025-10-16",
@@ -3156,9 +3149,13 @@
         [
           "2026-09-03",
           71.0
+        ],
+        [
+          "2026-09-04",
+          66.0
         ]
       ],
-      "csi_prev": 73.0,
+      "csi_prev": 71.0,
       "key": "openai",
       "name": "OpenAI",
       "note": "단일종목 CDS 없음. 컴퓨트 파트너(CoreWeave·Oracle) 크레딧으로 전가.",
@@ -3182,13 +3179,9 @@
         "ytd_high": 67.0,
         "ytd_low": 67.0
       },
-      "csi": 29.0,
-      "csi_5d": 47.8,
+      "csi": 29.1,
+      "csi_5d": 35.0,
       "csi_hist": [
-        [
-          "2025-08-22",
-          20.2
-        ],
         [
           "2025-08-25",
           20.3
@@ -4224,16 +4217,20 @@
         [
           "2026-09-03",
           29.0
+        ],
+        [
+          "2026-09-04",
+          29.1
         ]
       ],
-      "csi_prev": 29.6,
+      "csi_prev": 29.0,
       "key": "anthropic",
       "name": "Anthropic",
       "note": "단일종목 CDS 없음. 리스 백스톱 제공자(Alphabet·Amazon) 크레딧으로 전가.",
       "type": "proxy"
     }
   ],
-  "generated_at": "2026-09-05T09:16:41+09:00",
+  "generated_at": "2026-09-06T09:07:55+09:00",
   "macro": {
     "bbb_oas_bp": 100.0,
     "percentile_2y": 0.378,
