@@ -96,3 +96,29 @@ class TestNewsCache(unittest.TestCase):
 
 if __name__ == "__main__":
     unittest.main()
+
+
+class TestObservationAlignment(unittest.TestCase):
+    def test_future_macro_does_not_rewrite_past_csi(self):
+        import pandas as pd
+        idx = pd.bdate_range('2024-01-01', periods=220)
+        px = pd.Series([100 + i * .1 + (i % 7) for i in range(220)], index=idx)
+        macro = pd.Series(.2, index=idx)
+        before = collect.ticker_stress(px, macro)
+        macro.loc[idx[-1] + pd.Timedelta(days=7)] = .9
+        after = collect.ticker_stress(px, macro)
+        pd.testing.assert_series_equal(before, after)
+
+    def test_missing_macro_fails_without_overwriting_output(self):
+        from unittest.mock import patch
+        with patch.object(collect, 'fetch_bbb_oas', side_effect=RuntimeError('offline')):
+            with self.assertRaisesRegex(RuntimeError, '기존 산출물 보존'):
+                collect.build()
+
+    def test_flat_scores_are_not_all_falling(self):
+        import copy
+        d = copy.deepcopy(TestMessage.SAMPLE)
+        d['asof'] = notify.datetime.now(notify.KST).date().isoformat()
+        for e in d['entities']:
+            e['csi_prev'] = e['csi']
+        self.assertNotIn('모두 하락', notify.build_message(d))
