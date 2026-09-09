@@ -215,7 +215,9 @@ function render(d){
   const rising = d.entities.filter(e => e.csi > (e.csi_prev ?? e.csi)).length;
   const worst = [...d.entities].sort((a,b) => b.csi - a.csi)[0];
   const vb = bandOf(worst.csi);
-  const word = rising >= 3 ? "확대 국면" : rising === 0 ? "진정 국면" : "혼조";
+  const stale = (Date.now()-Date.parse(d.asof+"T00:00:00+09:00"))/86400000 >= 4;
+  const falling = d.entities.filter(e => e.csi_prev != null && e.csi < e.csi_prev).length;
+  const word = stale || (d.quality_warnings||[]).length ? "최신 판단 보류" : rising >= 3 ? "확대 국면" : falling === d.entities.length ? "진정 국면" : "혼조";
   $("#verdict").innerHTML =
     `<span class="word" style="color:${vb.c}">${word}</span>` +
     `<span class="why">${d.entities.length}축 중 ${rising}축 상승 · 최고 스트레스는 <b>${esc(worst.name)}</b> ${worst.csi.toFixed(1)}` +
@@ -321,3 +323,4 @@ fetch("./data.json?v=" + Date.now())
 </script>
 </body>
 </html>
+

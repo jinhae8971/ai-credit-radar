@@ -77,11 +77,14 @@ def build_message(d: dict) -> str:
     lines = [head, f"<i>기준 {d['asof']} 종가</i>{stale}", "", "▸ <b>크레딧 스트레스 지수</b> (0-100)"]
 
     rising = 0
+    falling = 0
     for e in d["entities"]:
         icon, label = band(e["csi"])
         tag = "" if e["type"] == "traded" else "*"
         if e["csi"] > (e["csi_prev"] or e["csi"]):
             rising += 1
+        if e["csi_prev"] is not None and e["csi"] < e["csi_prev"]:
+            falling += 1
         name = f"{e['name']}{tag}"
         lines.append(
             f"{icon} <code>{name:<11}{e['csi']:>5.1f} {arrow(e['csi'], e['csi_prev']):>3}</code> "
@@ -108,11 +111,14 @@ def build_message(d: dict) -> str:
     n = len(d["entities"]) or 1
     if rising >= 3:
         verdict = f"확대 국면 — {n}축 중 {rising}축 상승"
-    elif rising == 0:
+    elif falling == n:
         verdict = f"진정 국면 — {n}축 모두 하락"
     else:
         verdict = f"혼조 — {n}축 중 {rising}축 상승"
+    if stale or d.get("quality_warnings"):
+        verdict = "관측 지연/품질 확인 필요 — 최신 시장 판단 보류"
     lines += ["", f"▸ <b>판단</b>  {verdict}"]
+    lines.append("· 변동은 표시된 관측일의 직전 거래일 대비이며 오늘의 변화가 아닐 수 있습니다")
 
     hits = [c for c in d.get("candidates", []) if c.get("bp_hint")]
     if hits:
@@ -152,3 +158,4 @@ def main() -> int:
 
 if __name__ == "__main__":
     sys.exit(main())
+

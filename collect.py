@@ -124,11 +124,16 @@ def fetch_prices(tickers: list[str]) -> pd.DataFrame:
     return close.dropna(how="all")
 
 
-def ticker_stress(px: pd.Series, macro_pct: float) -> pd.Series:
+def ticker_stress(px: pd.Series, macro_pct: float | pd.Series) -> pd.Series:
     """티커별 일간 스트레스 0~100 시계열."""
     px = px.dropna()
     roll_max = px.rolling(252, min_periods=60).max()
     dd = (roll_max - px) / roll_max
+
+    if isinstance(macro_pct, pd.Series):
+        macro_pct = macro_pct.reindex(px.index, method="ffill").clip(0, 1)
+    else:
+        macro_pct = clip01(macro_pct)
 
     ret = px.pct_change()
     vol20 = ret.rolling(20).std() * (252 ** 0.5)
@@ -140,7 +145,7 @@ def ticker_stress(px: pd.Series, macro_pct: float) -> pd.Series:
         W_DRAWDOWN * (dd / DD_FULL_SCALE).clip(0, 1)
         + W_VOL * vol_pct.clip(0, 1)
         + W_MOMENTUM * (-ret60 / MOM_FULL_SCALE).clip(0, 1)
-        + W_MACRO * clip01(macro_pct)
+        + W_MACRO * macro_pct
     ) * 100
     return s.dropna()
 
@@ -205,28 +210,28 @@ def build() -> dict:
         seed = json.load(f)
 
     # 매크로
-    macro_pct, macro_last, macro_series = 0.0, None, []
+    macro_pct, macro_last, macro_series = None, None, []
     try:
         oas = fetch_bbb_oas()
-        macro_pct = float(oas.tail(504).rank(pct=True).iloc[-1])
+        macro_history = oas.rolling(504, min_periods=120).rank(pct=True)
+        macro_pct = float(macro_history.iloc[-1])
         macro_last = round(float(oas.iloc[-1]) * 100, 1)  # % → bp
         macro_series = [[d.strftime("%Y-%m-%d"), round(v * 100, 1)]
                         for d, v in oas.tail(HISTORY_DAYS).items()]
         print(f"[macro] BBB OAS {macro_last}bp (2y 백분위 {macro_pct:.0%})")
     except Exception as e:
-        print(f"[macro] 실패 — 매크로 축 0 처리: {e}")
+        raise RuntimeError("BBB OAS 수집 실패 — 기존 산출물 보존") from e
 
     # 가격 → 티커 스트레스
     px = fetch_prices(TICKERS)
     asof = px.index[-1].strftime("%Y-%m-%d")
-    stress = {t: ticker_stress(px[t], macro_pct) for t in TICKERS if t in px.columns}
+    stress = {t: ticker_stress(px[t], macro_history) for t in TICKERS if t in px.columns}
 
     entities = []
     for e in ENTITIES:
         parts = {t: w for t, w in e["basket"].items() if t in stress and len(stress[t]) > 2}
-        if not parts:
-            print(f"[warn] {e['name']} 산출 불가 — 스킵")
-            continue
+        if set(parts) != set(e["basket"]):
+            raise RuntimeError(f"{e['name']} 구성 종목 누락 — 기존 산출물 보존")
         wsum = sum(parts.values())
         combined = sum(stress[t] * (w / wsum) for t, w in parts.items()).dropna()
         hist = [[d.strftime("%Y-%m-%d"), round(float(v), 1)]
@@ -246,6 +251,7 @@ def build() -> dict:
         entities.append({
             "key": e["key"], "name": e["name"], "type": e["type"], "note": e["note"],
             "basket": e["basket"],
+            "asof": combined.index[-1].strftime("%Y-%m-%d"),
             "csi": round(float(combined.iloc[-1]), 1),
             "csi_prev": round(float(combined.iloc[-2]), 1),
             "csi_5d": round(float(combined.iloc[-6]), 1) if len(combined) > 6 else None,
@@ -254,6 +260,14 @@ def build() -> dict:
         })
 
     today = datetime.now(KST).strftime("%Y-%m-%d")
+    if not entities:
+        raise RuntimeError("CSI 산출 불가 — 기존 산출물 보존")
+    asof = min(e["asof"] for e in entities)
+    quality = []
+    if (datetime.now(KST).date() - datetime.strptime(asof, "%Y-%m-%d").date()).days >= 4:
+        quality.append("가격 데이터 4일 이상 경과 — 최신 시장 판단 보류")
+    if len(entities) != len(ENTITIES) or len({e["asof"] for e in entities}) != 1:
+        quality.append("추적 대상 누락 또는 관측일 불일치 — 통합 판단 보류")
     candidates = load_cached_candidates(today)
     if candidates is None:
         candidates = fetch_news_candidates([e["name"] for e in ENTITIES])
@@ -261,7 +275,9 @@ def build() -> dict:
     return {
         "generated_at": datetime.now(KST).isoformat(timespec="seconds"),
         "asof": asof,
-        "macro": {"bbb_oas_bp": macro_last, "percentile_2y": round(macro_pct, 3),
+        "quality_warnings": quality,
+        "method_version": "2-observation-aligned-macro",
+        "macro": {"asof": oas.index[-1].strftime("%Y-%m-%d"), "bbb_oas_bp": macro_last, "percentile_2y": round(macro_pct, 3),
                   "series": macro_series},
         "entities": entities,
         "candidates_date": today,
@@ -286,3 +302,4 @@ def main() -> int:
 
 if __name__ == "__main__":
     sys.exit(main())
+
