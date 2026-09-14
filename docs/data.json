@@ -18,9 +18,9 @@
     {
       "bp_hint": null,
       "entity": "Nvidia",
-      "link": "https://news.google.com/rss/articles/CBMikwFBVV95cUxQQmpMMTJCUTRTV1IxVERhV3VWcFk1TlZfdV9haDdHNGFNeGdfa3hrNkthSExRZF9ZTjFjT0k0UTF4T0liVUxzbjZGNGhxcWJLdUt2VWY4VnRXLTVET0ZIT1ZxZk9kV1VEYjdUeXlidkstNGk2S1U1UmpHaW1aekt4ekdjLXgzdFB2c0tmUHFqMkdiZmfSAZMBQVVfeXFMUEJqTDEyQlE0U1dSMVREYVd1VnBZNU5WX3VfYWg3RzRhTXhnX2t4azZLYUhMUWRfWU4xY09JNFExeE9JYlVMc242RjRocXFiS3VLdlVmOFZ0Vy01RE9GSE9WcWZPZFdVRGI3VHl5YnZLLTRpNktVNVJqR2ltWnpLeHpHYy14M3RQdnNLZlBxajJHYmZn?oc=5",
-      "published": "Thu, 10 Sep 2026 03:00:00 GMT",
-      "title": "Bank of Korea flags AI investment peak this year, likens Nvidia finance to dot-com - CHOSUNBIZ - Chosunbiz"
+      "link": "https://news.google.com/rss/articles/CBMijgFBVV95cUxONlp4Rl9faUtrZXNUcV9jSkNaU0U4NTU0Yl9ReTBHRlpyd3VlWnB4cl93OVdXYzN0N2pMQVNVX3RXQjZrR2VrVUp2MUhzdUZPR1ljcFpfVUNKeFFPcnJsUHROcE5pRlVKLVZoMlZ6THpFYnFjN0I1OEwzeE5ZcXdvVXpublowTEtjZDNkMGx3?oc=5",
+      "published": "Thu, 10 Sep 2026 15:53:33 GMT",
+      "title": "Bank of Korea Warns Faster AI Investment Slowdown - 조선일보"
     },
     {
       "bp_hint": null,
@@ -55,10 +55,10 @@
       "entity": "Oracle",
       "link": "https://news.google.com/rss/articles/CBMibkFVX3lxTE1BQUpqejE1Z1ZIYnlvMXdUZU5qMGd5ZmxNaVkwZ0Z0cTh0bW5uWVZTTFJmS05TQ2M0VWtBU1BrSl9wWnBrRmJudUQwdmxicEJub3Q5QV96aEhYYlJCVUhFNElKX215STd2ZGNhZnJ3?oc=5",
       "published": "Tue, 08 Sep 2026 14:04:35 GMT",
-      "title": "Oracle stock hits new lows amid credit downgrades and AI investment scrutiny - Pluang"
+      "title": "Oracle stock hits new lows amid credit downgrades and AI investment scrutiny - pluang.com"
     }
   ],
-  "candidates_date": "2026-09-13",
+  "candidates_date": "2026-09-14",
   "entities": [
     {
       "asof": "2026-09-11",
@@ -4243,7 +4243,7 @@
       "type": "proxy"
     }
   ],
-  "generated_at": "2026-09-13T09:08:26+09:00",
+  "generated_at": "2026-09-14T09:20:59+09:00",
   "macro": {
     "asof": "2026-09-10",
     "bbb_oas_bp": 98.0,
