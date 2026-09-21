@@ -1,7 +1,106 @@
 {
   "asof": "2026-09-18",
-  "candidates": [],
-  "candidates_date": "2026-09-20",
+  "candidates": [
+    {
+      "bp_hint": null,
+      "entity": "Anthropic",
+      "link": "https://news.google.com/rss/articles/CBMioAFBVV95cUxQOWNRYTJDZjBya0tzUlBncmkzX0ZUWF9iWFdpZmFVWnA3ZXQ0bXp2SENoM0NhSm1jcjdhR3JoNjFoanJCWmJWYS14YXVybGVDTDJWRGVsc01kWEhFcXhoR3h6TURod0ZkYkpnS1lJOTg3RzdSSmlSMWhRdjd0Q0hQTmw5ZjRPY2RWNzk2OHE1RE8xdmxJR1FheVVYajNsYTg2?oc=5",
+      "published": "Thu, 17 Sep 2026 17:46:21 GMT",
+      "title": "An Inflection Point? OpenAI And Anthropic Cry For Uncle Sam - Seeking Alpha"
+    },
+    {
+      "bp_hint": null,
+      "entity": "Nvidia",
+      "link": "https://news.google.com/rss/articles/CBMivgFBVV95cUxQUjUtaE80Q29ld0pOMS1HYjlXbEYwMmRqWHlGei1aSXdHMHI5cnRJS2NkMEx1YlVPQnY2cjFkZmN0My1ueVBqd1hqQkpqQ2djNElpLUxxRWxLdWNVZnNuV1d3cmRiRXB0cGhnMFp5M1JTeEFSMjJBUXozT2tXUUxRZGFWNElZMDVDbEVka3ZHNXRFTnBmS0xzNTM3WXZxdFZVbGpjSmhRNjVqQlJuclROOEdGSmJiTTk0bXdrbW93?oc=5",
+      "published": "Wed, 16 Sep 2026 13:24:13 GMT",
+      "title": "AI Chips Are the Most Crowded Trade: Watch Their Customers’ Debt - TradingView"
+    },
+    {
+      "bp_hint": null,
+      "entity": "Nvidia",
+      "link": "https://news.google.com/rss/articles/CBMi7wFBVV95cUxOcGprYTlralFxcWpVNXlpWFI4OUEtUmM2MDgtNDlQSEtDSmFwWWk1bm8zcXpRVkZQb2x5OUZFN21xWnh5NzAtdlNnN1lreVU4WkMtdjdNMTVnNXEyeHQ0RTIxWldqdGFpSGFrSGlMYWVURkhWcDNSbXFMZXhFNHZjVUFFQ3pGck1zektBNFZyRWlkRmMtMHYtQkRzRUhzQi1sVUNpRDY4Y0Y1SDkwT2JEYXVWdGNPUUhrMzl2OC1BY3cwSGlrOEltS0w2LVBITWQxWTFfV0FqYS1ZQjdlc2ZSYjFFRWI2NDloRENxaXo0MA?oc=5",
+      "published": "Thu, 17 Sep 2026 13:09:00 GMT",
+      "title": "Warren Buffett Is Sounding Off on Market Risk and Investors Should Listen - The Globe and Mail"
+    },
+    {
+      "bp_hint": null,
+      "entity": "Nvidia",
+      "link": "https://news.google.com/rss/articles/CBMigwFBVV95cUxQMzFURjY5eXdGajVaeVRNTlNydG1saXlJSEtXeWxEcjJEc2VheFhfYTFiNVp5VmtjOHhzYWx3Y25xU1k5aUswRWpzRDBTdkNZZ2dsd05yazV3V3dPb281eXMwazZBb0JSNmp4di1PSENKVnBnUHN0VW5QakJja3kzTDRLdw?oc=5",
+      "published": "Wed, 16 Sep 2026 00:37:37 GMT",
+      "title": "What is CoreWeave’s value proposition, really? - Blockspace Media"
+    },
+    {
+      "bp_hint": null,
+      "entity": "Nvidia",
+      "link": "https://news.google.com/rss/articles/CBMi1gFBVV95cUxOZzdiZ2xjQUZ1bjlrb0RpdWRxaGtXR0xWQWJ4WHF0X1NTb2YtYnZubC1CLVR2WHBoM1FtaTBUNDFkclFWVzAzMWxjRFFaNnd4SDhPUVUyYXdtRi10czJQaFJ2UGhROVZhRXFhVVRSN1UxQlFVTGc1OC1hRmFjRHhGcVdpUHVxNnZPb2xRMWZncXQzNGNQNjRzYm1TSHJ3b3BsS2R0VWNiUWJyTXZESjc2emJlcngwOTluOGVNUUdSNGZLcDNDb3FWcUFHZmNBeWVmdWdZRVJR?oc=5",
+      "published": "Thu, 17 Sep 2026 17:16:00 GMT",
+      "title": "Why Oracle Stock Jumped 6% Today on OpenAI Funding Buzz - The Globe and Mail"
+    },
+    {
+      "bp_hint": null,
+      "entity": "OpenAI",
+      "link": "https://news.google.com/rss/articles/CBMihwFBVV95cUxPelJYMkNESEQ2dVNPSFZVaElDZ2VPSE1sOWFJLVgyRFdhYUhkazAtMk9jLTRNWWJ2ZHpnY1U0RTFjRjllVG8wN3RzeEEwYmhrMzRNSWFwQU9abmxzTnZRMjNoNmdLdlZ1SFhpTmtJSTdPeU9wd2JfVWF3MXR2czdrWDlZSjFwU0k?oc=5",
+      "published": "Mon, 14 Sep 2026 19:36:46 GMT",
+      "title": "AI Boom Risks: Prepare If Optimism Falters - 조선일보"
+    },
+    {
+      "bp_hint": null,
+      "entity": "OpenAI",
+      "link": "https://news.google.com/rss/articles/CBMiXEFVX3lxTE5kLWFnVnNkZmpjTF92LWM2cnNGRjh3TzBna0ItbG1RWGY1NlZibTZ5ZkJNV2huamwxNXU2SXRiU0VISDlpOGwzRE1vOTAwRkVaTHNaaF9vWVlRQ0R5?oc=5",
+      "published": "Fri, 18 Sep 2026 09:26:54 GMT",
+      "title": "AI Giants Suddenly Call for \"Slowing Down\": Behind Regulatory Anxiety, the Real Turning Point May Be a Funding Shortage - 深潮TechFlow"
+    },
+    {
+      "bp_hint": null,
+      "entity": "OpenAI",
+      "link": "https://news.google.com/rss/articles/CBMixAFBVV95cUxORUJLa1pObzdKN1EtRFZCOGlnYnJ4aGRLQUl3RVdfQTV6alUtVER2SDVSZmNudFBaQkhGVXRqcFZNSXROQml6YnpGcEpfaERwazV3RjY2dEs1c1N2S2g2QzYyTzlvU2hFX1lJVzJvNFh5X3lUcmJMemN6a3pvZktrbUtIMDNUYWluT0xzNFQwMEVoMFpHMVVMN3NlSzVCUUJ1Q3h3d3NYVURQM0U3UEltdkEtSmowVVJGZHJiNmJjR1dSWWMz?oc=5",
+      "published": "Tue, 15 Sep 2026 19:51:47 GMT",
+      "title": "Oracle faces pressure on data center costs and OpenAI exposure - scanx.trade"
+    },
+    {
+      "bp_hint": null,
+      "entity": "Oracle",
+      "link": "https://news.google.com/rss/articles/CBMijwFBVV95cUxQVHFuM0hpcUJLV2FhbDhMLVZlc3lNTmVwQ1draF9acVE0RHZwWFlnNjZDNWtsQ3QxT3lrY0d0ZER5RHlkRHhubGlVbkxoVGxFWU5sVDA0Z1otQXRiMF9yb1c4d3Z0S3Q2QnZVdjE1NHh2NWNxdEd5T2tBVS1rblliRXplaGtuNDF5UjRjNU5XUQ?oc=5",
+      "published": "Fri, 18 Sep 2026 20:05:21 GMT",
+      "title": "Apollo Just Flashed Yellow on Hyperscaler Debt - Money Morning"
+    },
+    {
+      "bp_hint": null,
+      "entity": "Oracle",
+      "link": "https://news.google.com/rss/articles/CBMiekFVX3lxTE9HNFVsMUxoYXUzeUF1bmpiVjJ5VHM1ZllueG1aRjZiUHFmNDZ3ZUhuNGE2STRGQlhmRzVrUTVjU1Y5WFl2WFB6emFVVkw0NjJ1Q0RfamJubk1Id3lDZUg3UzlDUmJvWXBWSmpyaWY0SkdDYnBsM1BGMjVB?oc=5",
+      "published": "Tue, 15 Sep 2026 12:10:39 GMT",
+      "title": "Oracle: OpenAI Could Walk Away (NYSE:ORCL) - Seeking Alpha"
+    },
+    {
+      "bp_hint": null,
+      "entity": "Oracle",
+      "link": "https://news.google.com/rss/articles/CBMipAFBVV95cUxPSDF6WXpBNzdWNDBlVVlTX09ObEVVd1NIb2w0SUxCY0lTRzdlOFZlT0tkQlRmTmpjcVN1dFFkV2tiTHR4MWQwcGd2Rkd5WkhuaGdHUU9NNUp5SnlaU1VyVzVGN25ITE1Nd2FvTHg1SVdsTTNELUxVdlZZY2lWRUJWZUlEQkh4QXBBZUJJbUp3bjFHd1U1NTM2bUVEaXRXZWt1dzFuWQ?oc=5",
+      "published": "Fri, 18 Sep 2026 08:32:00 GMT",
+      "title": "S&P kept Oracle investment grade. Its own numbers don’t support that call. - Fortune"
+    },
+    {
+      "bp_hint": null,
+      "entity": "Oracle",
+      "link": "https://news.google.com/rss/articles/CBMitwFBVV95cUxNSDlSa0d6Z183T0s3dGdySGctSFVtVGozVXM0MVZBQTBNb3Vzc3dvOW1FQWxUcnJTSi1NeXhxYWhjNXBpZEhVWnZSSy1vZF9Kbi1wNGpNVGpBRUNNTEFmNXBvRnRrb0xGU3RYNXhJNllNMUVuSDhVMGJWTjBjYklJaEJkNEw5UnhVV0V5YVBqTGxZM3VWMS1YNlloOWdXU0VpazA2Mm8zUFRzRzdlV2dQRk10cVl0aUk?oc=5",
+      "published": "Wed, 16 Sep 2026 13:24:13 GMT",
+      "title": "Wall Street's Favorite AI Trade Is Also Its Top Credit Fear - Oracle (NYSE:ORCL) - Benzinga"
+    },
+    {
+      "bp_hint": null,
+      "entity": "Oracle",
+      "link": "https://news.google.com/rss/articles/CBMilwFBVV95cUxNb0xMcDA4VlZhaVFnVzFneTdpbWZoYWdaZFhVaUs0d0JTZTBjNzI0SGJYVTdmSEJkOHNCVFBHMGRtWk1OTlByQnNadFJodUFFaERXdlViVnB6RHZHT0gybGtXZFJtdmF5R2NYdHFZeDBoWTBTeGxiblJUQWMtWDVsS3NGUW83UEdxelFNMTcxT1RGZGJDSXhj?oc=5",
+      "published": "Thu, 17 Sep 2026 17:56:00 GMT",
+      "title": "Why Oracle Stock Jumped 6% Today on OpenAI Funding Buzz - The Motley Fool"
+    },
+    {
+      "bp_hint": null,
+      "entity": "Oracle",
+      "link": "https://news.google.com/rss/articles/CBMilAFBVV95cUxOUFg4cENGcGFrTkhudnVBb3lWNGhLTHNxb2VDZTdVQ2lYSU5EajNvT3hxYU9DSWcybUNjSnVxdWhhODJSeGVod00zWnN3NTNOQ1pVVFJUSkpDZWFPeC1hQjc4bDhpTjNxR0h4MUFneHBEanRNbEJCR1JkZWNUWGtGaWE0T0NuUzdldHliU2xaRmpEYmtK?oc=5",
+      "published": "Thu, 17 Sep 2026 17:16:51 GMT",
+      "title": "Why Oracle Stock Jumped 6% Today on OpenAI Funding Buzz - Yahoo Finance"
+    }
+  ],
+  "candidates_date": "2026-09-21",
   "entities": [
     {
       "asof": "2026-09-18",
@@ -4206,7 +4305,7 @@
       "type": "proxy"
     }
   ],
-  "generated_at": "2026-09-20T09:16:51+09:00",
+  "generated_at": "2026-09-21T09:24:57+09:00",
   "macro": {
     "asof": "2026-09-17",
     "bbb_oas_bp": 95.0,
