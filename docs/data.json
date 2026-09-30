@@ -1,12 +1,33 @@
 {
-  "asof": "2026-09-28",
+  "asof": "2026-09-29",
   "candidates": [
     {
       "bp_hint": null,
       "entity": "Anthropic",
-      "link": "https://news.google.com/rss/articles/CBMioAFBVV95cUxQUzR6V0l3YnROdURhWmtwbW9PSjFJLTdGSHo0RXJEZFlRX2Y0R2NsOGx0NlpmbU9OdGdrY21CSFJ5RnFXYzlZSUc2c29LMGV3R1JaQmVoVjRwVDNHNkI0Z0tZZ3hSNmM2UTJFTWhpMFl1RWU4NXU2MkJIbEFFRVRGYUdjSE5FRzB3YzNiNEROY3dRX3dtWFpGOTFzYXVVZkN2?oc=5",
-      "published": "Wed, 23 Sep 2026 19:51:57 GMT",
-      "title": "Breakingviews - COMMENTARY: Anthropic’s IPO is a crucial AI gut-check - Reuters"
+      "link": "https://news.google.com/rss/articles/CBMimAFBVV95cUxPS010ajcyLWhrMUxXbzhtbk9FYXJUSVZ2a3JsUW9JRkxOVmItOHhMYjJDSTBXd1o0MU1rOHpyVHJYODlhbVY5TC1mVUsyOFpOZmx2S04tTGtNX0kyS0FtdXhnNnB5TF8zejJkVGJrZTh4cUFabXlMLVhiVzdVVHc3MHlqUGhmUW1KSnh6Rk05SG5IaU85YUtfNA?oc=5",
+      "published": "Mon, 28 Sep 2026 17:00:01 GMT",
+      "title": "AI: Substantial Cracks Have Formed Around This Bubble - Seeking Alpha"
+    },
+    {
+      "bp_hint": null,
+      "entity": "Anthropic",
+      "link": "https://news.google.com/rss/articles/CBMipwFBVV95cUxOUmk4SzhITXVZV2NWZmJJdzNqUjJKa2V2SzhKYXE1UjV0UDhGZjBxTGVGVXdVVVllcklIUFJPUnJZdDVNOUdERjVmc2hjcGszdzhMcDBKaUpFUk5rOThXal8tVzEwN0x6aUFvcTdMaFF6QmhtU3JsRXkzdjhTZHRpeFdtS05Ub3NUVzlub0JJSXFhd0tXZUFLbU5YZ0pXbjhDLUM2bHVYZw?oc=5",
+      "published": "Thu, 24 Sep 2026 06:25:57 GMT",
+      "title": "Anthropic’s IPO is a crucial AI gut-check | Reuters - Breakingviews"
+    },
+    {
+      "bp_hint": null,
+      "entity": "Nvidia",
+      "link": "https://news.google.com/rss/articles/CBMijwFBVV95cUxON1VLbHhaclBTajY4VGRvNV9Bb3hKNjliYmM0LTNLWFFNNXNHVENBby1nVzM2WFhYc19aN01aT2VuUk9OMGptb09rQ0EzTWZ6UXZHZmhJcFRTa1lCMFlWMlE2cVRteGRkVTd1dDZfdDRYT3ZVMlVuT09mbmJINzZMSEtsSi1KcUlhREJZT1JPdw?oc=5",
+      "published": "Sun, 27 Sep 2026 13:55:00 GMT",
+      "title": "AI Stocks May Be Whistling Past The Graveyard - Seeking Alpha"
+    },
+    {
+      "bp_hint": null,
+      "entity": "Nvidia",
+      "link": "https://news.google.com/rss/articles/CBMingFBVV95cUxNMkFQckM2cUdaaGo2U3AzUDNLQTVteWZTNmV0MGhXdFlMaXlrRG5zU2tiT0tHTC1GNVc4Y0FZQVJLdk1nUFFCSzFvMlhFMEk3MERNR1U2MTVvVTdjT1pJNkhDZUJ4em40ckRJNDE1UWVKeUZ3SzRSZTRYbmd2OGI1SDRKcUo3N1otRWlRVWRic2lpUUxIaVJPa0R6ZEVjZw?oc=5",
+      "published": "Tue, 29 Sep 2026 13:23:27 GMT",
+      "title": "Are AI credit cracks a warning, or a ‘buy’ signal? - The Globe and Mail"
     },
     {
       "bp_hint": null,
@@ -39,23 +60,16 @@
     {
       "bp_hint": null,
       "entity": "OpenAI",
+      "link": "https://news.google.com/rss/articles/CBMipwFBVV95cUxNNWVKd21LTkExUFZlcHhTRldRSXN1emVfOTZDRWtWT1I5aVcyOUtwU0VodDJOLWpGQS1iV1BmR1llRDZvWThYYUlMaTlVckd4TFVpcHptNkhFV1NrY2ItdWNiSnN0S1pfekhGWm12SE53U0V3QjliNlZNRWlDVWJzbnJ1S1N2OGdpaU5MajlrZHRaeFRaUGRXNjBtQnJ5NXZVQWhDT0JvWQ?oc=5",
+      "published": "Tue, 29 Sep 2026 16:49:44 GMT",
+      "title": "3 Key Members Of The AI Ecosystem Continue To Send Up Red Flags - Seeking Alpha"
+    },
+    {
+      "bp_hint": null,
+      "entity": "OpenAI",
       "link": "https://news.google.com/rss/articles/CBMiY0FVX3lxTE1LU3hVdjRrdFlMaWZSZHItQzdKNi1DaElYTUZOemI1Z2dObHVCU2M5SG0zRktfclB3WE9DNDZmaHZQR1c0ZmRXemV3aUt6dWN5ZUNVd3Z0SlpaY1pSaXZkUjgyaw?oc=5",
       "published": "Thu, 24 Sep 2026 11:01:04 GMT",
       "title": "Morning Bid: Bonds bomb - WTVB"
-    },
-    {
-      "bp_hint": null,
-      "entity": "OpenAI",
-      "link": "https://news.google.com/rss/articles/CBMizAFBVV95cUxNUzZSd2xCWDZDcGJCU1lkSXlKQl9NdnE1d3hqQ0pOaW9YaEZ2bEVYSzJuX0IxRDg0bHFveWRuSHAyM1c4b2xoX3gwdWxKNFdPNENnNFE0a0txYjRkdmF6US1veUg1RTNpWjI2andLeERTMktUZ3pnQ3hBOXg0NFN6Mmx0RTJLYmZaU0xGQWFYNWpsZF9KdlFwM040cEF0WkRmYUtZdnNOQmFvTmVZYks4V3ZtTmVhaGlCSUJndU11VkxiNG5KMXlHZ0t1UWE?oc=5",
-      "published": "Mon, 28 Sep 2026 10:20:53 GMT",
-      "title": "Oracle: Here's How Badly The AI Trade Could Go (Rating Downgrade) (NYSE:ORCL) - Seeking Alpha"
-    },
-    {
-      "bp_hint": null,
-      "entity": "OpenAI",
-      "link": "https://news.google.com/rss/articles/CBMinAFBVV95cUxQYnZXOC01SDl4SnpqYkcwRzMyQXNLVnFsZkZqc2VsdUpyS3hGRThVUmxhdGNkTk55V2tuY1dIVi1qaFVuUHFJeDNNLTZaVXF6SUpfXzNRSlVXeU5rdHk4S281YTFuZzY1RWNKajlIeWJhOFYwb3gwbHNBQ1lmcGtBSnktd1JURzM0d1paYVB0Zkpzam5NWVpETWJwNTc?oc=5",
-      "published": "Thu, 24 Sep 2026 10:40:02 GMT",
-      "title": "SoftBank Issues $11.1 Billion in Bonds to Fund OpenAI Investment - CXO Digitalpulse"
     },
     {
       "bp_hint": null,
@@ -67,23 +81,23 @@
     {
       "bp_hint": null,
       "entity": "OpenAI",
+      "link": "https://news.google.com/rss/articles/CBMivwFBVV95cUxQT045TGFuMGRUb2xhMDRTWTI5X2tyRWZzc0oxd0NmcVI1cHVpYllReFoyRWZ3ak9LSjAtRmUxakxhdG1uZDg1Wk5tT29zZXNhbFRSU2N5SGJNX3JNSmNoa3VtYXdtN3QxcS04ZVVyVWdGVlNUSDRhWkZYTjhTeV9oRHRocExJa2NCaGItUmVCNDAxMFNjQ0hyampQOVBZX2FCX1lzZ1dZYlU1R0RTQldLSk56ODdoUEZTUHd2QWVWOA?oc=5",
+      "published": "Thu, 24 Sep 2026 00:13:00 GMT",
+      "title": "SoftBank Raises $11.1 Billion in World's Biggest High-Yield Corporate Bond Sale - US News Money"
+    },
+    {
+      "bp_hint": null,
+      "entity": "OpenAI",
       "link": "https://news.google.com/rss/articles/CBMitAFBVV95cUxNeldGcjFrNndNWHBkZ3ppV1hNSklkU3BNWGw5ZWFZQ1VyMWptRmJTN2pEMVBfUVFoLU0xOUhaUVN4VVR3RTNKeXNySkFGZ2tsRWVLRkY0SnhTdDUwcTZwWS1PYVBPdklXN0NLd1phMEt6Uzc3blZleGxGYUh0ZmhLY1RVREJxcE5VNFBsenVhcXpnV0R2WGVXWk9uUGdvT3BRSVRDVFFZSk1aZl92ZGxwSG1sbWg?oc=5",
       "published": "Thu, 24 Sep 2026 09:12:46 GMT",
       "title": "SoftBank raises $11.1 billion in world's biggest high-yield corporate bond sale - Reuters"
     },
     {
       "bp_hint": null,
-      "entity": "Oracle",
-      "link": "https://news.google.com/rss/articles/CBMijwFBVV95cUxON1VLbHhaclBTajY4VGRvNV9Bb3hKNjliYmM0LTNLWFFNNXNHVENBby1nVzM2WFhYc19aN01aT2VuUk9OMGptb09rQ0EzTWZ6UXZHZmhJcFRTa1lCMFlWMlE2cVRteGRkVTd1dDZfdDRYT3ZVMlVuT09mbmJINzZMSEtsSi1KcUlhREJZT1JPdw?oc=5",
-      "published": "Sun, 27 Sep 2026 13:55:00 GMT",
-      "title": "AI Stocks May Be Whistling Past The Graveyard - Seeking Alpha"
-    },
-    {
-      "bp_hint": null,
-      "entity": "Oracle",
-      "link": "https://news.google.com/rss/articles/CBMikgFBVV95cUxPcDVNZXFGVjREaTVzWUp4STd6ajBpQnhzT1FXNzByYjRhSzdtNy1VVkgyamZwbXROYWZET3plYU90Rk9qQ2lwWm9YMUVQc2x6eUhoWVBVa0xySWs1akJBcU4tZlIwaWV4UzBjRHNzZHlxbHlzZHJUNXM4ZXJuTTNJU2dWam9jX0lFdEVnVTdHYm9ZQQ?oc=5",
-      "published": "Tue, 22 Sep 2026 19:33:40 GMT",
-      "title": "How AI Debt Issuance Is Reshaping the Corporate Bond Market - ai-cio.com"
+      "entity": "OpenAI",
+      "link": "https://news.google.com/rss/articles/CBMikgFBVV95cUxQNklPYkVQZWRzYnl6V3czY2puOFBXdDhLanhPSlk4ZUxITzl0SzhXU0t0NjBGTGFWZHdRS1ZQOHBJWFJTN25oS2FHTXhFMzFHbEtHdFRqZnMySHJNNjVUdGtNNTIxYjgzRGp1aHJJb1NfSEE4UEZzeVlEV2xhNnFhZENoX1kxQm1KTHNENHMwaEZQQQ?oc=5",
+      "published": "Thu, 24 Sep 2026 12:45:58 GMT",
+      "title": "SoftBank's $11.1 Billion Bond Sale and the Structural Logic of Funding Private Equity with Public Debt - FourWeekMBA"
     },
     {
       "bp_hint": null,
@@ -95,6 +109,13 @@
     {
       "bp_hint": null,
       "entity": "Oracle",
+      "link": "https://news.google.com/rss/articles/CBMirwFBVV95cUxOYmtsVTBESkdpd2R4UFlOZzNwdGlhclpJckd4VU5DbzU4d2xkX2VuV3ZZMGNYQ3dsWnZGS2FZX0N1Q0lObjE5b0FlS1p6UThwZDRTRW01aXJWZEhtN21SLWxxWmtBckpDZHpVR2t3Wnp1Um8ya1d3dnlJZUYtTzJZNUpaaU1mdXNJUmx5SFZwdEROSHlZVlQ5ZlZDaDVwaDFVczFGRlJmUmJFNUhLRkp3?oc=5",
+      "published": "Tue, 29 Sep 2026 18:01:43 GMT",
+      "title": "Oracle Stock Fell 8% This Week on Data Center Delays. Here’s Why OpenAI’s Growth Matters - TIKR.com"
+    },
+    {
+      "bp_hint": null,
+      "entity": "Oracle",
       "link": "https://news.google.com/rss/articles/CBMicEFVX3lxTE5hc2JMYmNBQUd0RVl4c01xd0dtbllXQTBNZ1hVRm0yOUFNOHR5OXlfeDVCQlFIUFFENlljenBiMXJ1M1FUdUVXU3ZPUUMtVTBMLWZ1a0hGT0NMUkxDUUxlSnVxeHNTWFVXRkdrRElyY2w?oc=5",
       "published": "Thu, 24 Sep 2026 17:20:10 GMT",
       "title": "Oracle feels the force - Financial Times"
@@ -102,9 +123,16 @@
     {
       "bp_hint": null,
       "entity": "Oracle",
+      "link": "https://news.google.com/rss/articles/CBMipwFBVV95cUxQYnhFa3hWMm80ekN1bndfdUktTTJ2ZFdIdk90UmNmekVxd2xHcHpGUnd4VkYtenZ3Slh1QWFSU2J0djRiaEduak50Y2JoOGFLS0hsY05kbnVtWVBJdWgwd000Y2JOOTVtMmJiOU1kMGRHZWdWUVhuM2VTWGpMZV9fQ1A0Sk03M20yUTRJZTJaWWwtOW53UFkyWGE2Q1pLSzFVUk41aVpkTQ?oc=5",
+      "published": "Mon, 28 Sep 2026 10:20:53 GMT",
+      "title": "Oracle: Here's How Badly The AI Trade Could Go (Rating Downgrade) (NYSE:ORCL) - Seeking Alpha"
+    },
+    {
+      "bp_hint": null,
+      "entity": "Oracle",
       "link": "https://news.google.com/rss/articles/CBMiaEFVX3lxTE5BSXpIVWtIQ05XallfWVF6RG94bXRrQ0NmRXdwWHdFaW1ERGtITVhra0lFU2lFN1RWVXhVekZLZE5WcFpnd0xsN0NudWJ2eXVlTFJzN0U3UGFTeXFKZlpLRmFJN3FKMmlv?oc=5",
       "published": "Fri, 25 Sep 2026 11:24:31 GMT",
-      "title": "The AI borrowing binge is back in the spotlight - Axios"
+      "title": "The AI borrowing binge is back in the spotlight - axios.com"
     },
     {
       "bp_hint": null,
@@ -114,10 +142,10 @@
       "title": "What Could Pop The AI Bubble And Which Stocks Stand To Lose - Forbes"
     }
   ],
-  "candidates_date": "2026-09-29",
+  "candidates_date": "2026-09-30",
   "entities": [
     {
-      "asof": "2026-09-28",
+      "asof": "2026-09-29",
       "basket": {
         "ORCL": 1.0
       },
@@ -154,13 +182,9 @@
         "ytd_high": 215.0,
         "ytd_low": 145.0
       },
-      "csi": 61.3,
-      "csi_5d": 55.0,
+      "csi": 65.7,
+      "csi_5d": 52.2,
       "csi_hist": [
-        [
-          "2025-09-16",
-          36.6
-        ],
         [
           "2025-09-17",
           37.9
@@ -1195,17 +1219,21 @@
         ],
         [
           "2026-09-28",
-          61.3
+          65.4
+        ],
+        [
+          "2026-09-29",
+          65.7
         ]
       ],
-      "csi_prev": 58.8,
+      "csi_prev": 65.4,
       "key": "oracle",
       "name": "Oracle",
       "note": "AI 부채 공포의 대리지표. IG 지수 최대 비금융 발행사.",
       "type": "traded"
     },
     {
-      "asof": "2026-09-28",
+      "asof": "2026-09-29",
       "basket": {
         "NVDA": 1.0
       },
@@ -1242,13 +1270,9 @@
         "ytd_high": 82.0,
         "ytd_low": 42.0
       },
-      "csi": 11.8,
-      "csi_5d": 29.7,
+      "csi": 16.5,
+      "csi_5d": 27.6,
       "csi_hist": [
-        [
-          "2025-09-16",
-          12.9
-        ],
         [
           "2025-09-17",
           12.0
@@ -2283,17 +2307,21 @@
         ],
         [
           "2026-09-28",
-          11.8
+          15.8
+        ],
+        [
+          "2026-09-29",
+          16.5
         ]
       ],
-      "csi_prev": 17.0,
+      "csi_prev": 15.8,
       "key": "nvidia",
       "name": "Nvidia",
       "note": "대차대조표가 아닌 벤더 파이낸싱·보증이 스프레드를 움직인다.",
       "type": "traded"
     },
     {
-      "asof": "2026-09-28",
+      "asof": "2026-09-29",
       "basket": {
         "CRWV": 0.6,
         "ORCL": 0.4
@@ -2311,8 +2339,8 @@
         "ytd_high": 855.0,
         "ytd_low": 855.0
       },
-      "csi": 50.0,
-      "csi_5d": 51.5,
+      "csi": 54.5,
+      "csi_5d": 48.8,
       "csi_hist": [
         [
           "2025-10-16",
@@ -3264,17 +3292,21 @@
         ],
         [
           "2026-09-28",
-          50.0
+          54.0
+        ],
+        [
+          "2026-09-29",
+          54.5
         ]
       ],
-      "csi_prev": 48.9,
+      "csi_prev": 54.0,
       "key": "openai",
       "name": "OpenAI",
       "note": "단일종목 CDS 없음. 컴퓨트 파트너(CoreWeave·Oracle) 크레딧으로 전가.",
       "type": "proxy"
     },
     {
-      "asof": "2026-09-28",
+      "asof": "2026-09-29",
       "basket": {
         "AMZN": 0.3,
         "GOOGL": 0.7
@@ -3292,13 +3324,9 @@
         "ytd_high": 67.0,
         "ytd_low": 67.0
       },
-      "csi": 31.6,
-      "csi_5d": 21.2,
+      "csi": 35.6,
+      "csi_5d": 22.3,
       "csi_hist": [
-        [
-          "2025-09-16",
-          20.6
-        ],
         [
           "2025-09-17",
           21.0
@@ -4333,26 +4361,26 @@
         ],
         [
           "2026-09-28",
-          31.6
+          35.6
+        ],
+        [
+          "2026-09-29",
+          35.6
         ]
       ],
-      "csi_prev": 33.8,
+      "csi_prev": 35.6,
       "key": "anthropic",
       "name": "Anthropic",
       "note": "단일종목 CDS 없음. 리스 백스톱 제공자(Alphabet·Amazon) 크레딧으로 전가.",
       "type": "proxy"
     }
   ],
-  "generated_at": "2026-09-29T11:11:15+09:00",
+  "generated_at": "2026-09-30T10:25:27+09:00",
   "macro": {
-    "asof": "2026-09-25",
-    "bbb_oas_bp": 99.0,
-    "percentile_2y": 0.328,
+    "asof": "2026-09-28",
+    "bbb_oas_bp": 102.0,
+    "percentile_2y": 0.597,
     "series": [
-      [
-        "2025-10-01",
-        97.0
-      ],
       [
         "2025-10-02",
         96.0
@@ -5388,6 +5416,10 @@
       [
         "2026-09-25",
         99.0
+      ],
+      [
+        "2026-09-28",
+        102.0
       ]
     ]
   },
