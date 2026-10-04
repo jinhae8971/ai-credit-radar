@@ -1,5 +1,5 @@
 {
-  "asof": "2026-10-01",
+  "asof": "2026-10-02",
   "candidates": [
     {
       "bp_hint": null,
@@ -25,6 +25,13 @@
     {
       "bp_hint": null,
       "entity": "Nvidia",
+      "link": "https://news.google.com/rss/articles/CBMihAFBVV95cUxQV050Z01aSHN0LVJ6NXg3MmJhekJZUWZmQl9RYkpVZXRNbkV0aGswaGtfbjBRcjFpNk10M21yd0NnSkEyR3ZTYjJwY05hOE9mNm5rZldnMHNQX0FhX2FkNENiR25NWTF1X2JGZUUxazFxajZTWldtYWlLQWdfMlZpdVNhUGI?oc=5",
+      "published": "Mon, 28 Sep 2026 20:31:24 GMT",
+      "title": "Rising Rates Put The Stock Market Back on Alert - Mott Capital Management"
+    },
+    {
+      "bp_hint": null,
+      "entity": "Nvidia",
       "link": "https://news.google.com/rss/articles/CBMiggFBVV95cUxPQTl6UFVZRmVHSUo3QTZfTlpjSHZhbHRjUy1qTWFHT2pqRE42X3E1TGxTeWRxX3ZZQ1FIdVp0b2pRenktdEhReVNSLUZTVkFwRHB4TXlJbFJlMGpYYllZMkxWZ01HUWMxSGh0VGVjbERGZzhXZXkxSkNpLXRRSTQzeWlB?oc=5",
       "published": "Thu, 01 Oct 2026 16:45:04 GMT",
       "title": "Rising Treasury yields and inflation prompt rea... - Pluang"
@@ -46,9 +53,9 @@
     {
       "bp_hint": null,
       "entity": "OpenAI",
-      "link": "https://news.google.com/rss/articles/CBMiqAFBVV95cUxNYWVNX3lMQnBRZnpTNjIxcXA4N3JvUG5fSExFUi1DazZwZmZfU2huYW01NXg5Tk4yT1NVRGFYb1dNLURZdjZheGlYREdxNHJ2cXd5NG9nRkFXUm5MdmlvWmlzV3M0T0ZzYlhIR29rYUlWS3Y1a2ZiTG1TR2thUXNHV0NwVXhBRzJzNTF1dXY1SkhKazBESjM1NnNEQnFMcHU5SEs5VEtQQjE?oc=5",
-      "published": "Fri, 02 Oct 2026 04:25:23 GMT",
-      "title": "SoftBank jumped 4% then crashed nearly 6%: what changed in just 24 hours? - Invezz"
+      "link": "https://news.google.com/rss/articles/CBMiwwFBVV95cUxNSllhZC1Zc25EMWxZaE85TC1HTDNuUlhIek1qbGhiQW1GVmZZWnNlSmZPVmpJZld2TGdpVm4zcTBYODJIa0tjTGRQMm04eTllWHRCdXVfdWtFSmE3X2t2dGlYb01MSjFqMWV0T2xnYkNObUdRTjBxcUFXOFl0T2xRNi1SeURrQWxlNlBJVDZwbzBQVjI2MUV5ZVV2bnRVc2c0TW43OVQ0R3BNMFgtZ01GaGN2T3NSVnJrRmZiZEJNWUdpWE0?oc=5",
+      "published": "Fri, 02 Oct 2026 04:24:00 GMT",
+      "title": "SoftBank jumped 4% then crashed nearly 6%: what changed in just 24 hours? - TradingView"
     },
     {
       "bp_hint": null,
@@ -62,7 +69,7 @@
       "entity": "Oracle",
       "link": "https://news.google.com/rss/articles/CBMirwFBVV95cUxOYmtsVTBESkdpd2R4UFlOZzNwdGlhclpJckd4VU5DbzU4d2xkX2VuV3ZZMGNYQ3dsWnZGS2FZX0N1Q0lObjE5b0FlS1p6UThwZDRTRW01aXJWZEhtN21SLWxxWmtBckpDZHpVR2t3Wnp1Um8ya1d3dnlJZUYtTzJZNUpaaU1mdXNJUmx5SFZwdEROSHlZVlQ5ZlZDaDVwaDFVczFGRlJmUmJFNUhLRkp3?oc=5",
       "published": "Tue, 29 Sep 2026 18:01:43 GMT",
-      "title": "Oracle Stock Fell 8% This Week on Data Center Delays. Here’s Why OpenAI’s Growth Matters - TIKR.com"
+      "title": "Oracle Stock Fell 8% This Week on Data Center Delays. Here’s Why OpenAI’s Growth Matters - tikr.com"
     },
     {
       "bp_hint": null,
@@ -93,10 +100,10 @@
       "title": "What Could Pop The AI Bubble And Which Stocks Stand To Lose - Forbes"
     }
   ],
-  "candidates_date": "2026-10-03",
+  "candidates_date": "2026-10-04",
   "entities": [
     {
-      "asof": "2026-10-01",
+      "asof": "2026-10-02",
       "basket": {
         "ORCL": 1.0
       },
@@ -133,13 +140,9 @@
         "ytd_high": 215.0,
         "ytd_low": 145.0
       },
-      "csi": 62.1,
-      "csi_5d": 58.5,
+      "csi": 58.6,
+      "csi_5d": 58.7,
       "csi_hist": [
-        [
-          "2025-09-19",
-          35.6
-        ],
         [
           "2025-09-22",
           29.7
@@ -1175,16 +1178,20 @@
         [
           "2026-10-01",
           62.1
+        ],
+        [
+          "2026-10-02",
+          58.6
         ]
       ],
-      "csi_prev": 63.2,
+      "csi_prev": 62.1,
       "key": "oracle",
       "name": "Oracle",
       "note": "AI 부채 공포의 대리지표. IG 지수 최대 비금융 발행사.",
       "type": "traded"
     },
     {
-      "asof": "2026-10-01",
+      "asof": "2026-10-02",
       "basket": {
         "NVDA": 1.0
       },
@@ -1221,13 +1228,9 @@
         "ytd_high": 82.0,
         "ytd_low": 42.0
       },
-      "csi": 14.5,
-      "csi_5d": 30.0,
+      "csi": 12.7,
+      "csi_5d": 17.0,
       "csi_hist": [
-        [
-          "2025-09-19",
-          12.9
-        ],
         [
           "2025-09-22",
           9.6
@@ -2263,16 +2266,20 @@
         [
           "2026-10-01",
           14.5
+        ],
+        [
+          "2026-10-02",
+          12.7
         ]
       ],
-      "csi_prev": 15.6,
+      "csi_prev": 14.5,
       "key": "nvidia",
       "name": "Nvidia",
       "note": "대차대조표가 아닌 벤더 파이낸싱·보증이 스프레드를 움직인다.",
       "type": "traded"
     },
     {
-      "asof": "2026-10-01",
+      "asof": "2026-10-02",
       "basket": {
         "CRWV": 0.6,
         "ORCL": 0.4
@@ -2290,8 +2297,8 @@
         "ytd_high": 855.0,
         "ytd_low": 855.0
       },
-      "csi": 54.4,
-      "csi_5d": 52.1,
+      "csi": 52.0,
+      "csi_5d": 48.9,
       "csi_hist": [
         [
           "2025-10-16",
@@ -3256,16 +3263,20 @@
         [
           "2026-10-01",
           54.4
+        ],
+        [
+          "2026-10-02",
+          52.0
         ]
       ],
-      "csi_prev": 53.4,
+      "csi_prev": 54.4,
       "key": "openai",
       "name": "OpenAI",
       "note": "단일종목 CDS 없음. 컴퓨트 파트너(CoreWeave·Oracle) 크레딧으로 전가.",
       "type": "proxy"
     },
     {
-      "asof": "2026-10-01",
+      "asof": "2026-10-02",
       "basket": {
         "AMZN": 0.3,
         "GOOGL": 0.7
@@ -3283,13 +3294,9 @@
         "ytd_high": 67.0,
         "ytd_low": 67.0
       },
-      "csi": 38.4,
-      "csi_5d": 32.3,
+      "csi": 35.7,
+      "csi_5d": 33.7,
       "csi_hist": [
-        [
-          "2025-09-19",
-          18.4
-        ],
         [
           "2025-09-22",
           18.9
@@ -4325,16 +4332,20 @@
         [
           "2026-10-01",
           38.4
+        ],
+        [
+          "2026-10-02",
+          35.7
         ]
       ],
-      "csi_prev": 34.7,
+      "csi_prev": 38.4,
       "key": "anthropic",
       "name": "Anthropic",
       "note": "단일종목 CDS 없음. 리스 백스톱 제공자(Alphabet·Amazon) 크레딧으로 전가.",
       "type": "proxy"
     }
   ],
-  "generated_at": "2026-10-03T10:18:34+09:00",
+  "generated_at": "2026-10-04T10:50:08+09:00",
   "macro": {
     "asof": "2026-10-01",
     "bbb_oas_bp": 106.0,
