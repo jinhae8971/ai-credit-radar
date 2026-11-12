@@ -1,14 +1,38 @@
 {
-  "_readme": "5Y CDS 실측 관측치. 무료 실시간 피드가 없어 보도 기준으로 큐레이션한다. 새 수치를 확인하면 여기에 한 줄 추가하고 push 하면 대시보드/브리프에 즉시 반영된다.",
+  "_readme": "5Y CDS 실측 관측치. 무료 실시간 피드가 없어 보도 기준으로 큐레이션한다. 새 수치를 확인하면 여기에 한 줄 추가하고 push 하면 워크플로우가 바로 돌아 대시보드·트렌드 차트·브리프에 반영된다.",
   "_schema": ["date(YYYY-MM-DD)", "bp(float)", "source(str)"],
-  "_note": "제공사(ICE / LSEG / S&P Global Market Intelligence)마다 같은 날 호가가 5~15bp 차이 난다. 소스를 함께 기록하고, 한 날짜에 하나만 채택한다. 장중 최고치보다 종가/일반 호가를 우선한다.",
+  "_note": "제공사(ICE / LSEG / S&P Global Market Intelligence)마다 같은 날 호가가 5~15bp 차이 난다. 소스를 함께 기록하고, 한 날짜에 하나만 채택한다. 장중 최고치보다 종가/일반 호가를 우선하되, 장중 기록뿐이면 출처에 '(장중)'을 붙인다.",
+  "_baselines": {
+    "_readme": "실측 트렌드 차트의 기준선. kind=alert 는 돌파 시 브리프·대시보드에 경보로 표시되고, kind=ref 는 참고선이다. bp만 바꾸면 차트·경보가 함께 바뀐다.",
+    "oracle": [
+      {"bp": 198, "kind": "ref", "label": "2008 금융위기 최고치", "source": "ICE Data Services / Bloomberg"},
+      {"bp": 300, "kind": "alert", "label": "경보선 · 하이일드 수준", "source": "CNBC — 10/15 장중 300bp 터치"}
+    ],
+    "coreweave": [
+      {"bp": 1000, "kind": "ref", "label": "디스트레스 구간", "source": "1,000bp 이상은 통상 부실 신용으로 본다"},
+      {"bp": 1289, "kind": "alert", "label": "경보선 · 11/5 고점", "source": "Deutsche Bank / CNBC"}
+    ]
+  },
   "oracle": [
     ["2026-01-02", 145.0, "Bloomberg (연초 기준치)"],
     ["2026-04-10", 198.0, "Motley Fool"],
     ["2026-07-20", 196.6, "LSEG"],
     ["2026-07-24", 198.2, "Investing.com"],
     ["2026-07-27", 215.0, "LSEG / FT"],
-    ["2026-07-29", 200.0, "S&P Global Market Intelligence / Reuters"]
+    ["2026-07-29", 200.0, "S&P Global Market Intelligence / Reuters"],
+    ["2026-09-25", 227.0, "시장 데이터 / ms-aktuell"],
+    ["2026-10-08", 260.0, "S&P Global Market Intelligence / Reuters (10/15 보도의 1주 전 값)"],
+    ["2026-10-15", 288.0, "S&P Global Market Intelligence / Reuters"],
+    ["2026-10-19", 295.0, "CNBC"],
+    ["2026-11-06", 298.0, "CNBC"]
+  ],
+  "coreweave": [
+    ["2026-07-28", 855.0, "Bloomberg / 24/7 Wall St."],
+    ["2026-10-15", 1194.5, "ICE Data Services / Bloomberg (장중)"],
+    ["2026-10-19", 1082.0, "CNBC"],
+    ["2026-10-27", 1041.4, "S&P Global (Markit)"],
+    ["2026-11-05", 1289.0, "Deutsche Bank / CNBC (장중)"],
+    ["2026-11-06", 1155.0, "Deutsche Bank / CNBC"]
   ],
   "nvidia": [
     ["2026-06-26", 42.0, "Crypto Briefing"],
@@ -16,12 +40,11 @@
     ["2026-07-20", 69.0, "LSEG"],
     ["2026-07-27", 82.0, "ICE Data Services (장중 기록)"],
     ["2026-07-28", 79.0, "LSEG / FT (종가 기준 기록)"],
-    ["2026-07-29", 78.0, "S&P Global Market Intelligence / Reuters"]
-  ],
-  "openai": [
-    ["2026-07-28", 855.0, "CoreWeave 5Y CDS (대리지표) / Protos"]
+    ["2026-07-29", 78.0, "S&P Global Market Intelligence / Reuters"],
+    ["2026-11-06", 139.0, "CNBC"]
   ],
   "anthropic": [
-    ["2026-07-27", 67.0, "Alphabet 5Y CDS (대리지표) / LSEG"]
+    ["2026-07-27", 67.0, "Alphabet 5Y CDS (대리지표) / LSEG"],
+    ["2026-10-28", 80.0, "Alphabet 5Y CDS (대리지표) / Barclays"]
   ]
 }

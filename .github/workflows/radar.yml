@@ -1,0 +1,99 @@
+name: AI Credit Radar
+
+# 수집·CSI·실측 CDS 트렌드 차트 → docs/ (Pages) + docs/hub/ (Brief Hub payload)
+# 발송은 korea-etf-calmar 의 Brief Hub(@spytltgld_strategy_bot)가 docs/hub/latest.json 을 읽어 담당한다.
+# 2026-11-13 재가동: 10/05 수동 비활성화됐던 daily.yml 을 이 파일로 교체.
+on:
+  schedule:
+    - cron: "7 21 * * *"      # KST 06:07 — 미국 정규장 마감 직후
+    - cron: "37 22 * * *"     # KST 07:37 — 지연·실패 대비 2차 (멱등, 변화 없으면 커밋 생략)
+  push:
+    branches: [main]
+    paths:                    # 시드(관측치·기준선)를 고치면 바로 재계산
+      - "cds_seed.json"
+      - "collect.py"
+      - "notify.py"
+      - "chart.py"
+      - "requirements.txt"
+      - ".github/workflows/radar.yml"
+  workflow_dispatch:
+
+permissions:
+  contents: write
+
+concurrency:
+  group: ai-credit-radar
+  cancel-in-progress: false
+
+defaults:
+  run:
+    shell: bash
+
+jobs:
+  test:
+    runs-on: ubuntu-latest
+    timeout-minutes: 10
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-python@v5
+        with:
+          python-version: "3.11"
+          cache: "pip"
+      - run: pip install -r requirements.txt
+      - run: python -m unittest discover -s tests -v
+
+  run:
+    needs: test
+    runs-on: ubuntu-latest
+    timeout-minutes: 20
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-python@v5
+        with:
+          python-version: "3.11"
+          cache: "pip"
+      - run: pip install -r requirements.txt
+
+      - name: Korean font for chart
+        continue-on-error: true          # 실패해도 차트는 영문 라벨로 생성됨
+        run: |
+          sudo apt-get update -qq >/dev/null
+          sudo apt-get install -y -qq fonts-noto-cjk >/dev/null
+          fc-cache -f >/dev/null
+          rm -rf ~/.cache/matplotlib
+
+      - name: Collect
+        env:
+          TZ: "Asia/Seoul"
+        run: python collect.py
+
+      - name: Trend chart
+        env:
+          TZ: "Asia/Seoul"
+        run: python chart.py
+
+      - name: Brief Hub payload
+        env:
+          TZ: "Asia/Seoul"
+          PAGES_URL: ${{ vars.PAGES_URL }}
+        run: python notify.py --hub-out docs/hub/latest.json
+
+      - name: Commit data
+        env:
+          BRANCH: ${{ github.ref_name }}
+        run: |
+          set -euo pipefail
+          git config user.name  "github-actions[bot]"
+          git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
+          git add docs/data.json docs/hub
+          if git diff --cached --quiet; then
+            echo "변경 없음 — 커밋 생략"
+            exit 0
+          fi
+          git commit -m "data: $(TZ=Asia/Seoul date +%Y-%m-%d) 갱신"
+          for i in 1 2 3; do
+            if git push; then exit 0; fi
+            git pull --rebase --autostash origin "${BRANCH}"
+            sleep $((i * 5))
+          done
+          echo "::error::3회 시도 후에도 푸시 실패"; exit 1

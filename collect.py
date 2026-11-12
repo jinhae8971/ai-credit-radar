@@ -4,26 +4,33 @@ AI Credit Radar — 일간 수집기
 무료 소스만으로 AI 크레딧 스트레스를 매일 재현 가능하게 산출한다.
 
   [1] 실측 5Y CDS    : cds_seed.json (수기 큐레이션, 보도 기준)   ← 정본이지만 저빈도
-  [2] Credit Stress  : 주가 기반 CSI 0~100 (yfinance)             ← 매일 갱신
+  [2] Credit Stress  : 주가 기반 CSI 0~100 (yfinance → Nasdaq 폴백) ← 매일 갱신
   [3] 매크로 컨텍스트: ICE BofA BBB OAS (FRED, 키 불필요)
   [4] 후보 감지      : Google News RSS에서 새 CDS 보도 포착
+  [5] 실측 트렌드    : 오라클·코어위브 실측 CDS 추세 + 기준선(cds_seed.json _baselines)
 
 CSI는 CDS의 대체물이 아니라 "같은 방향을 매일 읽는 계기판"이다. 라벨을 분리해 표기한다.
 """
 from __future__ import annotations
 
+import hashlib
 import io
 import json
 import os
 import re
 import sys
+import time
 import urllib.parse
 import xml.etree.ElementTree as ET
-from datetime import datetime, timezone, timedelta
+from datetime import date, datetime, timezone, timedelta
 
 import pandas as pd
 import requests
-import yfinance as yf
+
+try:                      # yfinance가 없거나 막혀도 Nasdaq 폴백으로 돌아가게
+    import yfinance as yf
+except Exception:         # pragma: no cover
+    yf = None
 
 BASE = os.path.dirname(os.path.abspath(__file__))
 OUT_PATH = os.path.join(BASE, "docs", "data.json")
@@ -33,6 +40,7 @@ KST = timezone(timedelta(hours=9))
 # ── 추적 대상 ──────────────────────────────────────────────────────────
 # traded : 단일종목 CDS가 실제로 거래되는 기업
 # proxy  : 비상장·무공모채라 CDS가 없고, 신용위험이 전가된 상장사로만 읽히는 기업
+# cds_key: 실측 CDS를 다른 시드 시계열에서 빌려 올 때 (OpenAI → CoreWeave)
 ENTITIES = [
     {
         "key": "oracle", "name": "Oracle", "type": "traded",
@@ -45,9 +53,9 @@ ENTITIES = [
         "note": "대차대조표가 아닌 벤더 파이낸싱·보증이 스프레드를 움직인다.",
     },
     {
-        "key": "openai", "name": "OpenAI", "type": "proxy",
+        "key": "openai", "name": "OpenAI", "type": "proxy", "cds_key": "coreweave",
         "basket": {"CRWV": 0.6, "ORCL": 0.4},
-        "note": "단일종목 CDS 없음. 컴퓨트 파트너(CoreWeave·Oracle) 크레딧으로 전가.",
+        "note": "단일종목 CDS 없음. 컴퓨트 파트너(CoreWeave·Oracle) 크레딧으로 전가 — 실측 CDS는 CoreWeave 값.",
     },
     {
         "key": "anthropic", "name": "Anthropic", "type": "proxy",
@@ -57,6 +65,12 @@ ENTITIES = [
 ]
 
 TICKERS = sorted({t for e in ENTITIES for t in e["basket"]})
+
+# 실측 CDS 트렌드 차트·경보 대상 (cds_seed.json 키와 _baselines 키가 같아야 한다)
+MEASURED = [
+    {"key": "oracle", "name": "오라클", "name_en": "Oracle"},
+    {"key": "coreweave", "name": "코어위브", "name_en": "CoreWeave"},
+]
 
 # CSI 가중치 — 합 1.0
 W_DRAWDOWN, W_VOL, W_MOMENTUM, W_MACRO = 0.35, 0.30, 0.20, 0.15
@@ -99,11 +113,37 @@ def save_json(path: str, obj) -> bool:
     return True
 
 
+def seed_rows(seed: dict, key: str) -> list[list]:
+    """시드 시계열을 [date, bp, source] 정렬 목록으로. 형식이 깨진 행은 버린다."""
+    rows = []
+    for r in seed.get(key, []) or []:
+        if not (isinstance(r, list) and len(r) == 3):
+            continue
+        try:
+            datetime.strptime(str(r[0]), "%Y-%m-%d")
+            rows.append([str(r[0]), float(r[1]), str(r[2])])
+        except (TypeError, ValueError):
+            continue
+    rows.sort(key=lambda r: r[0])
+    return rows
+
+
 # ── [3] 매크로: BBB OAS ────────────────────────────────────────────────
 def fetch_bbb_oas() -> pd.Series:
     url = f"https://fred.stlouisfed.org/graph/fredgraph.csv?id={FRED_BBB_OAS}"
-    r = requests.get(url, timeout=30)
-    r.raise_for_status()
+    last_err: Exception | None = None
+    for wait in (0, 6, 20):                      # FRED는 간헐적 503 — 짧게 재시도
+        if wait:
+            time.sleep(wait)
+        try:
+            r = requests.get(url, timeout=30)
+            r.raise_for_status()
+            break
+        except Exception as e:
+            last_err = e
+            print(f"[macro] FRED 재시도 대기 ({e})")
+    else:
+        raise RuntimeError(f"FRED 응답 실패: {last_err}")
     df = pd.read_csv(io.StringIO(r.text))
     df.columns = ["date", "value"]
     df["date"] = pd.to_datetime(df["date"])
@@ -113,7 +153,9 @@ def fetch_bbb_oas() -> pd.Series:
 
 
 # ── [2] 주가 기반 CSI ──────────────────────────────────────────────────
-def fetch_prices(tickers: list[str]) -> pd.DataFrame:
+def fetch_prices_yf(tickers: list[str]) -> pd.DataFrame:
+    if yf is None:
+        raise RuntimeError("yfinance 미설치")
     raw = yf.download(tickers, period="2y", interval="1d",
                       auto_adjust=True, progress=False, threads=False)
     close = raw["Close"] if isinstance(raw.columns, pd.MultiIndex) else raw[["Close"]]
@@ -122,6 +164,41 @@ def fetch_prices(tickers: list[str]) -> pd.DataFrame:
     if len(tickers) == 1:
         close.columns = tickers
     return close.dropna(how="all")
+
+
+def fetch_close_nasdaq(ticker: str, days: int = 760) -> pd.Series:
+    """api.nasdaq.com 일봉 종가 (Actions 러너에서 Yahoo가 막힐 때의 폴백, 하루 지연될 수 있음)."""
+    today = datetime.now(KST).date()
+    url = (f"https://api.nasdaq.com/api/quote/{ticker}/historical?assetclass=stocks"
+           f"&fromdate={today - timedelta(days=days)}&limit=9999&todate={today}")
+    r = requests.get(url, timeout=20, headers={
+        "User-Agent": "Mozilla/5.0 (X11; Linux x86_64) ai-credit-radar/1.1",
+        "Accept": "application/json"})
+    r.raise_for_status()
+    rows = ((r.json().get("data") or {}).get("tradesTable") or {}).get("rows") or []
+    s = pd.Series({pd.to_datetime(x["date"], format="%m/%d/%Y"):
+                   float(str(x["close"]).replace("$", "").replace(",", ""))
+                   for x in rows if x.get("close")}, dtype=float)
+    return s.sort_index()
+
+
+def fetch_prices(tickers: list[str]) -> pd.DataFrame:
+    """yfinance 우선, 비거나 막힌 티커만 Nasdaq으로 채운다."""
+    try:
+        close = fetch_prices_yf(tickers)
+    except Exception as e:
+        print(f"[price] yfinance 실패 — Nasdaq 폴백: {e}")
+        close = pd.DataFrame()
+    missing = [t for t in tickers if t not in close.columns or close[t].dropna().empty]
+    for t in missing:
+        try:
+            s = fetch_close_nasdaq(t)
+            if not s.empty:
+                close = close.join(s.rename(t), how="outer") if not close.empty else s.rename(t).to_frame()
+                print(f"[price] {t} Nasdaq 폴백 {len(s)}일")
+        except Exception as e:
+            print(f"[price] {t} Nasdaq 폴백 실패: {e}")
+    return close.sort_index().dropna(how="all")
 
 
 def ticker_stress(px: pd.Series, macro_pct: float | pd.Series) -> pd.Series:
@@ -204,6 +281,61 @@ def load_cached_candidates(today: str) -> list[dict] | None:
     return None
 
 
+# ── [5] 실측 CDS 트렌드 + 기준선 ───────────────────────────────────────
+def build_measured(seed: dict, today: date) -> list[dict]:
+    """오라클·코어위브 실측 CDS 시계열과 기준선 판정.
+
+    alert  : 최신 관측이 kind=alert 기준선 이상
+    to_alert: 경보선까지 남은 bp (음수면 이미 돌파)
+    age_days: 최신 관측이 며칠 전 보도인지 (수기 큐레이션이라 신선도를 함께 보여준다)
+    """
+    base = seed.get("_baselines", {}) if isinstance(seed.get("_baselines"), dict) else {}
+    out = []
+    for m in MEASURED:
+        rows = seed_rows(seed, m["key"])
+        if not rows:
+            continue
+        last, prev = rows[-1], (rows[-2] if len(rows) > 1 else None)
+        lines = []
+        for b in base.get(m["key"], []) or []:
+            if isinstance(b, dict) and isinstance(b.get("bp"), (int, float)):
+                lines.append({"bp": float(b["bp"]), "kind": b.get("kind", "ref"),
+                              "label": str(b.get("label", "")), "source": str(b.get("source", "")),
+                              "above": last[1] >= float(b["bp"])})
+        lines.sort(key=lambda b: b["bp"])
+        alert = next((b for b in reversed(lines) if b["kind"] == "alert"), None)
+        hi = max(rows, key=lambda r: r[1])
+        out.append({
+            "key": m["key"], "name": m["name"], "name_en": m["name_en"],
+            "series": rows,                                   # [date, bp, source]
+            "last": last[1], "last_date": last[0], "source": last[2],
+            "prev": prev[1] if prev else None, "prev_date": prev[0] if prev else None,
+            "chg": round(last[1] - prev[1], 1) if prev else None,
+            "high": hi[1], "high_date": hi[0],
+            "baselines": lines,
+            "alert_bp": alert["bp"] if alert else None,
+            "alert": bool(alert and last[1] >= alert["bp"]),
+            "to_alert": round(alert["bp"] - last[1], 1) if alert else None,
+            "age_days": (today - datetime.strptime(last[0], "%Y-%m-%d").date()).days,
+        })
+    return out
+
+
+def measured_signature(measured: list[dict]) -> str:
+    """관측치·기준선이 바뀌었는지 판별용 지문 (age_days처럼 매일 바뀌는 값은 제외)."""
+    core = [{"k": m["key"], "s": m["series"], "b": [(b["bp"], b["kind"]) for b in m["baselines"]]}
+            for m in measured]
+    return hashlib.sha1(json.dumps(core, ensure_ascii=False, sort_keys=True).encode()).hexdigest()[:12]
+
+
+def previous_output() -> dict:
+    try:
+        with open(OUT_PATH, "r", encoding="utf-8") as f:
+            return json.load(f)
+    except (OSError, json.JSONDecodeError):
+        return {}
+
+
 # ── 메인 ───────────────────────────────────────────────────────────────
 def build() -> dict:
     with open(SEED_PATH, "r", encoding="utf-8") as f:
@@ -237,8 +369,7 @@ def build() -> dict:
         hist = [[d.strftime("%Y-%m-%d"), round(float(v), 1)]
                 for d, v in combined.tail(HISTORY_DAYS).items()]
 
-        cds_raw = [r for r in seed.get(e["key"], []) if isinstance(r, list) and len(r) == 3]
-        cds_raw.sort(key=lambda r: r[0])
+        cds_raw = seed_rows(seed, e.get("cds_key", e["key"]))
         cds = {
             "series": [[d, float(v)] for d, v, _ in cds_raw],
             "last": float(cds_raw[-1][1]) if cds_raw else None,
@@ -270,13 +401,23 @@ def build() -> dict:
         quality.append("추적 대상 누락 또는 관측일 불일치 — 통합 판단 보류")
     candidates = load_cached_candidates(today)
     if candidates is None:
-        candidates = fetch_news_candidates([e["name"] for e in ENTITIES])
+        candidates = fetch_news_candidates([e["name"] for e in ENTITIES] + ["CoreWeave"])
+
+    measured = build_measured(seed, datetime.now(KST).date())
+    sig = measured_signature(measured)
+    prev = previous_output()
+    # 시드(관측치·기준선)가 바뀐 날을 기록 — 브리프는 이 날 트렌드 차트를 첨부한다
+    measured_updated = prev.get("measured_updated") if prev.get("measured_sig") == sig else today
+    measured_updated = measured_updated or today
 
     return {
         "generated_at": datetime.now(KST).isoformat(timespec="seconds"),
         "asof": asof,
         "quality_warnings": quality,
         "method_version": "2-observation-aligned-macro",
+        "measured": measured,
+        "measured_sig": sig,
+        "measured_updated": measured_updated,
         "macro": {"asof": oas.index[-1].strftime("%Y-%m-%d"), "bbb_oas_bp": macro_last, "percentile_2y": round(macro_pct, 3),
                   "series": macro_series},
         "entities": entities,
@@ -297,6 +438,10 @@ def main() -> int:
     for e in data["entities"]:
         print(f"  {e['name']:<10} CSI {e['csi']:>5.1f} (전일 {e['csi_prev']:>5.1f})  "
               f"CDS {e['cds']['last']}bp @{e['cds']['last_date']}")
+    for m in data["measured"]:
+        state = "돌파" if m["alert"] else "%+.1fbp 남음" % (m["to_alert"] or 0)
+        print(f"  [실측] {m['name_en']:<10} {m['last']:>7.1f}bp @{m['last_date']}  "
+              f"경보선 {m['alert_bp']} ({state})")
     return 0
 
 

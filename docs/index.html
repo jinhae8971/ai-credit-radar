@@ -88,6 +88,22 @@
   .legend{display:flex;flex-wrap:wrap;gap:8px 18px;padding:8px 12px 4px;font-size:12px}
   .legend i{display:inline-block;width:16px;height:3px;vertical-align:3px;margin-right:6px}
 
+  /* ── 실측 트렌드 ── */
+  .trend{background:var(--card);border:1px solid var(--rule);border-radius:3px;
+    padding:14px 16px 10px;margin-bottom:12px;box-shadow:var(--shadow)}
+  .trend .grow{align-items:flex-start}
+  .tmeta{display:flex;flex-wrap:wrap;gap:4px 16px;margin:6px 0 4px;font-size:12.5px;color:var(--ink-2)}
+  .tmeta .k{color:var(--ink-3);text-transform:uppercase;font-size:10.5px;letter-spacing:.1em;margin-right:5px}
+  .alertbadge{font-size:10.5px;font-weight:700;letter-spacing:.08em;padding:2px 7px;border-radius:2px;
+    background:#C4562B;color:#fff;vertical-align:3px;margin-left:8px}
+  .tchart{margin-top:6px}
+  .tchart svg{display:block;width:100%;height:auto}
+  details.obs{margin-top:6px;font-size:12.5px;color:var(--ink-2)}
+  details.obs summary{cursor:pointer;color:var(--ink-3);font-size:11.5px;letter-spacing:.05em}
+  details.obs ol{list-style:none;margin:6px 0 2px;padding:0}
+  details.obs li{display:flex;gap:12px;padding:4px 0;border-bottom:1px dotted var(--rule)}
+  details.obs li .mono{min-width:88px}
+
   /* ── 뉴스 ── */
   ul.news{list-style:none;margin:0;padding:0}
   ul.news li{padding:9px 0;border-bottom:1px dotted var(--rule);font-size:13.5px}
@@ -113,11 +129,16 @@
   <header>
     <div class="eyebrow">Credit Desk · AI Infrastructure</div>
     <h1>AI 크레딧 레이더</h1>
-    <p class="sub">엔비디아 · 오라클 · OpenAI · 앤트로픽의 부도보험 가격과 신용 스트레스를 매일 추적합니다.</p>
+    <p class="sub">엔비디아 · 오라클 · 코어위브 · OpenAI · 앤트로픽의 부도보험 가격과 신용 스트레스를 매일 추적합니다.</p>
     <div class="stamp" id="stamp"></div>
   </header>
 
   <div class="verdict" id="verdict"></div>
+
+  <section>
+    <div class="shead"><h2>실측 CDS 트렌드</h2><span>오라클·코어위브 5Y · 기준선</span></div>
+    <div id="trends"></div>
+  </section>
 
   <section>
     <div class="shead"><h2>스프레드 온도계</h2><span>실측 CDS 레인지 · 일간 스트레스 지수</span></div>
@@ -195,6 +216,102 @@ function lineChart(el, seriesList, opt){
   el.innerHTML = `<svg viewBox="0 0 ${W} ${H}" width="100%" height="${H}" role="img" aria-label="${esc(opt.label||"차트")}">${g}</svg>`;
 }
 
+/* 실측 CDS 추세 + 기준선 — 실제 픽셀 폭으로 그려 모바일에서도 글자가 작아지지 않게 */
+const TPAL = {oracle:"#A8322A", coreweave:"#42566F"};
+const ALERT_C = "#C4562B", DAY = 864e5;
+function trendChart(el, m, color){
+  const W = Math.max(300, Math.round(el.clientWidth || 860));
+  const H = W < 560 ? 230 : 260, P = {t:18, r:W < 560 ? 62 : 74, b:26, l:W < 560 ? 44 : 54};
+  const pts = m.series.map(([dt, v]) => [Date.parse(dt + "T00:00:00Z"), +v]);
+  const lines = m.baselines || [];
+  const now = new Date(Date.now() + 9 * 3600e3);                      // KST 날짜
+  const today = Date.parse(now.toISOString().slice(0, 10) + "T00:00:00Z");
+  const x0 = pts[0][0] - 7 * DAY, x1 = Math.max(today, pts[pts.length - 1][0]) + 12 * DAY;
+  const vals = pts.map(p => p[1]).concat(lines.map(b => b.bp));
+  let y0 = Math.min(...vals), y1 = Math.max(...vals);
+  const pad = (y1 - y0) * 0.1 || 10; y0 = Math.max(0, y0 - pad); y1 += pad;
+  // 눈금은 1·2·2.5·5×10^k 단위로 반올림 (322·272 같은 어색한 값 방지)
+  const raw = (y1 - y0) / 4, p10 = Math.pow(10, Math.floor(Math.log10(raw))), f = raw / p10;
+  const ystep = (f <= 1 ? 1 : f <= 2 ? 2 : f <= 2.5 ? 2.5 : f <= 5 ? 5 : 10) * p10;
+  y0 = Math.floor(y0 / ystep) * ystep; y1 = Math.ceil(y1 / ystep) * ystep;
+  const sx = t => P.l + (t - x0) / (x1 - x0) * (W - P.l - P.r);
+  const sy = v => H - P.b - (v - y0) / (y1 - y0) * (H - P.t - P.b);
+  const mono = 'font-family="JetBrains Mono"';
+  let g = "";
+  for (let v = y0, i = 0; v <= y1 + 1e-9; v += ystep, i++){
+    const y = sy(v);
+    g += `<line x1="${P.l}" x2="${W - P.r}" y1="${y}" y2="${y}" stroke="var(--rule)" ${i ? 'stroke-dasharray="2 4"' : ""}/>`
+       + `<text x="${P.l - 8}" y="${y + 4}" text-anchor="end" font-size="11" fill="var(--ink-3)" ${mono}>${Math.round(v).toLocaleString()}</text>`;
+  }
+  // 월 눈금 — 간격이 좁으면 격월
+  const months = [];
+  for (let d = new Date(x0), t = Date.UTC(d.getUTCFullYear(), d.getUTCMonth() + 1, 1); t < x1;){
+    months.push(t); const n = new Date(t); t = Date.UTC(n.getUTCFullYear(), n.getUTCMonth() + 1, 1);
+  }
+  const step = months.length > 1 && (sx(months[1]) - sx(months[0])) < 34 ? 2 : 1;
+  months.forEach((t, i) => { if (i % step) return;
+    g += `<text x="${sx(t)}" y="${H - 7}" text-anchor="middle" font-size="11" fill="var(--ink-3)">${new Date(t).getUTCMonth() + 1}월</text>`; });
+  // 기준선
+  for (const b of lines){
+    const y = sy(b.bp), alert = b.kind === "alert", c = alert ? ALERT_C : "var(--ink-3)";
+    g += `<line x1="${P.l}" x2="${W - P.r}" y1="${y}" y2="${y}" stroke="${c}" stroke-width="${alert ? 1.6 : 1.1}" stroke-dasharray="${alert ? "7 5" : "2 4"}"><title>${esc(b.source)}</title></line>`
+       + `<text x="${P.l + 6}" y="${y - 5}" font-size="11" fill="${c}" font-weight="${alert ? 700 : 400}">${esc(b.label)} ${Math.round(b.bp).toLocaleString()}</text>`;
+  }
+  // 오늘
+  const tx = sx(today);
+  g += `<line x1="${tx}" x2="${tx}" y1="${P.t}" y2="${H - P.b}" stroke="var(--ink-3)" stroke-dasharray="1 3"/>`
+     + `<text x="${tx + 4}" y="${P.t + 9}" font-size="10.5" fill="var(--ink-3)">오늘</text>`;
+  // 추세 — 30일 넘는 관측 공백은 옅은 점선 (보간 아님)
+  for (let i = 1; i < pts.length; i++){
+    const far = (pts[i][0] - pts[i - 1][0]) / DAY > 30;
+    g += `<line x1="${sx(pts[i-1][0])}" y1="${sy(pts[i-1][1])}" x2="${sx(pts[i][0])}" y2="${sy(pts[i][1])}" stroke="${color}" stroke-width="${far ? 1.4 : 2.4}" stroke-linecap="round" ${far ? 'stroke-dasharray="4 4" opacity=".55"' : ""}/>`;
+  }
+  m.series.forEach(([dt, v, src], i) => {
+    const last = i === pts.length - 1;
+    g += `<circle cx="${sx(pts[i][0])}" cy="${sy(v)}" r="${last ? 5.5 : 3.4}" fill="${color}" stroke="var(--card)" stroke-width="1.5"><title>${esc(dt)} · ${(+v).toLocaleString()}bp · ${esc(src)}</title></circle>`;
+  });
+  const L = pts[pts.length - 1], nearTop = sy(L[1]) < P.t + 30;
+  g += `<text x="${sx(L[0]) + 9}" y="${sy(L[1]) + (nearTop ? 18 : -8)}" font-size="13" font-weight="700" fill="${color}" ${mono}>${Math.round(L[1]).toLocaleString()}bp</text>`;
+  el.innerHTML = `<svg viewBox="0 0 ${W} ${H}" role="img" aria-label="${esc(m.name)} 5년 CDS 추세와 기준선">${g}</svg>`;
+}
+
+function renderTrends(d){
+  const box = $("#trends"), ms = d.measured || [];
+  if (!ms.length){ box.innerHTML = '<p style="color:var(--ink-3)">실측 시계열 없음.</p>'; return; }
+  const md = s => s ? s.slice(5).replace("-", "/") : "?";
+  box.innerHTML = ms.map(m => {
+    const dl = m.chg == null ? {cls:"flat", txt:"―"} : m.chg > 0 ? {cls:"up", txt:"▲" + Math.round(m.chg).toLocaleString()}
+             : m.chg < 0 ? {cls:"down", txt:"▼" + Math.round(-m.chg).toLocaleString()} : {cls:"flat", txt:"―"};
+    const alertTxt = m.alert_bp == null ? "" : m.alert
+      ? `<span class="alertbadge">경보선 ${Math.round(m.alert_bp).toLocaleString()} 돌파</span>` : "";
+    const toAlert = m.alert_bp == null || m.alert ? "" :
+      `<span><span class="k">경보선까지</span><b class="mono">${Math.round(m.to_alert).toLocaleString()}bp</b> <span style="color:var(--ink-3)">(${Math.round(m.alert_bp).toLocaleString()})</span></span>`;
+    const rows = [...m.series].reverse().map(([dt, v, src]) =>
+      `<li><span class="mono">${esc(dt)}</span><b class="mono">${(+v).toLocaleString()}bp</b><span>${esc(src)}</span></li>`).join("");
+    return `<article class="trend">
+      <div class="grow">
+        <div><span class="gname">${esc(m.name)}</span>${alertTxt}</div>
+        <div class="gval"><span class="n" style="color:${TPAL[m.key] || "var(--ink)"}">${Math.round(m.last).toLocaleString()}<small style="font-size:13px">bp</small></span>
+          <span class="d ${dl.cls}">${dl.txt}</span></div>
+      </div>
+      <div class="tmeta">
+        <span><span class="k">최신</span>${md(m.last_date)} 보도${m.age_days > 0 ? ` <span style="color:var(--ink-3)">(${m.age_days}일 전)</span>` : ""}</span>
+        ${m.prev != null ? `<span><span class="k">직전</span>${md(m.prev_date)} ${Math.round(m.prev).toLocaleString()}bp</span>` : ""}
+        <span><span class="k">연중 최고</span>${Math.round(m.high).toLocaleString()}bp (${md(m.high_date)})</span>
+        ${toAlert}
+      </div>
+      <div class="tchart" data-key="${esc(m.key)}"></div>
+      <details class="obs"><summary>관측치 ${m.series.length}건 · 출처</summary><ol>${rows}</ol></details>
+    </article>`;
+  }).join("");
+  const draw = () => ms.forEach(m => {
+    const el = box.querySelector(`.tchart[data-key="${m.key}"]`);
+    if (el) trendChart(el, m, TPAL[m.key] || "var(--ink)");
+  });
+  draw();
+  let tm; window.addEventListener("resize", () => { clearTimeout(tm); tm = setTimeout(draw, 150); });
+}
+
 function sparkline(pts, color){
   const W = 300, H = 34;
   if (pts.length < 2) return "";
@@ -218,11 +335,15 @@ function render(d){
   const stale = (Date.now()-Date.parse(d.asof+"T00:00:00+09:00"))/86400000 >= 4;
   const falling = d.entities.filter(e => e.csi_prev != null && e.csi < e.csi_prev).length;
   const word = stale || (d.quality_warnings||[]).length ? "최신 판단 보류" : rising >= 3 ? "확대 국면" : falling === d.entities.length ? "진정 국면" : "혼조";
+  const breached = (d.measured || []).filter(m => m.alert).map(m => m.name);
   $("#verdict").innerHTML =
     `<span class="word" style="color:${vb.c}">${word}</span>` +
     `<span class="why">${d.entities.length}축 중 ${rising}축 상승 · 최고 스트레스는 <b>${esc(worst.name)}</b> ${worst.csi.toFixed(1)}` +
     (d.macro && d.macro.bbb_oas_bp != null
-      ? ` · BBB OAS ${Math.round(d.macro.bbb_oas_bp)}bp(2년 백분위 ${Math.round(d.macro.percentile_2y*100)}%)` : "") + `</span>`;
+      ? ` · BBB OAS ${Math.round(d.macro.bbb_oas_bp)}bp(2년 백분위 ${Math.round(d.macro.percentile_2y*100)}%)` : "") +
+    (breached.length ? ` · <b style="color:${ALERT_C}">실측 경보: ${esc(breached.join(", "))}</b>` : "") + `</span>`;
+
+  renderTrends(d);
 
   // 온도계
   $("#gauges").innerHTML = d.entities.map((e, i) => {
@@ -284,7 +405,7 @@ function render(d){
   lineChart($("#cdschart"), cdsSeries.filter(s => !off.includes(s)), {label:"5년 CDS 궤적", zeroFloor:true});
   $("#cdslegend").innerHTML =
     cdsSeries.filter(s=>!off.includes(s)).map(s => `<span><i style="background:${s.color}"></i>${esc(s.name)}</span>`).join("") +
-    off.map(s => `<span style="color:var(--ink-3)"><i style="background:${s.color};opacity:.5"></i>${esc(s.name)} ${Math.round(s.pts[s.pts.length-1][1])}bp — 축 스케일 밖, 별도 관측</span>`).join("");
+    off.map(s => `<span style="color:var(--ink-3)"><i style="background:${s.color};opacity:.5"></i>${esc(s.name)} ${Math.round(s.pts[s.pts.length-1][1]).toLocaleString()}bp — 코어위브 값, 축 스케일 밖이라 위 트렌드 차트 참조</span>`).join("");
 
   // 매크로
   const m = d.macro || {};
@@ -311,7 +432,9 @@ function render(d){
     `<b>읽는 법</b> — 실측 CDS는 무료 실시간 피드가 없어 <code>cds_seed.json</code>에 보도 기준으로 큐레이션합니다.
      매일 움직이는 값은 주가·매크로에서 산출한 스트레스 지수(CSI)이며, CDS 호가가 아닙니다.<br>
      <b>CSI 산식</b> — <code>${esc((d.method||{}).csi || "")}</code><br>
-     <b>대리지표</b> — OpenAI·앤트로픽은 단일종목 CDS가 없습니다. 위험이 전가된 상장 보증인의 크레딧으로 읽습니다.<br>
+     <b>대리지표</b> — OpenAI·앤트로픽은 단일종목 CDS가 없습니다. 위험이 전가된 상장 보증인의 크레딧으로 읽습니다(OpenAI 실측 = 코어위브).<br>
+     <b>기준선</b> — 트렌드 차트의 참고선·경보선은 <code>cds_seed.json</code>의 <code>_baselines</code>에서 바꿉니다. 경보선 돌파 시 브리프에 표시됩니다.
+     점은 보도 기준 관측치이고, 30일 넘게 관측이 빈 구간은 옅은 점선(보간 아님)입니다.<br>
      소스: yfinance · FRED(ICE BofA) · Google News RSS. 투자 판단의 책임은 이용자에게 있습니다.`;
 }
 
