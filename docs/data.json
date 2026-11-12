@@ -1,115 +1,213 @@
 {
-  "asof": "2026-10-02",
+  "asof": "2026-11-12",
   "candidates": [
     {
       "bp_hint": null,
       "entity": "Anthropic",
-      "link": "https://news.google.com/rss/articles/CBMi1gFBVV95cUxPakZiT3E5dkRRXzlkU0Y1a0VYNzZ6dnNQa0hyZDZuQjQ5bGxONXk4ckN1Mk1KU2ozYVNQQlEyM3hBajdnMkR4al9ydmdBRWREZzVxMkhJTm8wMUV5MGpTc1JFY3RJNnJUQndxX0ZxYTkxN2pjZVVlODNtbWgtTmRCN1hpREExa0Z3QUhMNS1QWTRYUXFRdGNRUXZUZHhsejEwX3hkNnViT0JhZ3pOX1pPQlRRLTZpR1VGR3hKZEtndUdTSWFfaGpwblNUUVNad19LTDA2Vlhn?oc=5",
-      "published": "Fri, 02 Oct 2026 13:16:24 GMT",
-      "title": "COMMENTARY: A remarkable Q3, French woes and Trump's diesel hit: The financial week in five charts - Reuters"
+      "link": "https://news.google.com/rss/articles/CBMi8wFBVV95cUxPR2RiS2FlNERtWDZyalN0YW1Fa0phY3YxbFpBcURrZUdTQ2RuTVExNHJNZ2ZQWW1aakVRUTlRaFNLY3ZFTW92bEd1aTNESUlNaHVEX0c1b0NFZnQ5QUQ3d1JEd29rSWR4NzJmOVh6c2pQSGxWYlBlWGtISHEydHNqVEtrQ2N5R1gwcjR6aGdiMHctbl9COWlnQ3B6MFY5N2hGYXJSRXg5Ylhrb1V6dHFTeFBFZ0hqemJVWkRNdnBBYVpHd193ZkNkVzlYelNYQlFoVGxHUTlkc2Vtb2hMTjlLWWRKSVdrSGxIZ2FQZ0hvTnBaTHM?oc=5",
+      "published": "Wed, 11 Nov 2026 16:56:00 GMT",
+      "title": "Applied Digital Rallies 8% as CoreWeave's Results Revive the AI Data Center Trade; Cipher Digital Jumps 10%, IREN Surges 9% - 24/7 Wall St."
+    },
+    {
+      "bp_hint": null,
+      "entity": "Anthropic",
+      "link": "https://news.google.com/rss/articles/CBMiogFBVV95cUxOTG1Zb3VJYXd0UDlTOXF5SlZxQ3lKWE1SS1NyaWxGSjFMT0NJM0F4OXdUVXh0NHRaQXpxdEU5Sjk3aW4zSEkzS011SHh1akRwUTVyNHF5d3U4X1FLVXVxUUE5b0NORnpXMktnV1NqM3JXZVk5eWd6NUtJMVVzVXRyU3dJYjhFTVhySlJSVGRjS0tSTDlUd01VOW03YkdUX3I5OGc?oc=5",
+      "published": "Wed, 11 Nov 2026 12:06:00 GMT",
+      "title": "Bad News: There's a New Red Flag Ahead of the Anthropic IPO - The Motley Fool"
+    },
+    {
+      "bp_hint": null,
+      "entity": "Anthropic",
+      "link": "https://news.google.com/rss/articles/CBMihwFBVV95cUxQTjNtd3I3MzVwcnloSHdGbnFmSW1mNEcxdzB2bzM4Z3JEMU1oZjhoYnVmRlVHc3JkUF9Gb3IxLS0xdDZxZ2pXOVRXTWxFWTY1Wm9mUGRCa1Q0TERWbWZjYVpzWFFEN21iN0xhMHN3Y1dzUUNvMW4yWlVMM3JQWXZRMlh4ZVZQZEU?oc=5",
+      "published": "Thu, 12 Nov 2026 19:56:00 GMT",
+      "title": "Is the AI Bubble Finally Popping? Follow the Money - Financial Sense"
+    },
+    {
+      "bp_hint": null,
+      "entity": "Anthropic",
+      "link": "https://news.google.com/rss/articles/CBMimgFBVV95cUxOZ3BQVjVONnpwTkF6eHQ4cFlZSk9KUm82MjN6MkJkNnRCX2F5cFM5aVlvOHNxUk9Db0ZsRllBMTdVWHhhdGRLWjR4YmlkTmFRelJubjVXSEpNYXNiZmJveDZ2UWFkaTFsSjE4RnU4ZkpHSDRTSnZsWTlydFotcnZ6ZkZUYWFXd0VLLVVRNExMOWFCZHRzWlFXMEVB?oc=5",
+      "published": "Fri, 06 Nov 2026 06:23:27 GMT",
+      "title": "Tech stocks shed $2.5 trillion in value; Anthropic’s $1.5 trillion IPO valuation comes under pressure. - Moomoo"
+    },
+    {
+      "bp_hint": null,
+      "entity": "CoreWeave",
+      "link": "https://news.google.com/rss/articles/CBMijwFBVV95cUxOMXROWGJDQmFoMlFFVkZqUVZOZEtnZmtDcDAtZXZVZDZCamhEZmpRZ0lXbENmNlV6NDVtS19sWmxhMklBc2p6QXFLN2Z5YWlMRHhQWVdyMlpudVBJV3pfZ2M1d2F6Sk9mcnVxb3BTUng3NDhPbFlJMGx3Q2NKZzVrQ3N2TDJYaDBCbXJpbEtUbw?oc=5",
+      "published": "Sun, 08 Nov 2026 15:02:49 GMT",
+      "title": "CoreWeave CDS Is 8x Nvidia’s 139bp as Credit Prices AI Risk - FourWeekMBA"
+    },
+    {
+      "bp_hint": null,
+      "entity": "CoreWeave",
+      "link": "https://news.google.com/rss/articles/CBMidkFVX3lxTE0zSGpuRi14S1IzZ04xUUluQXhJUHYtcFNvZUhoRlY0UVdEaDcyS1FrU2hBR1FFdmZZclp6cDQtU0d6UkQ4ZFVvVjBGYV96RTUzeF9hMndIRTNMQmN5TEdhbUJaWDNYajJKSE9haXVHbUlZbjJvMXc?oc=5",
+      "published": "Mon, 09 Nov 2026 15:05:00 GMT",
+      "title": "CoreWeave Earnings Test Looms as Credit Markets Price In Default Risk Cathie Wood Calls 'Uncomfortable' - BigGo Finance"
+    },
+    {
+      "bp_hint": null,
+      "entity": "CoreWeave",
+      "link": "https://news.google.com/rss/articles/CBMipwFBVV95cUxNZDNEdE9ReG1Sc3JDMEFabDN3dFVVdUxURUNRYWRjM05fUXhBWXBOLVJZMUxGVFE4SzN3aTBMVlNhM2pSUUxZOWotS1BJQnZmSG1kOWV5SmlwZ25nRjktTXVfN2JoR0xuYjR4MDJkMks5VkVFbVplUjhCNW0tbV9XUkFqMUF6OEtwWlVqaThZNEtVYkhuQkNTdkpzX1RVdXlnSEpZdzRMYw?oc=5",
+      "published": "Sat, 07 Nov 2026 15:37:00 GMT",
+      "title": "CoreWeave’s Bonds Now Yield More Than 16%, Days Before Earnings - 24/7 Wall St."
+    },
+    {
+      "bp_hint": null,
+      "entity": "CoreWeave",
+      "link": "https://news.google.com/rss/articles/CBMimwFBVV95cUxNck5meGozdVdwVC1UVjVLRlVqQTV5dWgwQkpOeTFvS0FmNWtwZnBaY05nQTNWYkt3Mlhta3dHZTdWTk9RX2YzRDAtaDBaU2dmeGFVd0hTTGhSZEc0N29UeVdhcnpJUjd0V1g1al85U2tCNVpjcXdJb2xWYkNJdHRWbUtSTXhtR2VnalYyV0FrSzVaTTB1cVQ0OWlGWQ?oc=5",
+      "published": "Sat, 07 Nov 2026 15:37:53 GMT",
+      "title": "CoreWeave’s Bonds Now Yield More Than 16%, Days Before Earnings - Yahoo Finance"
+    },
+    {
+      "bp_hint": null,
+      "entity": "CoreWeave",
+      "link": "https://news.google.com/rss/articles/CBMizwFBVV95cUxQR3BKZEFYVlY5S0dxS253eGRFbjhEQXpMSVZJaUoySWp2QkJ5N3VnUGZseGVvYTFyUnRLOUZWYk9mS1BselZ1NDhkTnNZUzBsOE4yOG5MZG5URkhTb2dnSDBTYUdkTmNULV9ZdTNyS2VhRzNyQ2FoVENCbEFZRkZmdG0tRXE5S3lKRGVwdlRGcElJRnlXY0R0VGpCWWlnQ2pTcTRDNHhybC1uUnAxME12NmNUSWUwMWdZbWF3ZTFDckYxdjRHaHJQN1NiR2dNdDQ?oc=5",
+      "published": "Wed, 11 Nov 2026 09:38:38 GMT",
+      "title": "Neocloud stocks surge as CoreWeave's outlook eases AI spending concerns - TradingView"
+    },
+    {
+      "bp_hint": null,
+      "entity": "CoreWeave",
+      "link": "https://news.google.com/rss/articles/CBMigAFBVV95cUxOLWdUc1ZfLXFXX1pDWGFSY25tdnhYcTZjSHpxdGxmQk53Y2ppUHc5dU5vaFZfc1lWcnZfY2taQ1J4Q0R2OHpYNGloWmFLbnpIek9tUE1NNGlkZjZZRWVBay1tNjZ4NGVRS0lqRUtkQl9iWXJNVTExTEZqTV84UG00U9IBlAFBVV95cUxPNkNyQWp1YlFiVGhSZ0l2Rm1rVU9QNTdHS0Y1TFBXakV1Q1AzU0JSOGEtaUoxNU5fUE9xRWxWNGJCWDJ3LWxoR0hLLVViUnVESHUxT0NiNUZBblBJVktna3V6QjRsekFLd0NUR0RReTFfUHFjcXRraGY1TG9XdVRmUnd1ZUdVaGRENS1xc0Y1UEdWeWFY?oc=5",
+      "published": "Sat, 07 Nov 2026 21:00:00 GMT",
+      "title": "US inflation, CoreWeave earnings steer Korea stocks after blue wave - Chosunbiz"
     },
     {
       "bp_hint": null,
       "entity": "Nvidia",
-      "link": "https://news.google.com/rss/articles/CBMijwFBVV95cUxON1VLbHhaclBTajY4VGRvNV9Bb3hKNjliYmM0LTNLWFFNNXNHVENBby1nVzM2WFhYc19aN01aT2VuUk9OMGptb09rQ0EzTWZ6UXZHZmhJcFRTa1lCMFlWMlE2cVRteGRkVTd1dDZfdDRYT3ZVMlVuT09mbmJINzZMSEtsSi1KcUlhREJZT1JPdw?oc=5",
-      "published": "Sun, 27 Sep 2026 13:55:00 GMT",
-      "title": "AI Stocks May Be Whistling Past The Graveyard - Seeking Alpha"
+      "link": "https://news.google.com/rss/articles/CBMidkFVX3lxTE9oMjM3bTR5aHJEaEZXdTFJQzdLT2NIMG0tRVlTbWVjWDB4bUsyQktybHF2WlFtVm9RNVlwVXcyWXo2bjhEY2xyLTIzYXRJRmJtUnh2ckk5OFpFWk1jVG5qTE0zSFU1TUZtMG9qczlKLWhzd0JTVWc?oc=5",
+      "published": "Tue, 10 Nov 2026 06:39:19 GMT",
+      "title": "AI Debt Risk Shifts: Chipmakers' CDS Spreads Top Cloud Giants for First Time, Weekly Default-Swap Volume Nears $10 Billion - BigGo Finance"
     },
     {
       "bp_hint": null,
       "entity": "Nvidia",
-      "link": "https://news.google.com/rss/articles/CBMibkFVX3lxTE5QNWV5MGVMY1ZQMlNxTEo3VG1RRWFUWjNvSnRlTzZHd0JPVWw5aTFMQXctNWlEZDR1ZTFqV0VjZzdYWEFLR0RydG02elpPUDQ3QzhPTGVyc0dxdkd0Szd3UHE0QVhud1dxR2dhYUhR?oc=5",
-      "published": "Tue, 29 Sep 2026 04:23:28 GMT",
-      "title": "Nvidia partners with insurers to mitigate AI expansion risks - Crypto Briefing"
+      "link": "https://news.google.com/rss/articles/CBMikgFBVV95cUxPNU5uTzNEaWt5NGE1N3ZtS0NYZEM4LU1zS0xBMkdfMVY2cWpKNGd2NmJGYlU3WG10M2dTZVp6djhPSFJtd0RtUmdmSG1HUUtSX1kxREFrVVh2eEJlYzBVcDlJQlFSaGJYMlR5b3hiSEVwbEtKazVyRjR6dk0xMjd2b29rdVBxRXVzSG1OSV9YMDVzZw?oc=5",
+      "published": "Mon, 09 Nov 2026 17:03:00 GMT",
+      "title": "Cathie Wood raises uncomfortable question about Nvidia-backed stock before earnings - Yahoo Finance Singapore"
     },
     {
       "bp_hint": null,
       "entity": "Nvidia",
-      "link": "https://news.google.com/rss/articles/CBMihAFBVV95cUxQV050Z01aSHN0LVJ6NXg3MmJhekJZUWZmQl9RYkpVZXRNbkV0aGswaGtfbjBRcjFpNk10M21yd0NnSkEyR3ZTYjJwY05hOE9mNm5rZldnMHNQX0FhX2FkNENiR25NWTF1X2JGZUUxazFxajZTWldtYWlLQWdfMlZpdVNhUGI?oc=5",
-      "published": "Mon, 28 Sep 2026 20:31:24 GMT",
-      "title": "Rising Rates Put The Stock Market Back on Alert - Mott Capital Management"
+      "link": "https://news.google.com/rss/articles/CBMivwFBVV95cUxPVVFVWVUwWmVwQXRLMTV2ZFBIV3dpR1VBUTU4dnhfUW5SN3BwcGZraXF1YTFDMmx2TjZFOTVBTWNqc09zTV9VbE1faDJ5Y294THA0YlFkTlZmX3AzWDJacm96Um1YQ0htd2FLRmJFTlpvLWVhQ0pXdUtyLVh0ZTRESzBJNW1fZ2lrTVBkUEIzejF2VUVLeGdyQWxDazczTmNWQWdOMXIybTR2T0x5OWFGNWMyU256bUhRME54eXBlTQ?oc=5",
+      "published": "Sat, 07 Nov 2026 06:32:06 GMT",
+      "title": "Investors wipe $2.5 trillion off Nasdaq as blue tsunami prompts AI fears - Reuters"
     },
     {
       "bp_hint": null,
       "entity": "Nvidia",
-      "link": "https://news.google.com/rss/articles/CBMiggFBVV95cUxPQTl6UFVZRmVHSUo3QTZfTlpjSHZhbHRjUy1qTWFHT2pqRE42X3E1TGxTeWRxX3ZZQ1FIdVp0b2pRenktdEhReVNSLUZTVkFwRHB4TXlJbFJlMGpYYllZMkxWZ01HUWMxSGh0VGVjbERGZzhXZXkxSkNpLXRRSTQzeWlB?oc=5",
-      "published": "Thu, 01 Oct 2026 16:45:04 GMT",
-      "title": "Rising Treasury yields and inflation prompt rea... - Pluang"
+      "link": "https://news.google.com/rss/articles/CBMiqwFBVV95cUxNRnBuTGhtZ3BIV0lwamdJN1NfaEp4TDVzU2RMQ3Nla1c4aEI1VThVYkp5RW8yaEVlbEhvWTNkSHhZX1o2UFBrd2hFdFJFVGJFNEhYZ0FFeFZtLVdoRFl4RzFYYXltZGlLSXpNc29DMWdZTXZPa284dUZxbUhlakFmRjlDQk42QWFFaXpFdlVpM0U5TEI4UzNUQ0FjY0ROMmJsWWptbWotbmdOWHM?oc=5",
+      "published": "Mon, 09 Nov 2026 05:30:00 GMT",
+      "title": "Jensen Huang Is Bigger Than Nvidia — And It’s a Problem - Bloomberg.com"
+    },
+    {
+      "bp_hint": null,
+      "entity": "Nvidia",
+      "link": "https://news.google.com/rss/articles/CBMikwFBVV95cUxQSTlra2ZEWmdyZ1EtREZmU1dOQ01CYVp1LXFqRnQ1VGIyeE1hOFdTZTdMRzJUQXdQbkl6SnhMY0N2T3prQXl5Um9BLXg4elpGeTkwaERneUpWZzVYVW1mRUR4VnNOUmJfdXh1NG80OXFhMnFid1BENlhuRUtfRk05dlVyYUtndDFXMmdpSW5lT2haS1k?oc=5",
+      "published": "Tue, 10 Nov 2026 10:30:00 GMT",
+      "title": "The Honeypot That Might End the AI Boom - The American Prospect"
+    },
+    {
+      "bp_hint": null,
+      "entity": "Nvidia",
+      "link": "https://news.google.com/rss/articles/CBMitgFBVV95cUxPeGZLRkFTMWJGalVMUUpEcGFTalNqdFZUTmZRQkJTUG15cUlmQUlsZnhBR2h3QzlpM2lJQnAzczZPTDUzZ0pDNGZkbWdKeTIxVHpCSmFzdXRGLUtJLXl5RldRZF9saHVVbFhBZ1lESHNQZGJCZFprTGFDM29xM0pTTE9ZbUw4NHJqN0ZjYTY1QVVleEp5dEF6WGhqVXYzTDVCZkl4OUtvMDlCVEN4UV84dUw1Ujg0Zw?oc=5",
+      "published": "Tue, 10 Nov 2026 11:59:00 GMT",
+      "title": "Why the Credit Default Swap Market—Red Hot in the AI Trade—Is Vital for CFOs - WSJ"
     },
     {
       "bp_hint": null,
       "entity": "OpenAI",
-      "link": "https://news.google.com/rss/articles/CBMipwFBVV95cUxNNWVKd21LTkExUFZlcHhTRldRSXN1emVfOTZDRWtWT1I5aVcyOUtwU0VodDJOLWpGQS1iV1BmR1llRDZvWThYYUlMaTlVckd4TFVpcHptNkhFV1NrY2ItdWNiSnN0S1pfekhGWm12SE53U0V3QjliNlZNRWlDVWJzbnJ1S1N2OGdpaU5MajlrZHRaeFRaUGRXNjBtQnJ5NXZVQWhDT0JvWQ?oc=5",
-      "published": "Tue, 29 Sep 2026 16:49:44 GMT",
-      "title": "3 Key Members Of The AI Ecosystem Continue To Send Up Red Flags - Seeking Alpha"
+      "link": "https://news.google.com/rss/articles/CBMijAFBVV95cUxQR2twRlZIT3ZoMHVQcWcxMWlYZGQxRzJ5bkdBZ0NfY1FPQnpWc0dUUkhiVmg1Z01DbXRUeHZzcFFEMnBrQ1dMSks2cGZlakVJNDZRSHJ0NkFMeU9BaUp6eFl3elNQUjJpT05VUWZ5cjlWbmZFTVNsdXdLbnNmZDVGQy1VcUxWalk3Z3Jicw?oc=5",
+      "published": "Wed, 11 Nov 2026 06:48:27 GMT",
+      "title": "Nine Proposed ETFs Would Bet on AI Credit Stress via CDS - FourWeekMBA"
     },
     {
       "bp_hint": null,
       "entity": "OpenAI",
-      "link": "https://news.google.com/rss/articles/CBMidkFVX3lxTFBkV0N4blBXeHJYNlREVDdRYXRHNVRHU1B0Vkt1d0UwTFR6M3d0WFZiczhiaTEyMzNDX1ExZlhOWTUxWWxBQUNobGhDeTM2eWhsRjMzMTNiek9uREk1UV9fSlhoNFNQam5ETHZFM2Z0dHRhcjhpVGc?oc=5",
-      "published": "Sun, 27 Sep 2026 09:55:00 GMT",
-      "title": "Oracle Notifies Delay in Rent Payments for New Mexico Data Center — A Warning Sign for AI Infrastructure Financing - finance.biggo.com"
+      "link": "https://news.google.com/rss/articles/CBMidkFVX3lxTFAya1RPOGNPb3VreFRqNDk0aWJxOUw3WFlOMm5qMW9RNGF2NzY4OTNlM1lqNERHWENZR183UkZTQUtVY01TcGFJdTZzajBReTd0VDF2MUg1SHk1eDVlcGkyV2ZqcmpyaGlpUmJmRldjTjZicFNBelE?oc=5",
+      "published": "Fri, 06 Nov 2026 05:42:06 GMT",
+      "title": "SoftBank Group CDS Spreads Hit 4-Year High on AI Concerns; Shares Plunge More Than 15% Intraday - BigGo Finance"
     },
     {
       "bp_hint": null,
       "entity": "OpenAI",
-      "link": "https://news.google.com/rss/articles/CBMiwwFBVV95cUxNSllhZC1Zc25EMWxZaE85TC1HTDNuUlhIek1qbGhiQW1GVmZZWnNlSmZPVmpJZld2TGdpVm4zcTBYODJIa0tjTGRQMm04eTllWHRCdXVfdWtFSmE3X2t2dGlYb01MSjFqMWV0T2xnYkNObUdRTjBxcUFXOFl0T2xRNi1SeURrQWxlNlBJVDZwbzBQVjI2MUV5ZVV2bnRVc2c0TW43OVQ0R3BNMFgtZ01GaGN2T3NSVnJrRmZiZEJNWUdpWE0?oc=5",
-      "published": "Fri, 02 Oct 2026 04:24:00 GMT",
-      "title": "SoftBank jumped 4% then crashed nearly 6%: what changed in just 24 hours? - TradingView"
+      "link": "https://news.google.com/rss/articles/CBMixwFBVV95cUxQT3hURkxDbUVEdWZIMVVfY3lMWEJ4NS1fNXV4Zk1iblBaNV9LUzZjTXd0cUk0VkJIQmRsRXdIblVqUmF5SHBYUm9xd3dhTlR6LVFLX1gxa2VNN040ODFheWFmRFl3M0o4Q05fdDdnY3NBTXVMTzVVVENWbGFZTEdZZHFEajRMWGVjYlQyM29QSTFJSnlvY3dOVlVaY1dIdUNXODBTMUhMYW9ReFRvR2E5cmRickRkb1RPZmNIb19DRzRCRE93Zk1z?oc=5",
+      "published": "Fri, 06 Nov 2026 19:09:18 GMT",
+      "title": "SoftBank Group Stocks Plunge 10.8% as Credit Risk Hits Four-Year High - TradingView"
+    },
+    {
+      "bp_hint": null,
+      "entity": "OpenAI",
+      "link": "https://news.google.com/rss/articles/CBMijAFBVV95cUxQdWEyYjlxaW9WTFZLanBpRjhNVnFKS1NhanJZRjl2WHk5Wm9TUDhOaFlyMXRHZTZyajFqb2RPOXUwTHN0T2VuVlNYUmZVanVGU1JRWTE5X2ZiWHY0MDdXRVltemF5cVZSZFM3b3Q5VXl6VnFlc0l1ZHptbXR4dG1Vd054ODNYVXRqOEpqLQ?oc=5",
+      "published": "Fri, 06 Nov 2026 08:41:46 GMT",
+      "title": "SoftBank credit risk jumps to 4-year high, shares tumble as AI fears roil market - Reuters"
+    },
+    {
+      "bp_hint": null,
+      "entity": "OpenAI",
+      "link": "https://news.google.com/rss/articles/CBMiogFBVV95cUxNdEtyUzZRQVp4V2ZDeVNtRUo0cTYzNmFpOU5BLVB1ZnJaTGxPTDlJanVHSWd5a0hXVmk4OXE5R0h5RDlIRW1WR0llMWhncDU5VmlGRmJhZ2ttLVBuMHpXZXJfdlFYNWRDRnZHVm1RN1ktV1FfeUJKa1JYcDVzUVV4N2RNRnBlSUdEeWdFSkJCc1ZQeGdRWkdqTDltT3k4RTNoM0E?oc=5",
+      "published": "Mon, 09 Nov 2026 17:25:55 GMT",
+      "title": "SoftBank's OpenAI Bet Is Under Strain as Its Shares Slide Before Earnings - Startup Fortune"
+    },
+    {
+      "bp_hint": null,
+      "entity": "OpenAI",
+      "link": "https://news.google.com/rss/articles/CBMirAFBVV95cUxQVzVib3lXX0QxZkFNR1NORldXcFRxdkk4ckZyVzFyaE1wbmJEVENnSWZQYXdTdVoyR0hVTFpxRV9ySnRCcDdXNHI2R2JTY3pCV2pNNVpuLTFib2FhcEtacXh0dXJGelJNSXd6SFBuZjh1T0dYWG9ON19YWEpFYkNmSTJEVEpTaDEyTUF5akFGOWYyUzM4cjcxWVdOQWtSQkQ2MGdBNTRYYmtKUm9O?oc=5",
+      "published": "Fri, 06 Nov 2026 13:50:45 GMT",
+      "title": "SoftBank's default insurance hits a four-year high as the AI rout reaches credit markets - MLQ.ai"
     },
     {
       "bp_hint": null,
       "entity": "Oracle",
-      "link": "https://news.google.com/rss/articles/CBMisAFBVV95cUxPWjNwM0hVdGUzOGtVMTViai1ITUs3THdYcGtBS3B3NE1kWURCLUdyTEk3Nnd3amZ4ei1lRmg1Y1lyZGh2OFVSSzk0SHdQejU1b3dfdUt5SHhBbTkxUUZvZzZ1TGZ5b1JPWFlYclo1Rm16TC0xQzliUGdCUlZXR1NwTXZmOHR0RktJYThKaGJua2NoQVA2eDVsakYxYW5oaVI5ckwwTlJZc19MOVNwX0dXVA?oc=5",
-      "published": "Tue, 29 Sep 2026 23:30:26 GMT",
-      "title": "COMMENTARY: Are AI credit cracks a warning, or a 'buy' signal? - Reuters"
+      "link": "https://news.google.com/rss/articles/CBMiU0FVX3lxTE1mUFNoSE56YTdxOE9kd29uMHE1V2N2NkszOHpKX255bU9wbjJkcS01WG9LakpYODFGdmFadEFyT1hnODB2NXNiQi01RkN0UkduZ3FF?oc=5",
+      "published": "Wed, 11 Nov 2026 01:00:56 GMT",
+      "title": "AI Credit Risk Shifts Upstream: Chip Giant CDS Spreads Surpass Cloud Vendors for First Time in 3 Months - 36Kr"
     },
     {
       "bp_hint": null,
       "entity": "Oracle",
-      "link": "https://news.google.com/rss/articles/CBMirwFBVV95cUxOYmtsVTBESkdpd2R4UFlOZzNwdGlhclpJckd4VU5DbzU4d2xkX2VuV3ZZMGNYQ3dsWnZGS2FZX0N1Q0lObjE5b0FlS1p6UThwZDRTRW01aXJWZEhtN21SLWxxWmtBckpDZHpVR2t3Wnp1Um8ya1d3dnlJZUYtTzJZNUpaaU1mdXNJUmx5SFZwdEROSHlZVlQ5ZlZDaDVwaDFVczFGRlJmUmJFNUhLRkp3?oc=5",
-      "published": "Tue, 29 Sep 2026 18:01:43 GMT",
-      "title": "Oracle Stock Fell 8% This Week on Data Center Delays. Here’s Why OpenAI’s Growth Matters - tikr.com"
+      "link": "https://news.google.com/rss/articles/CBMidkFVX3lxTE4zOHR1VUNqN1FrOU5hel9xR0tkTkNTRFNzMDdTa3ZjZjVlOEZQSnloWWRaUUhrVU9tRG5TTUViSm5SOEVRNXJGY0VoS1c1UjlwcUNvY3BLTzlVUkN1c0VrTWFjSzZuX2cyUWc1Zk1LVkxrOV9IRnc?oc=5",
+      "published": "Fri, 06 Nov 2026 09:35:00 GMT",
+      "title": "AI Debt Crisis Spreads: CoreWeave Bonds Plunge, Credit Alarms Sound for SpaceX and Oracle - BigGo Finance"
     },
     {
       "bp_hint": null,
       "entity": "Oracle",
-      "link": "https://news.google.com/rss/articles/CBMiigFBVV95cUxPNmJ5UkM0a0ZLbnRXMnRtVndvcjJRa3Nhd1cxeW5xNEJrV2hYdVZMb0lnOGh5VS1ZMndLSDRsMUhaajJoTWxvVXc4RmZnejlsTUJMc1FmcmtxamZoZ1AzM2pyRDY1WkRPbEV4T3U0SDlSOGV4SjJ5MGlsWjZCWFROd2pKNmFkenY2aWc?oc=5",
-      "published": "Tue, 29 Sep 2026 17:05:47 GMT",
-      "title": "Oracle, OpenAI, and CoreWeave face rising risks signaling potential AI sector instability. - Pluang"
+      "link": "https://news.google.com/rss/articles/CBMilwFBVV95cUxNUGFsR3NwTHE4cUxCeHZvdUtObmZ2eTZjZmwwYzhJN29zOGRMWndORU9vbmd3cGdIa1dCUDZQbHBlX0cteDRLVlBoMUFIOGNxUlZMa3MyaXZMV29Va2xXLVJMVEk4QUVIME0zZFhwNkhyMFgzaHo2d3Y3N25NVFkyZm5oZUppR2VHd05tLU5MRFNnS19GZjE4?oc=5",
+      "published": "Fri, 06 Nov 2026 14:09:54 GMT",
+      "title": "CDS market flashes warning on AI ratings downgrades - International Financing Review"
     },
     {
       "bp_hint": null,
       "entity": "Oracle",
-      "link": "https://news.google.com/rss/articles/CBMipwFBVV95cUxQYnhFa3hWMm80ekN1bndfdUktTTJ2ZFdIdk90UmNmekVxd2xHcHpGUnd4VkYtenZ3Slh1QWFSU2J0djRiaEduak50Y2JoOGFLS0hsY05kbnVtWVBJdWgwd000Y2JOOTVtMmJiOU1kMGRHZWdWUVhuM2VTWGpMZV9fQ1A0Sk03M20yUTRJZTJaWWwtOW53UFkyWGE2Q1pLSzFVUk41aVpkTQ?oc=5",
-      "published": "Mon, 28 Sep 2026 10:20:53 GMT",
-      "title": "Oracle: Here's How Badly The AI Trade Could Go (Rating Downgrade) (NYSE:ORCL) - Seeking Alpha"
+      "link": "https://news.google.com/rss/articles/CBMimwFBVV95cUxPRDZ3R0JWM2NqbTE1LTFGQzN2bHZWcXRLSnYzaFZRX0pzZl9HYmFEMTI3YUU0SE9PVGtKRmZPSkp1eUVJZ0c1Ym1MMWVkV0FxMENpaEJDTzdnNzJfQUlfYXBPeG9yd0hRd1FSaElUV3p3NUZMU3dybGh1WFROTl80aVNlbDVIQWpBYmtYYTlpWngtU0xhRDhLOHllVQ?oc=5",
+      "published": "Wed, 11 Nov 2026 14:03:35 GMT",
+      "title": "CoreWeave Surges 16% as Beat-and-Raise Quarter Eases Financing Fears; Nebius Gains 13%, Oracle Advances 5% - Yahoo Finance"
     },
     {
       "bp_hint": null,
       "entity": "Oracle",
-      "link": "https://news.google.com/rss/articles/CBMisAFBVV95cUxOdlBNNG9KRUJGczNxY3ZJSVVMaE5KN29ha1VzU2x3cGJLT0hCbnlpcUI2VkNOMUxUODBDLW9rMFMwT01tY0VzRXpSTWh6YlBsNEhvN3E1bHluUUwyT2xmbDVCbUVlbzZUQXJIazY2ZzNyUHVhb1VWQTBhLXE4MmdLakRKSU1hX3hjRXRrcHg1NExIZ3F3Q25HYm54dzVxN1lLdzN2NmpJUlJMOGRwS3pEYw?oc=5",
-      "published": "Wed, 30 Sep 2026 21:05:04 GMT",
-      "title": "Oracle’s AI Trap: How Charts and Credit Markets Predicted the Plunge - Investing.com"
+      "link": "https://news.google.com/rss/articles/CBMixAFBVV95cUxQVERLOVgxanRBM3NBZXVGMzdCYUxWMVBlY2E0Y0FNTzJBamYzUlU4emI4YngzLWxaNFA4Qnc1ajRLU1gxNDFleEgtOHBEMkw1SHJBaXN6aDBYOUw0WXhMOFBPX280RGxwS0Q5alRKemVfaGdoNHdYQ2tYdGZrZjZTTFVDNm9pRTFvVWxjQ1BfbE1BSUFoM0QtLTdmeTlWZFBKRFRMeFlZa21tcnNrMVpsbFBGVmNSb2cwNkR3dTJPcjJ5Y3Zq?oc=5",
+      "published": "Mon, 09 Nov 2026 11:00:00 GMT",
+      "title": "Weekly Recap: Oracle's $20 billion financing and record CDS spread - TradingView"
     },
     {
       "bp_hint": null,
       "entity": "Oracle",
-      "link": "https://news.google.com/rss/articles/CBMisAFBVV95cUxPb2wzX0lUc01Ka001U1F0UXRCQXl0UE5yQThxMW5PeU5kY3pvNWNPNl94T3NNZGc1Qk91SFBSaklTLXF0dVktRU00RjBxSThMRF9wdjZOWWN2VVVuRW1NMXp4bTl6V0FYQVFWVlhiclNlNmtlUkdIVVlTbjdyTmxoRkdBV3BJckhJbFRhTU05N1RWc1ZYTHF5MVJST0RqVFhmMmUtc1RxLXBFSE12Y3ZYMQ?oc=5",
-      "published": "Mon, 28 Sep 2026 17:54:43 GMT",
-      "title": "What Could Pop The AI Bubble And Which Stocks Stand To Lose - Forbes"
+      "link": "https://news.google.com/rss/articles/CBMihgFBVV95cUxOdzdxTTJqOUlZcmtWMllyS2xYekhfZXhZSzlWdHFzSTRYODZFcG5vRndqSWdFdngwMVdWZU9jNkNfT1M4QUtiNVVfYjJsZURucDQxSmZkSmM2STBwajJRX1hOcHprT2ZPZ2IzSkZZSW9SVzBva3RyVVFMWTdMbDF6czZWNUUxdw?oc=5",
+      "published": "Fri, 06 Nov 2026 07:06:38 GMT",
+      "title": "What the Bond Market Is Telling Us About Leading AI Stocks - Cabot Wealth Network"
     }
   ],
-  "candidates_date": "2026-10-04",
+  "candidates_date": "2026-11-13",
   "entities": [
     {
-      "asof": "2026-10-02",
+      "asof": "2026-11-12",
       "basket": {
         "ORCL": 1.0
       },
       "cds": {
-        "last": 200.0,
-        "last_date": "2026-07-29",
+        "last": 298.0,
+        "last_date": "2026-11-06",
         "series": [
           [
             "2026-01-02",
@@ -134,1070 +232,1090 @@
           [
             "2026-07-29",
             200.0
+          ],
+          [
+            "2026-09-25",
+            227.0
+          ],
+          [
+            "2026-10-08",
+            260.0
+          ],
+          [
+            "2026-10-15",
+            288.0
+          ],
+          [
+            "2026-10-19",
+            295.0
+          ],
+          [
+            "2026-11-06",
+            298.0
           ]
         ],
-        "source": "S&P Global Market Intelligence / Reuters",
-        "ytd_high": 215.0,
+        "source": "CNBC",
+        "ytd_high": 298.0,
         "ytd_low": 145.0
       },
-      "csi": 58.6,
-      "csi_5d": 58.7,
+      "csi": 84.4,
+      "csi_5d": 96.4,
       "csi_hist": [
         [
-          "2025-09-22",
-          29.7
-        ],
-        [
-          "2025-09-23",
-          34.5
-        ],
-        [
-          "2025-09-24",
-          36.2
-        ],
-        [
-          "2025-09-25",
-          41.6
-        ],
-        [
-          "2025-09-26",
-          43.8
-        ],
-        [
-          "2025-09-29",
-          43.7
-        ],
-        [
-          "2025-09-30",
-          44.6
-        ],
-        [
-          "2025-10-01",
-          42.0
-        ],
-        [
-          "2025-10-02",
-          41.8
-        ],
-        [
-          "2025-10-03",
-          42.3
-        ],
-        [
-          "2025-10-06",
-          40.4
-        ],
-        [
-          "2025-10-07",
-          43.4
-        ],
-        [
-          "2025-10-08",
-          32.2
-        ],
-        [
-          "2025-10-09",
-          29.8
-        ],
-        [
-          "2025-10-10",
-          31.8
-        ],
-        [
-          "2025-10-13",
-          28.2
-        ],
-        [
-          "2025-10-14",
-          31.4
-        ],
-        [
-          "2025-10-15",
-          27.8
-        ],
-        [
-          "2025-10-16",
-          26.8
-        ],
-        [
-          "2025-10-17",
-          34.1
-        ],
-        [
-          "2025-10-20",
-          37.2
-        ],
-        [
-          "2025-10-21",
-          37.2
-        ],
-        [
-          "2025-10-22",
-          38.7
-        ],
-        [
-          "2025-10-23",
-          33.4
-        ],
-        [
-          "2025-10-24",
-          30.9
-        ],
-        [
-          "2025-10-27",
-          31.2
-        ],
-        [
-          "2025-10-28",
-          31.4
-        ],
-        [
-          "2025-10-29",
-          32.4
-        ],
-        [
-          "2025-10-30",
-          42.8
-        ],
-        [
           "2025-10-31",
-          44.0
+          42.7
         ],
         [
           "2025-11-03",
-          46.4
+          45.1
         ],
         [
           "2025-11-04",
-          50.9
+          49.7
         ],
         [
           "2025-11-05",
-          48.8
+          47.5
         ],
         [
           "2025-11-06",
-          49.8
+          48.4
         ],
         [
           "2025-11-07",
-          53.5
-        ],
-        [
-          "2025-11-10",
-          49.6
-        ],
-        [
-          "2025-11-11",
-          52.5
-        ],
-        [
-          "2025-11-12",
-          53.7
-        ],
-        [
-          "2025-11-13",
-          59.7
-        ],
-        [
-          "2025-11-14",
-          55.4
-        ],
-        [
-          "2025-11-17",
-          57.3
-        ],
-        [
-          "2025-11-18",
-          57.1
-        ],
-        [
-          "2025-11-19",
-          54.3
-        ],
-        [
-          "2025-11-20",
-          64.5
-        ],
-        [
-          "2025-11-21",
-          70.5
-        ],
-        [
-          "2025-11-24",
-          65.6
-        ],
-        [
-          "2025-11-25",
-          66.2
-        ],
-        [
-          "2025-11-26",
-          65.2
-        ],
-        [
-          "2025-11-28",
-          62.9
-        ],
-        [
-          "2025-12-01",
-          65.8
-        ],
-        [
-          "2025-12-02",
-          66.9
-        ],
-        [
-          "2025-12-03",
-          66.4
-        ],
-        [
-          "2025-12-04",
-          76.1
-        ],
-        [
-          "2025-12-05",
-          74.2
-        ],
-        [
-          "2025-12-08",
-          72.3
-        ],
-        [
-          "2025-12-09",
-          72.3
-        ],
-        [
-          "2025-12-10",
-          71.5
-        ],
-        [
-          "2025-12-11",
-          80.0
-        ],
-        [
-          "2025-12-12",
-          81.2
-        ],
-        [
-          "2025-12-15",
-          81.6
-        ],
-        [
-          "2025-12-16",
-          83.0
-        ],
-        [
-          "2025-12-17",
-          83.7
-        ],
-        [
-          "2025-12-18",
-          83.3
-        ],
-        [
-          "2025-12-19",
-          83.7
-        ],
-        [
-          "2025-12-22",
-          82.5
-        ],
-        [
-          "2025-12-23",
-          81.5
-        ],
-        [
-          "2025-12-24",
-          80.5
-        ],
-        [
-          "2025-12-26",
-          79.6
-        ],
-        [
-          "2025-12-29",
-          79.4
-        ],
-        [
-          "2025-12-30",
-          80.7
-        ],
-        [
-          "2025-12-31",
-          80.9
-        ],
-        [
-          "2026-01-02",
-          79.7
-        ],
-        [
-          "2026-01-05",
-          79.2
-        ],
-        [
-          "2026-01-06",
-          77.9
-        ],
-        [
-          "2026-01-07",
-          78.7
-        ],
-        [
-          "2026-01-08",
-          78.7
-        ],
-        [
-          "2026-01-09",
-          79.3
-        ],
-        [
-          "2026-01-12",
-          72.0
-        ],
-        [
-          "2026-01-13",
-          69.7
-        ],
-        [
-          "2026-01-14",
-          70.8
-        ],
-        [
-          "2026-01-15",
-          70.6
-        ],
-        [
-          "2026-01-16",
-          68.4
-        ],
-        [
-          "2026-01-20",
-          70.9
-        ],
-        [
-          "2026-01-21",
-          67.9
-        ],
-        [
-          "2026-01-22",
-          67.1
-        ],
-        [
-          "2026-01-23",
-          67.2
-        ],
-        [
-          "2026-01-26",
-          68.2
-        ],
-        [
-          "2026-01-27",
-          68.8
-        ],
-        [
-          "2026-01-28",
-          68.5
-        ],
-        [
-          "2026-01-29",
-          68.7
-        ],
-        [
-          "2026-01-30",
-          69.1
-        ],
-        [
-          "2026-02-02",
-          69.2
-        ],
-        [
-          "2026-02-03",
-          69.7
-        ],
-        [
-          "2026-02-04",
-          71.7
-        ],
-        [
-          "2026-02-05",
-          75.1
-        ],
-        [
-          "2026-02-06",
-          76.6
-        ],
-        [
-          "2026-02-09",
-          81.4
-        ],
-        [
-          "2026-02-10",
-          81.8
-        ],
-        [
-          "2026-02-11",
-          82.0
-        ],
-        [
-          "2026-02-12",
-          81.6
-        ],
-        [
-          "2026-02-13",
-          83.0
-        ],
-        [
-          "2026-02-17",
-          84.5
-        ],
-        [
-          "2026-02-18",
-          81.3
-        ],
-        [
-          "2026-02-19",
-          80.6
-        ],
-        [
-          "2026-02-20",
-          81.5
-        ],
-        [
-          "2026-02-23",
-          84.6
-        ],
-        [
-          "2026-02-24",
-          86.0
-        ],
-        [
-          "2026-02-25",
-          84.4
-        ],
-        [
-          "2026-02-26",
-          86.7
-        ],
-        [
-          "2026-02-27",
-          88.6
-        ],
-        [
-          "2026-03-02",
-          88.6
-        ],
-        [
-          "2026-03-03",
-          88.3
-        ],
-        [
-          "2026-03-04",
-          86.4
-        ],
-        [
-          "2026-03-05",
-          84.7
-        ],
-        [
-          "2026-03-06",
-          82.3
-        ],
-        [
-          "2026-03-09",
-          82.3
-        ],
-        [
-          "2026-03-10",
-          74.4
-        ],
-        [
-          "2026-03-11",
-          77.0
-        ],
-        [
-          "2026-03-12",
-          77.1
-        ],
-        [
-          "2026-03-13",
-          78.5
-        ],
-        [
-          "2026-03-16",
-          79.8
-        ],
-        [
-          "2026-03-17",
-          74.6
-        ],
-        [
-          "2026-03-18",
-          75.5
-        ],
-        [
-          "2026-03-19",
-          79.0
-        ],
-        [
-          "2026-03-20",
-          80.9
-        ],
-        [
-          "2026-03-23",
-          76.6
-        ],
-        [
-          "2026-03-24",
-          80.4
-        ],
-        [
-          "2026-03-25",
-          80.2
-        ],
-        [
-          "2026-03-26",
-          81.5
-        ],
-        [
-          "2026-03-27",
-          82.3
-        ],
-        [
-          "2026-03-30",
-          82.7
-        ],
-        [
-          "2026-03-31",
-          84.6
-        ],
-        [
-          "2026-04-01",
-          82.8
-        ],
-        [
-          "2026-04-02",
-          82.0
-        ],
-        [
-          "2026-04-06",
-          81.3
-        ],
-        [
-          "2026-04-07",
-          81.9
-        ],
-        [
-          "2026-04-08",
-          81.0
-        ],
-        [
-          "2026-04-09",
-          72.5
-        ],
-        [
-          "2026-04-10",
-          72.0
-        ],
-        [
-          "2026-04-13",
-          80.3
-        ],
-        [
-          "2026-04-14",
-          76.1
-        ],
-        [
-          "2026-04-15",
-          73.7
-        ],
-        [
-          "2026-04-16",
-          66.2
-        ],
-        [
-          "2026-04-17",
-          65.8
-        ],
-        [
-          "2026-04-20",
-          65.1
-        ],
-        [
-          "2026-04-21",
-          63.2
-        ],
-        [
-          "2026-04-22",
-          60.0
-        ],
-        [
-          "2026-04-23",
-          64.6
-        ],
-        [
-          "2026-04-24",
-          64.4
-        ],
-        [
-          "2026-04-27",
-          65.5
-        ],
-        [
-          "2026-04-28",
-          67.4
-        ],
-        [
-          "2026-04-29",
-          65.4
-        ],
-        [
-          "2026-04-30",
-          66.7
-        ],
-        [
-          "2026-05-01",
-          66.8
-        ],
-        [
-          "2026-05-04",
-          67.3
-        ],
-        [
-          "2026-05-05",
-          65.0
-        ],
-        [
-          "2026-05-06",
-          65.2
-        ],
-        [
-          "2026-05-07",
-          63.7
-        ],
-        [
-          "2026-05-08",
-          63.6
-        ],
-        [
-          "2026-05-11",
-          55.7
-        ],
-        [
-          "2026-05-12",
-          55.3
-        ],
-        [
-          "2026-05-13",
-          54.6
-        ],
-        [
-          "2026-05-14",
-          53.0
-        ],
-        [
-          "2026-05-15",
-          52.5
-        ],
-        [
-          "2026-05-18",
-          53.9
-        ],
-        [
-          "2026-05-19",
-          54.5
-        ],
-        [
-          "2026-05-20",
-          54.7
-        ],
-        [
-          "2026-05-21",
-          50.4
-        ],
-        [
-          "2026-05-22",
-          49.8
-        ],
-        [
-          "2026-05-26",
-          49.8
-        ],
-        [
-          "2026-05-27",
-          47.2
-        ],
-        [
-          "2026-05-28",
-          50.5
-        ],
-        [
-          "2026-05-29",
-          51.7
-        ],
-        [
-          "2026-06-01",
-          48.2
-        ],
-        [
-          "2026-06-02",
-          49.3
-        ],
-        [
-          "2026-06-03",
-          57.2
-        ],
-        [
-          "2026-06-04",
-          54.8
-        ],
-        [
-          "2026-06-05",
-          63.2
-        ],
-        [
-          "2026-06-08",
-          63.8
-        ],
-        [
-          "2026-06-09",
-          63.8
-        ],
-        [
-          "2026-06-10",
-          64.1
-        ],
-        [
-          "2026-06-11",
-          64.3
-        ],
-        [
-          "2026-06-12",
-          63.8
-        ],
-        [
-          "2026-06-15",
-          63.6
-        ],
-        [
-          "2026-06-16",
-          63.9
-        ],
-        [
-          "2026-06-17",
-          63.5
-        ],
-        [
-          "2026-06-18",
-          63.6
-        ],
-        [
-          "2026-06-22",
-          64.0
-        ],
-        [
-          "2026-06-23",
-          64.0
-        ],
-        [
-          "2026-06-24",
-          64.6
-        ],
-        [
-          "2026-06-25",
-          65.0
-        ],
-        [
-          "2026-06-26",
-          64.9
-        ],
-        [
-          "2026-06-29",
-          63.6
-        ],
-        [
-          "2026-06-30",
-          54.8
-        ],
-        [
-          "2026-07-01",
-          55.7
-        ],
-        [
-          "2026-07-02",
-          55.1
-        ],
-        [
-          "2026-07-06",
-          53.6
-        ],
-        [
-          "2026-07-07",
-          47.7
-        ],
-        [
-          "2026-07-08",
-          47.8
-        ],
-        [
-          "2026-07-09",
-          56.1
-        ],
-        [
-          "2026-07-10",
-          61.9
-        ],
-        [
-          "2026-07-13",
-          66.0
-        ],
-        [
-          "2026-07-14",
-          68.6
-        ],
-        [
-          "2026-07-15",
-          66.7
-        ],
-        [
-          "2026-07-16",
-          68.9
-        ],
-        [
-          "2026-07-17",
-          71.1
-        ],
-        [
-          "2026-07-20",
-          70.9
-        ],
-        [
-          "2026-07-21",
-          74.5
-        ],
-        [
-          "2026-07-22",
-          71.9
-        ],
-        [
-          "2026-07-23",
-          73.0
-        ],
-        [
-          "2026-07-24",
-          74.4
-        ],
-        [
-          "2026-07-27",
-          78.2
-        ],
-        [
-          "2026-07-28",
-          78.2
-        ],
-        [
-          "2026-07-29",
-          78.3
-        ],
-        [
-          "2026-07-30",
-          81.5
-        ],
-        [
-          "2026-07-31",
-          81.7
-        ],
-        [
-          "2026-08-03",
-          85.4
-        ],
-        [
-          "2026-08-04",
-          85.3
-        ],
-        [
-          "2026-08-05",
-          84.9
-        ],
-        [
-          "2026-08-06",
-          85.3
-        ],
-        [
-          "2026-08-07",
-          82.1
-        ],
-        [
-          "2026-08-10",
-          79.0
-        ],
-        [
-          "2026-08-11",
-          83.8
-        ],
-        [
-          "2026-08-12",
-          80.9
-        ],
-        [
-          "2026-08-13",
-          74.0
-        ],
-        [
-          "2026-08-14",
-          76.6
-        ],
-        [
-          "2026-08-17",
-          80.4
-        ],
-        [
-          "2026-08-18",
-          83.2
-        ],
-        [
-          "2026-08-19",
-          83.2
-        ],
-        [
-          "2026-08-20",
-          81.1
-        ],
-        [
-          "2026-08-21",
-          78.2
-        ],
-        [
-          "2026-08-24",
-          80.0
-        ],
-        [
-          "2026-08-25",
-          80.0
-        ],
-        [
-          "2026-08-26",
-          78.6
-        ],
-        [
-          "2026-08-27",
-          75.1
-        ],
-        [
-          "2026-08-28",
-          74.5
-        ],
-        [
-          "2026-08-31",
-          67.7
-        ],
-        [
-          "2026-09-01",
-          69.9
-        ],
-        [
-          "2026-09-02",
-          71.1
-        ],
-        [
-          "2026-09-03",
-          75.6
-        ],
-        [
-          "2026-09-04",
-          71.5
-        ],
-        [
-          "2026-09-08",
-          63.9
-        ],
-        [
-          "2026-09-09",
-          62.4
-        ],
-        [
-          "2026-09-10",
-          68.9
-        ],
-        [
-          "2026-09-11",
-          67.6
-        ],
-        [
-          "2026-09-14",
-          69.2
-        ],
-        [
-          "2026-09-15",
-          71.9
-        ],
-        [
-          "2026-09-16",
-          65.4
-        ],
-        [
-          "2026-09-17",
-          60.7
-        ],
-        [
-          "2026-09-18",
-          58.3
-        ],
-        [
-          "2026-09-21",
-          54.9
-        ],
-        [
-          "2026-09-22",
           52.1
         ],
         [
-          "2026-09-23",
-          54.6
+          "2025-11-10",
+          47.7
         ],
         [
-          "2026-09-24",
-          58.5
+          "2025-11-11",
+          50.6
         ],
         [
-          "2026-09-25",
-          58.7
+          "2025-11-12",
+          51.8
         ],
         [
-          "2026-09-28",
+          "2025-11-13",
+          57.8
+        ],
+        [
+          "2025-11-14",
+          53.5
+        ],
+        [
+          "2025-11-17",
+          55.3
+        ],
+        [
+          "2025-11-18",
+          55.0
+        ],
+        [
+          "2025-11-19",
+          52.4
+        ],
+        [
+          "2025-11-20",
+          62.7
+        ],
+        [
+          "2025-11-21",
+          68.8
+        ],
+        [
+          "2025-11-24",
+          63.9
+        ],
+        [
+          "2025-11-25",
+          64.5
+        ],
+        [
+          "2025-11-26",
+          63.8
+        ],
+        [
+          "2025-11-28",
+          61.1
+        ],
+        [
+          "2025-12-01",
+          64.0
+        ],
+        [
+          "2025-12-02",
+          65.2
+        ],
+        [
+          "2025-12-03",
+          64.7
+        ],
+        [
+          "2025-12-04",
+          74.6
+        ],
+        [
+          "2025-12-05",
+          72.8
+        ],
+        [
+          "2025-12-08",
+          70.8
+        ],
+        [
+          "2025-12-09",
+          70.9
+        ],
+        [
+          "2025-12-10",
+          70.0
+        ],
+        [
+          "2025-12-11",
+          79.2
+        ],
+        [
+          "2025-12-12",
+          80.4
+        ],
+        [
+          "2025-12-15",
+          80.7
+        ],
+        [
+          "2025-12-16",
+          82.2
+        ],
+        [
+          "2025-12-17",
+          83.0
+        ],
+        [
+          "2025-12-18",
+          82.5
+        ],
+        [
+          "2025-12-19",
+          83.1
+        ],
+        [
+          "2025-12-22",
+          81.7
+        ],
+        [
+          "2025-12-23",
+          80.8
+        ],
+        [
+          "2025-12-24",
+          79.7
+        ],
+        [
+          "2025-12-26",
+          78.7
+        ],
+        [
+          "2025-12-29",
+          78.6
+        ],
+        [
+          "2025-12-30",
+          79.8
+        ],
+        [
+          "2025-12-31",
+          80.1
+        ],
+        [
+          "2026-01-02",
+          78.8
+        ],
+        [
+          "2026-01-05",
+          78.3
+        ],
+        [
+          "2026-01-06",
+          76.9
+        ],
+        [
+          "2026-01-07",
+          77.7
+        ],
+        [
+          "2026-01-08",
+          77.7
+        ],
+        [
+          "2026-01-09",
+          78.5
+        ],
+        [
+          "2026-01-12",
+          70.5
+        ],
+        [
+          "2026-01-13",
+          68.0
+        ],
+        [
+          "2026-01-14",
+          69.2
+        ],
+        [
+          "2026-01-15",
+          68.9
+        ],
+        [
+          "2026-01-16",
+          66.6
+        ],
+        [
+          "2026-01-20",
+          69.4
+        ],
+        [
+          "2026-01-21",
+          66.1
+        ],
+        [
+          "2026-01-22",
+          65.2
+        ],
+        [
+          "2026-01-23",
           65.3
         ],
         [
+          "2026-01-26",
+          66.5
+        ],
+        [
+          "2026-01-27",
+          67.1
+        ],
+        [
+          "2026-01-28",
+          66.8
+        ],
+        [
+          "2026-01-29",
+          67.0
+        ],
+        [
+          "2026-01-30",
+          67.5
+        ],
+        [
+          "2026-02-02",
+          67.6
+        ],
+        [
+          "2026-02-03",
+          68.2
+        ],
+        [
+          "2026-02-04",
+          70.3
+        ],
+        [
+          "2026-02-05",
+          74.0
+        ],
+        [
+          "2026-02-06",
+          75.7
+        ],
+        [
+          "2026-02-09",
+          81.0
+        ],
+        [
+          "2026-02-10",
+          81.3
+        ],
+        [
+          "2026-02-11",
+          81.5
+        ],
+        [
+          "2026-02-12",
+          81.0
+        ],
+        [
+          "2026-02-13",
+          82.5
+        ],
+        [
+          "2026-02-17",
+          84.0
+        ],
+        [
+          "2026-02-18",
+          80.7
+        ],
+        [
+          "2026-02-19",
+          79.9
+        ],
+        [
+          "2026-02-20",
+          81.0
+        ],
+        [
+          "2026-02-23",
+          84.1
+        ],
+        [
+          "2026-02-24",
+          85.6
+        ],
+        [
+          "2026-02-25",
+          84.0
+        ],
+        [
+          "2026-02-26",
+          86.3
+        ],
+        [
+          "2026-02-27",
+          88.2
+        ],
+        [
+          "2026-03-02",
+          88.2
+        ],
+        [
+          "2026-03-03",
+          87.9
+        ],
+        [
+          "2026-03-04",
+          86.0
+        ],
+        [
+          "2026-03-05",
+          84.1
+        ],
+        [
+          "2026-03-06",
+          81.3
+        ],
+        [
+          "2026-03-09",
+          81.2
+        ],
+        [
+          "2026-03-10",
+          72.7
+        ],
+        [
+          "2026-03-11",
+          76.0
+        ],
+        [
+          "2026-03-12",
+          76.1
+        ],
+        [
+          "2026-03-13",
+          77.5
+        ],
+        [
+          "2026-03-16",
+          78.8
+        ],
+        [
+          "2026-03-17",
+          73.5
+        ],
+        [
+          "2026-03-18",
+          74.5
+        ],
+        [
+          "2026-03-19",
+          77.9
+        ],
+        [
+          "2026-03-20",
+          79.7
+        ],
+        [
+          "2026-03-23",
+          75.3
+        ],
+        [
+          "2026-03-24",
+          79.1
+        ],
+        [
+          "2026-03-25",
+          79.0
+        ],
+        [
+          "2026-03-26",
+          80.3
+        ],
+        [
+          "2026-03-27",
+          81.1
+        ],
+        [
+          "2026-03-30",
+          81.4
+        ],
+        [
+          "2026-03-31",
+          83.7
+        ],
+        [
+          "2026-04-01",
+          81.8
+        ],
+        [
+          "2026-04-02",
+          81.0
+        ],
+        [
+          "2026-04-06",
+          80.2
+        ],
+        [
+          "2026-04-07",
+          80.9
+        ],
+        [
+          "2026-04-08",
+          80.0
+        ],
+        [
+          "2026-04-09",
+          70.8
+        ],
+        [
+          "2026-04-10",
+          70.3
+        ],
+        [
+          "2026-04-13",
+          79.6
+        ],
+        [
+          "2026-04-14",
+          75.7
+        ],
+        [
+          "2026-04-15",
+          73.4
+        ],
+        [
+          "2026-04-16",
+          65.9
+        ],
+        [
+          "2026-04-17",
+          65.6
+        ],
+        [
+          "2026-04-20",
+          64.7
+        ],
+        [
+          "2026-04-21",
+          62.8
+        ],
+        [
+          "2026-04-22",
+          59.4
+        ],
+        [
+          "2026-04-23",
+          64.3
+        ],
+        [
+          "2026-04-24",
+          64.1
+        ],
+        [
+          "2026-04-27",
+          65.2
+        ],
+        [
+          "2026-04-28",
+          67.1
+        ],
+        [
+          "2026-04-29",
+          65.1
+        ],
+        [
+          "2026-04-30",
+          66.4
+        ],
+        [
+          "2026-05-01",
+          66.6
+        ],
+        [
+          "2026-05-04",
+          67.2
+        ],
+        [
+          "2026-05-05",
+          64.9
+        ],
+        [
+          "2026-05-06",
+          65.0
+        ],
+        [
+          "2026-05-07",
+          63.4
+        ],
+        [
+          "2026-05-08",
+          63.3
+        ],
+        [
+          "2026-05-11",
+          54.8
+        ],
+        [
+          "2026-05-12",
+          54.4
+        ],
+        [
+          "2026-05-13",
+          53.7
+        ],
+        [
+          "2026-05-14",
+          52.0
+        ],
+        [
+          "2026-05-15",
+          51.4
+        ],
+        [
+          "2026-05-18",
+          53.0
+        ],
+        [
+          "2026-05-19",
+          53.6
+        ],
+        [
+          "2026-05-20",
+          53.8
+        ],
+        [
+          "2026-05-21",
+          49.2
+        ],
+        [
+          "2026-05-22",
+          48.6
+        ],
+        [
+          "2026-05-26",
+          48.6
+        ],
+        [
+          "2026-05-27",
+          45.7
+        ],
+        [
+          "2026-05-28",
+          49.3
+        ],
+        [
+          "2026-05-29",
+          50.9
+        ],
+        [
+          "2026-06-01",
+          47.7
+        ],
+        [
+          "2026-06-02",
+          48.8
+        ],
+        [
+          "2026-06-03",
+          57.0
+        ],
+        [
+          "2026-06-04",
+          54.6
+        ],
+        [
+          "2026-06-05",
+          63.1
+        ],
+        [
+          "2026-06-08",
+          63.7
+        ],
+        [
+          "2026-06-09",
+          63.7
+        ],
+        [
+          "2026-06-10",
+          64.0
+        ],
+        [
+          "2026-06-11",
+          64.2
+        ],
+        [
+          "2026-06-12",
+          63.7
+        ],
+        [
+          "2026-06-15",
+          63.5
+        ],
+        [
+          "2026-06-16",
+          63.7
+        ],
+        [
+          "2026-06-17",
+          63.3
+        ],
+        [
+          "2026-06-18",
+          63.5
+        ],
+        [
+          "2026-06-22",
+          63.9
+        ],
+        [
+          "2026-06-23",
+          63.9
+        ],
+        [
+          "2026-06-24",
+          64.5
+        ],
+        [
+          "2026-06-25",
+          64.9
+        ],
+        [
+          "2026-06-26",
+          64.7
+        ],
+        [
+          "2026-06-29",
+          63.4
+        ],
+        [
+          "2026-06-30",
+          53.9
+        ],
+        [
+          "2026-07-01",
+          54.8
+        ],
+        [
+          "2026-07-02",
+          54.2
+        ],
+        [
+          "2026-07-06",
+          52.7
+        ],
+        [
+          "2026-07-07",
+          46.4
+        ],
+        [
+          "2026-07-08",
+          46.4
+        ],
+        [
+          "2026-07-09",
+          54.9
+        ],
+        [
+          "2026-07-10",
+          60.8
+        ],
+        [
+          "2026-07-13",
+          64.6
+        ],
+        [
+          "2026-07-14",
+          67.2
+        ],
+        [
+          "2026-07-15",
+          65.3
+        ],
+        [
+          "2026-07-16",
+          67.6
+        ],
+        [
+          "2026-07-17",
+          69.9
+        ],
+        [
+          "2026-07-20",
+          69.7
+        ],
+        [
+          "2026-07-21",
+          73.5
+        ],
+        [
+          "2026-07-22",
+          70.8
+        ],
+        [
+          "2026-07-23",
+          71.9
+        ],
+        [
+          "2026-07-24",
+          73.3
+        ],
+        [
+          "2026-07-27",
+          77.3
+        ],
+        [
+          "2026-07-28",
+          77.4
+        ],
+        [
+          "2026-07-29",
+          77.4
+        ],
+        [
+          "2026-07-30",
+          81.0
+        ],
+        [
+          "2026-07-31",
+          81.2
+        ],
+        [
+          "2026-08-03",
+          85.2
+        ],
+        [
+          "2026-08-04",
+          85.1
+        ],
+        [
+          "2026-08-05",
+          84.7
+        ],
+        [
+          "2026-08-06",
+          85.1
+        ],
+        [
+          "2026-08-07",
+          81.9
+        ],
+        [
+          "2026-08-10",
+          78.6
+        ],
+        [
+          "2026-08-11",
+          83.5
+        ],
+        [
+          "2026-08-12",
+          80.6
+        ],
+        [
+          "2026-08-13",
+          73.5
+        ],
+        [
+          "2026-08-14",
+          76.2
+        ],
+        [
+          "2026-08-17",
+          79.9
+        ],
+        [
+          "2026-08-18",
+          82.7
+        ],
+        [
+          "2026-08-19",
+          82.8
+        ],
+        [
+          "2026-08-20",
+          80.5
+        ],
+        [
+          "2026-08-21",
+          77.5
+        ],
+        [
+          "2026-08-24",
+          79.3
+        ],
+        [
+          "2026-08-25",
+          79.3
+        ],
+        [
+          "2026-08-26",
+          77.9
+        ],
+        [
+          "2026-08-27",
+          74.2
+        ],
+        [
+          "2026-08-28",
+          73.6
+        ],
+        [
+          "2026-08-31",
+          66.3
+        ],
+        [
+          "2026-09-01",
+          68.6
+        ],
+        [
+          "2026-09-02",
+          69.8
+        ],
+        [
+          "2026-09-03",
+          74.5
+        ],
+        [
+          "2026-09-04",
+          70.5
+        ],
+        [
+          "2026-09-08",
+          62.9
+        ],
+        [
+          "2026-09-09",
+          61.3
+        ],
+        [
+          "2026-09-10",
+          67.8
+        ],
+        [
+          "2026-09-11",
+          66.6
+        ],
+        [
+          "2026-09-14",
+          68.1
+        ],
+        [
+          "2026-09-15",
+          70.8
+        ],
+        [
+          "2026-09-16",
+          64.4
+        ],
+        [
+          "2026-09-17",
+          59.8
+        ],
+        [
+          "2026-09-18",
+          57.4
+        ],
+        [
+          "2026-09-21",
+          54.0
+        ],
+        [
+          "2026-09-22",
+          51.1
+        ],
+        [
+          "2026-09-23",
+          53.7
+        ],
+        [
+          "2026-09-24",
+          57.7
+        ],
+        [
+          "2026-09-25",
+          57.8
+        ],
+        [
+          "2026-09-28",
+          64.5
+        ],
+        [
           "2026-09-29",
-          65.7
+          64.9
         ],
         [
           "2026-09-30",
-          63.2
+          62.4
         ],
         [
           "2026-10-01",
-          62.1
+          61.1
         ],
         [
           "2026-10-02",
-          58.6
+          56.7
+        ],
+        [
+          "2026-10-05",
+          54.4
+        ],
+        [
+          "2026-10-06",
+          52.3
+        ],
+        [
+          "2026-10-07",
+          52.4
+        ],
+        [
+          "2026-10-08",
+          52.6
+        ],
+        [
+          "2026-10-09",
+          55.8
+        ],
+        [
+          "2026-10-12",
+          55.2
+        ],
+        [
+          "2026-10-13",
+          57.4
+        ],
+        [
+          "2026-10-14",
+          64.8
+        ],
+        [
+          "2026-10-15",
+          64.4
+        ],
+        [
+          "2026-10-16",
+          65.2
+        ],
+        [
+          "2026-10-19",
+          65.8
+        ],
+        [
+          "2026-10-20",
+          66.0
+        ],
+        [
+          "2026-10-21",
+          65.7
+        ],
+        [
+          "2026-10-22",
+          66.1
+        ],
+        [
+          "2026-10-23",
+          66.9
+        ],
+        [
+          "2026-10-26",
+          67.9
+        ],
+        [
+          "2026-10-27",
+          70.9
+        ],
+        [
+          "2026-10-28",
+          72.1
+        ],
+        [
+          "2026-10-29",
+          76.0
+        ],
+        [
+          "2026-10-30",
+          83.4
+        ],
+        [
+          "2026-11-02",
+          91.6
+        ],
+        [
+          "2026-11-03",
+          89.6
+        ],
+        [
+          "2026-11-04",
+          87.8
+        ],
+        [
+          "2026-11-05",
+          96.4
+        ],
+        [
+          "2026-11-06",
+          96.5
+        ],
+        [
+          "2026-11-09",
+          92.0
+        ],
+        [
+          "2026-11-10",
+          91.1
+        ],
+        [
+          "2026-11-11",
+          83.3
+        ],
+        [
+          "2026-11-12",
+          84.4
         ]
       ],
-      "csi_prev": 62.1,
+      "csi_prev": 83.3,
       "key": "oracle",
       "name": "Oracle",
       "note": "AI 부채 공포의 대리지표. IG 지수 최대 비금융 발행사.",
       "type": "traded"
     },
     {
-      "asof": "2026-10-02",
+      "asof": "2026-11-12",
       "basket": {
         "NVDA": 1.0
       },
       "cds": {
-        "last": 78.0,
-        "last_date": "2026-07-29",
+        "last": 139.0,
+        "last_date": "2026-11-06",
         "series": [
           [
             "2026-06-26",
@@ -1222,826 +1340,714 @@
           [
             "2026-07-29",
             78.0
+          ],
+          [
+            "2026-11-06",
+            139.0
           ]
         ],
-        "source": "S&P Global Market Intelligence / Reuters",
-        "ytd_high": 82.0,
+        "source": "CNBC",
+        "ytd_high": 139.0,
         "ytd_low": 42.0
       },
-      "csi": 12.7,
-      "csi_5d": 17.0,
+      "csi": 87.8,
+      "csi_5d": 74.7,
       "csi_hist": [
         [
-          "2025-09-22",
-          9.6
-        ],
-        [
-          "2025-09-23",
-          13.4
-        ],
-        [
-          "2025-09-24",
-          14.1
-        ],
-        [
-          "2025-09-25",
-          13.9
-        ],
-        [
-          "2025-09-26",
-          13.4
-        ],
-        [
-          "2025-09-29",
-          10.5
-        ],
-        [
-          "2025-09-30",
-          9.9
-        ],
-        [
-          "2025-10-01",
-          9.8
-        ],
-        [
-          "2025-10-02",
-          9.7
-        ],
-        [
-          "2025-10-03",
-          10.1
-        ],
-        [
-          "2025-10-06",
-          11.2
-        ],
-        [
-          "2025-10-07",
-          11.6
-        ],
-        [
-          "2025-10-08",
-          8.5
-        ],
-        [
-          "2025-10-09",
-          9.6
-        ],
-        [
-          "2025-10-10",
-          20.3
-        ],
-        [
-          "2025-10-13",
-          18.7
-        ],
-        [
-          "2025-10-14",
-          27.7
-        ],
-        [
-          "2025-10-15",
-          22.8
-        ],
-        [
-          "2025-10-16",
-          21.3
-        ],
-        [
-          "2025-10-17",
-          20.9
-        ],
-        [
-          "2025-10-20",
-          17.4
-        ],
-        [
-          "2025-10-21",
-          18.0
-        ],
-        [
-          "2025-10-22",
-          19.3
-        ],
-        [
-          "2025-10-23",
-          16.9
-        ],
-        [
-          "2025-10-24",
-          14.7
-        ],
-        [
-          "2025-10-27",
-          12.3
-        ],
-        [
-          "2025-10-28",
-          14.7
-        ],
-        [
-          "2025-10-29",
-          15.8
-        ],
-        [
-          "2025-10-30",
-          20.4
-        ],
-        [
           "2025-10-31",
-          22.9
-        ],
-        [
-          "2025-11-03",
-          22.1
-        ],
-        [
-          "2025-11-04",
-          27.9
-        ],
-        [
-          "2025-11-05",
-          28.6
-        ],
-        [
-          "2025-11-06",
-          33.9
-        ],
-        [
-          "2025-11-07",
-          33.0
-        ],
-        [
-          "2025-11-10",
-          28.9
-        ],
-        [
-          "2025-11-11",
-          30.7
-        ],
-        [
-          "2025-11-12",
-          30.3
-        ],
-        [
-          "2025-11-13",
-          35.4
-        ],
-        [
-          "2025-11-14",
-          34.2
-        ],
-        [
-          "2025-11-17",
-          36.2
-        ],
-        [
-          "2025-11-18",
-          39.3
-        ],
-        [
-          "2025-11-19",
-          37.2
-        ],
-        [
-          "2025-11-20",
-          40.9
-        ],
-        [
-          "2025-11-21",
-          42.1
-        ],
-        [
-          "2025-11-24",
-          39.3
-        ],
-        [
-          "2025-11-25",
-          39.3
-        ],
-        [
-          "2025-11-26",
-          37.1
-        ],
-        [
-          "2025-11-28",
-          38.2
-        ],
-        [
-          "2025-12-01",
-          37.0
-        ],
-        [
-          "2025-12-02",
-          35.4
-        ],
-        [
-          "2025-12-03",
-          35.5
-        ],
-        [
-          "2025-12-04",
-          33.0
-        ],
-        [
-          "2025-12-05",
-          31.2
-        ],
-        [
-          "2025-12-08",
-          29.6
-        ],
-        [
-          "2025-12-09",
-          22.1
-        ],
-        [
-          "2025-12-10",
-          21.6
-        ],
-        [
-          "2025-12-11",
           23.0
         ],
         [
-          "2025-12-12",
-          27.2
+          "2025-11-03",
+          22.2
         ],
         [
-          "2025-12-15",
+          "2025-11-04",
           26.9
         ],
         [
-          "2025-12-16",
-          29.4
-        ],
-        [
-          "2025-12-17",
-          34.1
-        ],
-        [
-          "2025-12-18",
-          29.9
-        ],
-        [
-          "2025-12-19",
-          25.7
-        ],
-        [
-          "2025-12-22",
-          24.9
-        ],
-        [
-          "2025-12-23",
-          21.8
-        ],
-        [
-          "2025-12-24",
-          19.5
-        ],
-        [
-          "2025-12-26",
-          18.6
-        ],
-        [
-          "2025-12-29",
-          19.7
-        ],
-        [
-          "2025-12-30",
-          20.6
-        ],
-        [
-          "2025-12-31",
-          21.1
-        ],
-        [
-          "2026-01-02",
-          19.9
-        ],
-        [
-          "2026-01-05",
-          20.0
-        ],
-        [
-          "2026-01-06",
-          21.2
-        ],
-        [
-          "2026-01-07",
-          19.1
-        ],
-        [
-          "2026-01-08",
-          23.3
-        ],
-        [
-          "2026-01-09",
-          20.1
-        ],
-        [
-          "2026-01-12",
-          19.5
-        ],
-        [
-          "2026-01-13",
-          15.0
-        ],
-        [
-          "2026-01-14",
-          17.8
-        ],
-        [
-          "2026-01-15",
-          17.0
-        ],
-        [
-          "2026-01-16",
-          11.5
-        ],
-        [
-          "2026-01-20",
-          22.4
-        ],
-        [
-          "2026-01-21",
-          16.3
-        ],
-        [
-          "2026-01-22",
-          15.2
-        ],
-        [
-          "2026-01-23",
-          13.5
-        ],
-        [
-          "2026-01-26",
-          18.3
-        ],
-        [
-          "2026-01-27",
-          18.8
-        ],
-        [
-          "2026-01-28",
-          14.8
-        ],
-        [
-          "2026-01-29",
-          13.9
-        ],
-        [
-          "2026-01-30",
-          16.9
-        ],
-        [
-          "2026-02-02",
-          21.2
-        ],
-        [
-          "2026-02-03",
-          27.1
-        ],
-        [
-          "2026-02-04",
-          32.4
-        ],
-        [
-          "2026-02-05",
-          34.7
-        ],
-        [
-          "2026-02-06",
-          37.3
-        ],
-        [
-          "2026-02-09",
-          31.2
-        ],
-        [
-          "2026-02-10",
-          33.6
-        ],
-        [
-          "2026-02-11",
-          30.8
-        ],
-        [
-          "2026-02-12",
-          34.2
-        ],
-        [
-          "2026-02-13",
-          37.4
-        ],
-        [
-          "2026-02-17",
-          36.1
-        ],
-        [
-          "2026-02-18",
-          30.5
-        ],
-        [
-          "2026-02-19",
-          30.1
-        ],
-        [
-          "2026-02-20",
-          29.2
-        ],
-        [
-          "2026-02-23",
-          30.0
-        ],
-        [
-          "2026-02-24",
-          30.3
-        ],
-        [
-          "2026-02-25",
-          28.1
-        ],
-        [
-          "2026-02-26",
-          38.6
-        ],
-        [
-          "2026-02-27",
-          46.1
-        ],
-        [
-          "2026-03-02",
-          42.6
-        ],
-        [
-          "2026-03-03",
-          43.4
-        ],
-        [
-          "2026-03-04",
-          40.4
-        ],
-        [
-          "2026-03-05",
-          39.8
-        ],
-        [
-          "2026-03-06",
-          47.3
-        ],
-        [
-          "2026-03-09",
-          34.7
-        ],
-        [
-          "2026-03-10",
-          31.2
-        ],
-        [
-          "2026-03-11",
-          31.7
-        ],
-        [
-          "2026-03-12",
-          34.8
-        ],
-        [
-          "2026-03-13",
-          37.5
-        ],
-        [
-          "2026-03-16",
-          36.0
-        ],
-        [
-          "2026-03-17",
-          35.5
-        ],
-        [
-          "2026-03-18",
-          35.6
-        ],
-        [
-          "2026-03-19",
-          37.6
-        ],
-        [
-          "2026-03-20",
-          45.2
-        ],
-        [
-          "2026-03-23",
-          45.0
-        ],
-        [
-          "2026-03-24",
-          44.0
-        ],
-        [
-          "2026-03-25",
-          42.1
-        ],
-        [
-          "2026-03-26",
-          46.4
-        ],
-        [
-          "2026-03-27",
-          49.0
-        ],
-        [
-          "2026-03-30",
-          49.5
-        ],
-        [
-          "2026-03-31",
-          47.5
-        ],
-        [
-          "2026-04-01",
-          44.1
-        ],
-        [
-          "2026-04-02",
-          42.1
-        ],
-        [
-          "2026-04-06",
-          39.6
-        ],
-        [
-          "2026-04-07",
-          36.6
-        ],
-        [
-          "2026-04-08",
-          32.5
-        ],
-        [
-          "2026-04-09",
-          31.0
-        ],
-        [
-          "2026-04-10",
-          28.6
-        ],
-        [
-          "2026-04-13",
+          "2025-11-05",
           27.5
         ],
         [
-          "2026-04-14",
-          25.3
+          "2025-11-06",
+          32.6
         ],
         [
-          "2026-04-15",
-          22.8
+          "2025-11-07",
+          32.3
         ],
         [
-          "2026-04-16",
-          22.7
+          "2025-11-10",
+          27.5
         ],
         [
-          "2026-04-17",
-          20.6
+          "2025-11-11",
+          29.7
         ],
         [
-          "2026-04-20",
-          17.1
+          "2025-11-12",
+          29.3
         ],
         [
-          "2026-04-21",
-          17.6
+          "2025-11-13",
+          34.1
         ],
         [
-          "2026-04-22",
-          15.4
+          "2025-11-14",
+          33.0
         ],
         [
-          "2026-04-23",
-          18.1
+          "2025-11-17",
+          35.0
         ],
         [
-          "2026-04-24",
-          12.1
+          "2025-11-18",
+          38.2
         ],
         [
-          "2026-04-27",
-          12.8
-        ],
-        [
-          "2026-04-28",
-          15.9
-        ],
-        [
-          "2026-04-29",
-          14.1
-        ],
-        [
-          "2026-04-30",
-          25.9
-        ],
-        [
-          "2026-05-01",
-          25.6
-        ],
-        [
-          "2026-05-04",
-          25.6
-        ],
-        [
-          "2026-05-05",
-          24.9
-        ],
-        [
-          "2026-05-06",
-          25.9
-        ],
-        [
-          "2026-05-07",
-          24.4
-        ],
-        [
-          "2026-05-08",
-          22.1
-        ],
-        [
-          "2026-05-11",
-          21.3
-        ],
-        [
-          "2026-05-12",
-          18.0
-        ],
-        [
-          "2026-05-13",
-          18.3
-        ],
-        [
-          "2026-05-14",
-          20.6
-        ],
-        [
-          "2026-05-15",
-          27.4
-        ],
-        [
-          "2026-05-18",
-          29.0
-        ],
-        [
-          "2026-05-19",
-          30.0
-        ],
-        [
-          "2026-05-20",
-          28.7
-        ],
-        [
-          "2026-05-21",
-          30.3
-        ],
-        [
-          "2026-05-22",
-          30.1
-        ],
-        [
-          "2026-05-26",
-          28.9
-        ],
-        [
-          "2026-05-27",
-          29.8
-        ],
-        [
-          "2026-05-28",
-          28.8
-        ],
-        [
-          "2026-05-29",
-          25.3
-        ],
-        [
-          "2026-06-01",
-          25.7
-        ],
-        [
-          "2026-06-02",
-          26.4
-        ],
-        [
-          "2026-06-03",
-          31.9
-        ],
-        [
-          "2026-06-04",
-          27.0
-        ],
-        [
-          "2026-06-05",
-          36.9
-        ],
-        [
-          "2026-06-08",
-          35.3
-        ],
-        [
-          "2026-06-09",
-          35.3
-        ],
-        [
-          "2026-06-10",
-          39.9
-        ],
-        [
-          "2026-06-11",
-          37.8
-        ],
-        [
-          "2026-06-12",
-          34.6
-        ],
-        [
-          "2026-06-15",
-          31.3
-        ],
-        [
-          "2026-06-16",
-          34.4
-        ],
-        [
-          "2026-06-17",
-          35.4
-        ],
-        [
-          "2026-06-18",
-          34.2
-        ],
-        [
-          "2026-06-22",
-          34.8
-        ],
-        [
-          "2026-06-23",
-          39.5
-        ],
-        [
-          "2026-06-24",
-          40.6
-        ],
-        [
-          "2026-06-25",
-          42.5
-        ],
-        [
-          "2026-06-26",
-          44.3
-        ],
-        [
-          "2026-06-29",
-          43.1
-        ],
-        [
-          "2026-06-30",
+          "2025-11-19",
           36.2
         ],
         [
-          "2026-07-01",
+          "2025-11-20",
+          39.8
+        ],
+        [
+          "2025-11-21",
+          41.0
+        ],
+        [
+          "2025-11-24",
+          38.2
+        ],
+        [
+          "2025-11-25",
+          38.1
+        ],
+        [
+          "2025-11-26",
+          35.7
+        ],
+        [
+          "2025-11-28",
           36.8
         ],
         [
-          "2026-07-02",
-          37.0
+          "2025-12-01",
+          35.7
         ],
         [
-          "2026-07-06",
-          36.2
+          "2025-12-02",
+          34.0
         ],
         [
-          "2026-07-07",
-          27.7
+          "2025-12-03",
+          34.4
         ],
         [
-          "2026-07-08",
-          27.2
+          "2025-12-04",
+          31.9
         ],
         [
-          "2026-07-09",
+          "2025-12-05",
+          30.8
+        ],
+        [
+          "2025-12-08",
+          28.9
+        ],
+        [
+          "2025-12-09",
+          23.2
+        ],
+        [
+          "2025-12-10",
+          22.5
+        ],
+        [
+          "2025-12-11",
+          24.0
+        ],
+        [
+          "2025-12-12",
+          28.2
+        ],
+        [
+          "2025-12-15",
           27.9
         ],
         [
+          "2025-12-16",
+          30.3
+        ],
+        [
+          "2025-12-17",
+          35.0
+        ],
+        [
+          "2025-12-18",
+          30.8
+        ],
+        [
+          "2025-12-19",
+          26.7
+        ],
+        [
+          "2025-12-22",
+          26.0
+        ],
+        [
+          "2025-12-23",
+          23.0
+        ],
+        [
+          "2025-12-24",
+          20.4
+        ],
+        [
+          "2025-12-26",
+          19.5
+        ],
+        [
+          "2025-12-29",
+          20.6
+        ],
+        [
+          "2025-12-30",
+          21.4
+        ],
+        [
+          "2025-12-31",
+          22.0
+        ],
+        [
+          "2026-01-02",
+          20.7
+        ],
+        [
+          "2026-01-05",
+          20.8
+        ],
+        [
+          "2026-01-06",
+          22.0
+        ],
+        [
+          "2026-01-07",
+          19.9
+        ],
+        [
+          "2026-01-08",
+          24.1
+        ],
+        [
+          "2026-01-09",
+          21.0
+        ],
+        [
+          "2026-01-12",
+          20.2
+        ],
+        [
+          "2026-01-13",
+          15.4
+        ],
+        [
+          "2026-01-14",
+          18.3
+        ],
+        [
+          "2026-01-15",
+          17.7
+        ],
+        [
+          "2026-01-16",
+          11.6
+        ],
+        [
+          "2026-01-20",
+          23.1
+        ],
+        [
+          "2026-01-21",
+          16.7
+        ],
+        [
+          "2026-01-22",
+          15.6
+        ],
+        [
+          "2026-01-23",
+          13.7
+        ],
+        [
+          "2026-01-26",
+          18.6
+        ],
+        [
+          "2026-01-27",
+          19.1
+        ],
+        [
+          "2026-01-28",
+          15.0
+        ],
+        [
+          "2026-01-29",
+          14.2
+        ],
+        [
+          "2026-01-30",
+          17.2
+        ],
+        [
+          "2026-02-02",
+          21.7
+        ],
+        [
+          "2026-02-03",
+          27.9
+        ],
+        [
+          "2026-02-04",
+          33.4
+        ],
+        [
+          "2026-02-05",
+          35.7
+        ],
+        [
+          "2026-02-06",
+          36.3
+        ],
+        [
+          "2026-02-09",
+          30.3
+        ],
+        [
+          "2026-02-10",
+          32.7
+        ],
+        [
+          "2026-02-11",
+          29.8
+        ],
+        [
+          "2026-02-12",
+          33.3
+        ],
+        [
+          "2026-02-13",
+          36.5
+        ],
+        [
+          "2026-02-17",
+          35.2
+        ],
+        [
+          "2026-02-18",
+          29.7
+        ],
+        [
+          "2026-02-19",
+          29.5
+        ],
+        [
+          "2026-02-20",
+          28.6
+        ],
+        [
+          "2026-02-23",
+          29.4
+        ],
+        [
+          "2026-02-24",
+          29.8
+        ],
+        [
+          "2026-02-25",
+          27.6
+        ],
+        [
+          "2026-02-26",
+          37.8
+        ],
+        [
+          "2026-02-27",
+          45.3
+        ],
+        [
+          "2026-03-02",
+          41.9
+        ],
+        [
+          "2026-03-03",
+          42.7
+        ],
+        [
+          "2026-03-04",
+          39.7
+        ],
+        [
+          "2026-03-05",
+          39.0
+        ],
+        [
+          "2026-03-06",
+          46.6
+        ],
+        [
+          "2026-03-09",
+          35.4
+        ],
+        [
+          "2026-03-10",
+          32.1
+        ],
+        [
+          "2026-03-11",
+          32.6
+        ],
+        [
+          "2026-03-12",
+          35.7
+        ],
+        [
+          "2026-03-13",
+          38.4
+        ],
+        [
+          "2026-03-16",
+          36.9
+        ],
+        [
+          "2026-03-17",
+          36.4
+        ],
+        [
+          "2026-03-18",
+          36.6
+        ],
+        [
+          "2026-03-19",
+          38.6
+        ],
+        [
+          "2026-03-20",
+          46.0
+        ],
+        [
+          "2026-03-23",
+          45.8
+        ],
+        [
+          "2026-03-24",
+          44.7
+        ],
+        [
+          "2026-03-25",
+          42.8
+        ],
+        [
+          "2026-03-26",
+          47.4
+        ],
+        [
+          "2026-03-27",
+          50.0
+        ],
+        [
+          "2026-03-30",
+          50.2
+        ],
+        [
+          "2026-03-31",
+          48.1
+        ],
+        [
+          "2026-04-01",
+          44.9
+        ],
+        [
+          "2026-04-02",
+          42.7
+        ],
+        [
+          "2026-04-06",
+          40.4
+        ],
+        [
+          "2026-04-07",
+          37.6
+        ],
+        [
+          "2026-04-08",
+          33.5
+        ],
+        [
+          "2026-04-09",
+          31.9
+        ],
+        [
+          "2026-04-10",
+          29.5
+        ],
+        [
+          "2026-04-13",
+          28.5
+        ],
+        [
+          "2026-04-14",
+          26.0
+        ],
+        [
+          "2026-04-15",
+          23.5
+        ],
+        [
+          "2026-04-16",
+          23.5
+        ],
+        [
+          "2026-04-17",
+          21.3
+        ],
+        [
+          "2026-04-20",
+          18.0
+        ],
+        [
+          "2026-04-21",
+          18.5
+        ],
+        [
+          "2026-04-22",
+          16.4
+        ],
+        [
+          "2026-04-23",
+          19.1
+        ],
+        [
+          "2026-04-24",
+          12.8
+        ],
+        [
+          "2026-04-27",
+          13.5
+        ],
+        [
+          "2026-04-28",
+          16.6
+        ],
+        [
+          "2026-04-29",
+          14.6
+        ],
+        [
+          "2026-04-30",
+          26.8
+        ],
+        [
+          "2026-05-01",
+          26.6
+        ],
+        [
+          "2026-05-04",
+          26.6
+        ],
+        [
+          "2026-05-05",
+          25.8
+        ],
+        [
+          "2026-05-06",
+          25.5
+        ],
+        [
+          "2026-05-07",
+          23.9
+        ],
+        [
+          "2026-05-08",
+          21.7
+        ],
+        [
+          "2026-05-11",
+          20.8
+        ],
+        [
+          "2026-05-12",
+          18.4
+        ],
+        [
+          "2026-05-13",
+          18.6
+        ],
+        [
+          "2026-05-14",
+          20.0
+        ],
+        [
+          "2026-05-15",
+          26.8
+        ],
+        [
+          "2026-05-18",
+          28.4
+        ],
+        [
+          "2026-05-19",
+          29.4
+        ],
+        [
+          "2026-05-20",
+          28.1
+        ],
+        [
+          "2026-05-21",
+          29.7
+        ],
+        [
+          "2026-05-22",
+          29.5
+        ],
+        [
+          "2026-05-26",
+          28.3
+        ],
+        [
+          "2026-05-27",
+          29.2
+        ],
+        [
+          "2026-05-28",
+          28.2
+        ],
+        [
+          "2026-05-29",
+          26.0
+        ],
+        [
+          "2026-06-01",
+          25.0
+        ],
+        [
+          "2026-06-02",
+          25.7
+        ],
+        [
+          "2026-06-03",
+          31.3
+        ],
+        [
+          "2026-06-04",
+          26.4
+        ],
+        [
+          "2026-06-05",
+          36.4
+        ],
+        [
+          "2026-06-08",
+          34.8
+        ],
+        [
+          "2026-06-09",
+          34.7
+        ],
+        [
+          "2026-06-10",
+          39.4
+        ],
+        [
+          "2026-06-11",
+          37.4
+        ],
+        [
+          "2026-06-12",
+          33.9
+        ],
+        [
+          "2026-06-15",
+          30.7
+        ],
+        [
+          "2026-06-16",
+          33.8
+        ],
+        [
+          "2026-06-17",
+          34.8
+        ],
+        [
+          "2026-06-18",
+          33.7
+        ],
+        [
+          "2026-06-22",
+          34.3
+        ],
+        [
+          "2026-06-23",
+          39.1
+        ],
+        [
+          "2026-06-24",
+          40.1
+        ],
+        [
+          "2026-06-25",
+          42.0
+        ],
+        [
+          "2026-06-26",
+          43.9
+        ],
+        [
+          "2026-06-29",
+          42.7
+        ],
+        [
+          "2026-06-30",
+          35.4
+        ],
+        [
+          "2026-07-01",
+          36.1
+        ],
+        [
+          "2026-07-02",
+          36.4
+        ],
+        [
+          "2026-07-06",
+          35.7
+        ],
+        [
+          "2026-07-07",
+          28.4
+        ],
+        [
+          "2026-07-08",
+          27.8
+        ],
+        [
+          "2026-07-09",
+          28.4
+        ],
+        [
           "2026-07-10",
-          25.9
+          26.5
         ],
         [
           "2026-07-13",
-          31.0
+          31.2
         ],
         [
           "2026-07-14",
-          31.5
+          30.9
         ],
         [
           "2026-07-15",
@@ -2049,99 +2055,99 @@
         ],
         [
           "2026-07-16",
-          30.4
+          30.5
         ],
         [
           "2026-07-17",
-          33.7
+          33.5
         ],
         [
           "2026-07-20",
-          31.3
+          31.5
         ],
         [
           "2026-07-21",
-          30.2
-        ],
-        [
-          "2026-07-22",
-          24.0
-        ],
-        [
-          "2026-07-23",
           30.4
         ],
         [
+          "2026-07-22",
+          24.7
+        ],
+        [
+          "2026-07-23",
+          30.9
+        ],
+        [
           "2026-07-24",
-          30.7
+          31.4
         ],
         [
           "2026-07-27",
-          44.9
+          44.4
         ],
         [
           "2026-07-28",
-          40.2
+          39.8
         ],
         [
           "2026-07-29",
-          46.5
+          45.9
         ],
         [
           "2026-07-30",
-          42.0
+          41.5
         ],
         [
           "2026-07-31",
-          39.3
+          38.7
         ],
         [
           "2026-08-03",
-          36.7
+          36.1
         ],
         [
           "2026-08-04",
-          35.1
+          34.6
         ],
         [
           "2026-08-05",
-          31.1
+          30.5
         ],
         [
           "2026-08-06",
-          31.6
+          31.0
         ],
         [
           "2026-08-07",
-          28.1
+          27.4
         ],
         [
           "2026-08-10",
-          32.6
+          32.1
         ],
         [
           "2026-08-11",
-          34.4
+          34.0
         ],
         [
           "2026-08-12",
-          27.5
+          27.0
         ],
         [
           "2026-08-13",
-          25.0
+          24.7
         ],
         [
           "2026-08-14",
-          23.1
+          23.3
         ],
         [
           "2026-08-17",
-          24.0
+          24.2
         ],
         [
           "2026-08-18",
-          28.9
+          28.7
         ],
         [
           "2026-08-19",
@@ -2149,119 +2155,119 @@
         ],
         [
           "2026-08-20",
-          28.4
-        ],
-        [
-          "2026-08-21",
-          29.4
-        ],
-        [
-          "2026-08-24",
-          29.6
-        ],
-        [
-          "2026-08-25",
-          26.4
-        ],
-        [
-          "2026-08-26",
-          29.4
-        ],
-        [
-          "2026-08-27",
           28.6
         ],
         [
-          "2026-08-28",
-          35.0
-        ],
-        [
-          "2026-08-31",
-          33.9
-        ],
-        [
-          "2026-09-01",
-          35.9
-        ],
-        [
-          "2026-09-02",
-          32.8
-        ],
-        [
-          "2026-09-03",
-          32.5
-        ],
-        [
-          "2026-09-04",
-          30.1
-        ],
-        [
-          "2026-09-08",
-          31.5
-        ],
-        [
-          "2026-09-09",
-          32.6
-        ],
-        [
-          "2026-09-10",
-          33.1
-        ],
-        [
-          "2026-09-11",
-          32.4
-        ],
-        [
-          "2026-09-14",
-          37.7
-        ],
-        [
-          "2026-09-15",
-          37.3
-        ],
-        [
-          "2026-09-16",
-          34.6
-        ],
-        [
-          "2026-09-17",
-          32.6
-        ],
-        [
-          "2026-09-18",
-          31.0
-        ],
-        [
-          "2026-09-21",
+          "2026-08-21",
           29.6
         ],
         [
-          "2026-09-22",
-          27.5
+          "2026-08-24",
+          30.3
         ],
         [
-          "2026-09-23",
-          29.0
+          "2026-08-25",
+          27.0
         ],
         [
-          "2026-09-24",
+          "2026-08-26",
           30.0
         ],
         [
+          "2026-08-27",
+          28.1
+        ],
+        [
+          "2026-08-28",
+          34.6
+        ],
+        [
+          "2026-08-31",
+          33.4
+        ],
+        [
+          "2026-09-01",
+          35.5
+        ],
+        [
+          "2026-09-02",
+          32.3
+        ],
+        [
+          "2026-09-03",
+          32.1
+        ],
+        [
+          "2026-09-04",
+          29.7
+        ],
+        [
+          "2026-09-08",
+          31.0
+        ],
+        [
+          "2026-09-09",
+          32.1
+        ],
+        [
+          "2026-09-10",
+          32.6
+        ],
+        [
+          "2026-09-11",
+          31.9
+        ],
+        [
+          "2026-09-14",
+          37.2
+        ],
+        [
+          "2026-09-15",
+          36.9
+        ],
+        [
+          "2026-09-16",
+          34.2
+        ],
+        [
+          "2026-09-17",
+          32.2
+        ],
+        [
+          "2026-09-18",
+          30.6
+        ],
+        [
+          "2026-09-21",
+          29.3
+        ],
+        [
+          "2026-09-22",
+          27.1
+        ],
+        [
+          "2026-09-23",
+          28.5
+        ],
+        [
+          "2026-09-24",
+          29.5
+        ],
+        [
           "2026-09-25",
-          17.0
+          17.6
         ],
         [
           "2026-09-28",
-          15.9
+          16.1
         ],
         [
           "2026-09-29",
-          16.6
+          16.8
         ],
         [
           "2026-09-30",
-          15.6
+          15.8
         ],
         [
           "2026-10-01",
@@ -2269,588 +2275,680 @@
         ],
         [
           "2026-10-02",
-          12.7
+          12.1
+        ],
+        [
+          "2026-10-05",
+          12.5
+        ],
+        [
+          "2026-10-06",
+          9.6
+        ],
+        [
+          "2026-10-07",
+          10.4
+        ],
+        [
+          "2026-10-08",
+          14.3
+        ],
+        [
+          "2026-10-09",
+          14.9
+        ],
+        [
+          "2026-10-12",
+          14.5
+        ],
+        [
+          "2026-10-13",
+          14.7
+        ],
+        [
+          "2026-10-14",
+          20.3
+        ],
+        [
+          "2026-10-15",
+          21.9
+        ],
+        [
+          "2026-10-16",
+          23.3
+        ],
+        [
+          "2026-10-19",
+          21.7
+        ],
+        [
+          "2026-10-20",
+          21.9
+        ],
+        [
+          "2026-10-21",
+          21.3
+        ],
+        [
+          "2026-10-22",
+          30.8
+        ],
+        [
+          "2026-10-23",
+          31.5
+        ],
+        [
+          "2026-10-26",
+          29.8
+        ],
+        [
+          "2026-10-27",
+          28.3
+        ],
+        [
+          "2026-10-28",
+          28.9
+        ],
+        [
+          "2026-10-29",
+          32.1
+        ],
+        [
+          "2026-10-30",
+          42.7
+        ],
+        [
+          "2026-11-02",
+          45.0
+        ],
+        [
+          "2026-11-03",
+          40.9
+        ],
+        [
+          "2026-11-04",
+          46.3
+        ],
+        [
+          "2026-11-05",
+          74.7
+        ],
+        [
+          "2026-11-06",
+          73.6
+        ],
+        [
+          "2026-11-09",
+          80.0
+        ],
+        [
+          "2026-11-10",
+          87.7
+        ],
+        [
+          "2026-11-11",
+          82.2
+        ],
+        [
+          "2026-11-12",
+          87.8
         ]
       ],
-      "csi_prev": 14.5,
+      "csi_prev": 82.2,
       "key": "nvidia",
       "name": "Nvidia",
       "note": "대차대조표가 아닌 벤더 파이낸싱·보증이 스프레드를 움직인다.",
       "type": "traded"
     },
     {
-      "asof": "2026-10-02",
+      "asof": "2026-11-12",
       "basket": {
         "CRWV": 0.6,
         "ORCL": 0.4
       },
       "cds": {
-        "last": 855.0,
-        "last_date": "2026-07-28",
+        "last": 1155.0,
+        "last_date": "2026-11-06",
         "series": [
           [
             "2026-07-28",
             855.0
+          ],
+          [
+            "2026-10-15",
+            1194.5
+          ],
+          [
+            "2026-10-19",
+            1082.0
+          ],
+          [
+            "2026-10-27",
+            1041.4
+          ],
+          [
+            "2026-11-05",
+            1289.0
+          ],
+          [
+            "2026-11-06",
+            1155.0
           ]
         ],
-        "source": "CoreWeave 5Y CDS (대리지표) / Protos",
-        "ytd_high": 855.0,
+        "source": "Deutsche Bank / CNBC",
+        "ytd_high": 1289.0,
         "ytd_low": 855.0
       },
-      "csi": 52.0,
-      "csi_5d": 48.9,
+      "csi": 90.7,
+      "csi_5d": 92.2,
       "csi_hist": [
         [
-          "2025-10-16",
-          26.9
-        ],
-        [
-          "2025-10-17",
-          31.7
-        ],
-        [
-          "2025-10-20",
-          35.8
-        ],
-        [
-          "2025-10-21",
-          37.0
-        ],
-        [
-          "2025-10-22",
-          39.5
-        ],
-        [
-          "2025-10-23",
-          35.2
-        ],
-        [
-          "2025-10-24",
-          31.5
-        ],
-        [
-          "2025-10-27",
-          30.4
-        ],
-        [
-          "2025-10-28",
-          29.1
-        ],
-        [
-          "2025-10-29",
-          27.8
-        ],
-        [
-          "2025-10-30",
-          35.5
-        ],
-        [
           "2025-10-31",
-          36.6
+          36.1
         ],
         [
           "2025-11-03",
-          42.4
+          41.9
         ],
         [
           "2025-11-04",
-          55.3
+          54.8
         ],
         [
           "2025-11-05",
-          54.3
+          53.8
         ],
         [
           "2025-11-06",
-          49.3
+          48.7
         ],
         [
           "2025-11-07",
-          46.6
+          46.0
         ],
         [
           "2025-11-10",
-          44.9
+          44.2
         ],
         [
           "2025-11-11",
-          53.9
+          53.2
         ],
         [
           "2025-11-12",
-          53.7
+          52.9
         ],
         [
           "2025-11-13",
-          59.8
-        ],
-        [
-          "2025-11-14",
-          58.3
-        ],
-        [
-          "2025-11-17",
-          60.9
-        ],
-        [
-          "2025-11-18",
-          60.6
-        ],
-        [
-          "2025-11-19",
-          59.3
-        ],
-        [
-          "2025-11-20",
-          67.3
-        ],
-        [
-          "2025-11-21",
-          68.2
-        ],
-        [
-          "2025-11-24",
-          66.2
-        ],
-        [
-          "2025-11-25",
-          65.5
-        ],
-        [
-          "2025-11-26",
-          62.1
-        ],
-        [
-          "2025-11-28",
-          60.1
-        ],
-        [
-          "2025-12-01",
-          60.7
-        ],
-        [
-          "2025-12-02",
-          63.2
-        ],
-        [
-          "2025-12-03",
-          64.2
-        ],
-        [
-          "2025-12-04",
-          72.7
-        ],
-        [
-          "2025-12-05",
-          69.0
-        ],
-        [
-          "2025-12-08",
-          68.3
-        ],
-        [
-          "2025-12-09",
-          71.1
-        ],
-        [
-          "2025-12-10",
-          63.7
-        ],
-        [
-          "2025-12-11",
-          66.6
-        ],
-        [
-          "2025-12-12",
-          68.8
-        ],
-        [
-          "2025-12-15",
-          71.2
-        ],
-        [
-          "2025-12-16",
-          72.3
-        ],
-        [
-          "2025-12-17",
-          73.3
-        ],
-        [
-          "2025-12-18",
-          74.1
-        ],
-        [
-          "2025-12-19",
-          80.2
-        ],
-        [
-          "2025-12-22",
-          79.7
-        ],
-        [
-          "2025-12-23",
-          79.4
-        ],
-        [
-          "2025-12-24",
-          78.3
-        ],
-        [
-          "2025-12-26",
-          78.0
-        ],
-        [
-          "2025-12-29",
-          77.9
-        ],
-        [
-          "2025-12-30",
-          78.2
-        ],
-        [
-          "2025-12-31",
-          78.6
-        ],
-        [
-          "2026-01-02",
-          79.3
-        ],
-        [
-          "2026-01-05",
-          78.9
-        ],
-        [
-          "2026-01-06",
-          77.6
-        ],
-        [
-          "2026-01-07",
-          78.5
-        ],
-        [
-          "2026-01-08",
-          77.4
-        ],
-        [
-          "2026-01-09",
-          76.9
-        ],
-        [
-          "2026-01-12",
-          75.6
-        ],
-        [
-          "2026-01-13",
-          74.0
-        ],
-        [
-          "2026-01-14",
-          72.3
-        ],
-        [
-          "2026-01-15",
-          72.0
-        ],
-        [
-          "2026-01-16",
-          67.8
-        ],
-        [
-          "2026-01-20",
-          70.4
-        ],
-        [
-          "2026-01-21",
-          62.8
-        ],
-        [
-          "2026-01-22",
-          63.3
-        ],
-        [
-          "2026-01-23",
-          62.8
-        ],
-        [
-          "2026-01-26",
-          63.4
-        ],
-        [
-          "2026-01-27",
-          63.9
-        ],
-        [
-          "2026-01-28",
-          62.6
-        ],
-        [
-          "2026-01-29",
-          66.8
-        ],
-        [
-          "2026-01-30",
-          68.9
-        ],
-        [
-          "2026-02-02",
-          65.7
-        ],
-        [
-          "2026-02-03",
-          64.9
-        ],
-        [
-          "2026-02-04",
-          69.3
-        ],
-        [
-          "2026-02-05",
-          73.6
-        ],
-        [
-          "2026-02-06",
-          72.6
-        ],
-        [
-          "2026-02-09",
-          67.9
-        ],
-        [
-          "2026-02-10",
-          67.5
-        ],
-        [
-          "2026-02-11",
-          67.5
-        ],
-        [
-          "2026-02-12",
-          67.5
-        ],
-        [
-          "2026-02-13",
-          67.9
-        ],
-        [
-          "2026-02-17",
-          68.5
-        ],
-        [
-          "2026-02-18",
-          65.7
-        ],
-        [
-          "2026-02-19",
-          65.4
-        ],
-        [
-          "2026-02-20",
-          67.8
-        ],
-        [
-          "2026-02-23",
-          70.2
-        ],
-        [
-          "2026-02-24",
-          71.8
-        ],
-        [
-          "2026-02-25",
-          68.3
-        ],
-        [
-          "2026-02-26",
-          70.0
-        ],
-        [
-          "2026-02-27",
-          76.3
-        ],
-        [
-          "2026-03-02",
-          75.3
-        ],
-        [
-          "2026-03-03",
-          78.8
-        ],
-        [
-          "2026-03-04",
-          78.4
-        ],
-        [
-          "2026-03-05",
-          81.5
-        ],
-        [
-          "2026-03-06",
-          80.0
-        ],
-        [
-          "2026-03-09",
-          76.5
-        ],
-        [
-          "2026-03-10",
-          71.1
-        ],
-        [
-          "2026-03-11",
-          69.2
-        ],
-        [
-          "2026-03-12",
-          67.1
-        ],
-        [
-          "2026-03-13",
-          68.5
-        ],
-        [
-          "2026-03-16",
-          69.4
-        ],
-        [
-          "2026-03-17",
-          66.6
-        ],
-        [
-          "2026-03-18",
-          66.7
-        ],
-        [
-          "2026-03-19",
-          69.4
-        ],
-        [
-          "2026-03-20",
-          69.9
-        ],
-        [
-          "2026-03-23",
-          66.3
-        ],
-        [
-          "2026-03-24",
-          65.9
-        ],
-        [
-          "2026-03-25",
-          66.4
-        ],
-        [
-          "2026-03-26",
-          68.3
-        ],
-        [
-          "2026-03-27",
-          62.8
-        ],
-        [
-          "2026-03-30",
-          66.1
-        ],
-        [
-          "2026-03-31",
-          69.1
-        ],
-        [
-          "2026-04-01",
-          64.7
-        ],
-        [
-          "2026-04-02",
-          63.6
-        ],
-        [
-          "2026-04-06",
-          62.8
-        ],
-        [
-          "2026-04-07",
-          64.0
-        ],
-        [
-          "2026-04-08",
-          63.2
-        ],
-        [
-          "2026-04-09",
-          57.7
-        ],
-        [
-          "2026-04-10",
-          59.7
-        ],
-        [
-          "2026-04-13",
-          64.8
-        ],
-        [
-          "2026-04-14",
-          62.4
-        ],
-        [
-          "2026-04-15",
           59.0
         ],
         [
-          "2026-04-16",
-          56.0
+          "2025-11-14",
+          57.6
         ],
         [
-          "2026-04-17",
-          55.8
+          "2025-11-17",
+          60.0
         ],
         [
-          "2026-04-20",
-          55.5
+          "2025-11-18",
+          59.8
         ],
         [
-          "2026-04-21",
-          55.0
+          "2025-11-19",
+          58.5
         ],
         [
-          "2026-04-22",
-          53.0
+          "2025-11-20",
+          66.6
         ],
         [
-          "2026-04-23",
+          "2025-11-21",
+          67.5
+        ],
+        [
+          "2025-11-24",
+          65.5
+        ],
+        [
+          "2025-11-25",
+          64.8
+        ],
+        [
+          "2025-11-26",
+          61.5
+        ],
+        [
+          "2025-11-28",
+          59.4
+        ],
+        [
+          "2025-12-01",
+          60.0
+        ],
+        [
+          "2025-12-02",
+          62.4
+        ],
+        [
+          "2025-12-03",
+          63.5
+        ],
+        [
+          "2025-12-04",
+          72.2
+        ],
+        [
+          "2025-12-05",
+          68.4
+        ],
+        [
+          "2025-12-08",
+          67.7
+        ],
+        [
+          "2025-12-09",
+          70.5
+        ],
+        [
+          "2025-12-10",
+          63.1
+        ],
+        [
+          "2025-12-11",
+          66.3
+        ],
+        [
+          "2025-12-12",
+          68.5
+        ],
+        [
+          "2025-12-15",
+          70.8
+        ],
+        [
+          "2025-12-16",
+          72.0
+        ],
+        [
+          "2025-12-17",
+          73.0
+        ],
+        [
+          "2025-12-18",
+          73.8
+        ],
+        [
+          "2025-12-19",
+          80.0
+        ],
+        [
+          "2025-12-22",
+          79.4
+        ],
+        [
+          "2025-12-23",
+          79.1
+        ],
+        [
+          "2025-12-24",
+          78.0
+        ],
+        [
+          "2025-12-26",
+          77.6
+        ],
+        [
+          "2025-12-29",
+          77.6
+        ],
+        [
+          "2025-12-30",
+          77.9
+        ],
+        [
+          "2025-12-31",
+          78.3
+        ],
+        [
+          "2026-01-02",
+          78.9
+        ],
+        [
+          "2026-01-05",
+          78.6
+        ],
+        [
+          "2026-01-06",
+          77.2
+        ],
+        [
+          "2026-01-07",
+          78.1
+        ],
+        [
+          "2026-01-08",
+          77.0
+        ],
+        [
+          "2026-01-09",
+          76.6
+        ],
+        [
+          "2026-01-12",
+          75.0
+        ],
+        [
+          "2026-01-13",
+          73.3
+        ],
+        [
+          "2026-01-14",
+          71.7
+        ],
+        [
+          "2026-01-15",
+          71.3
+        ],
+        [
+          "2026-01-16",
+          67.1
+        ],
+        [
+          "2026-01-20",
+          69.7
+        ],
+        [
+          "2026-01-21",
+          62.1
+        ],
+        [
+          "2026-01-22",
+          62.5
+        ],
+        [
+          "2026-01-23",
+          62.0
+        ],
+        [
+          "2026-01-26",
+          62.7
+        ],
+        [
+          "2026-01-27",
+          63.2
+        ],
+        [
+          "2026-01-28",
+          61.9
+        ],
+        [
+          "2026-01-29",
+          66.2
+        ],
+        [
+          "2026-01-30",
+          68.2
+        ],
+        [
+          "2026-02-02",
+          65.1
+        ],
+        [
+          "2026-02-03",
+          64.2
+        ],
+        [
+          "2026-02-04",
+          68.8
+        ],
+        [
+          "2026-02-05",
+          73.2
+        ],
+        [
+          "2026-02-06",
+          72.2
+        ],
+        [
+          "2026-02-09",
+          67.8
+        ],
+        [
+          "2026-02-10",
+          67.3
+        ],
+        [
+          "2026-02-11",
+          67.3
+        ],
+        [
+          "2026-02-12",
+          67.3
+        ],
+        [
+          "2026-02-13",
+          67.7
+        ],
+        [
+          "2026-02-17",
+          68.3
+        ],
+        [
+          "2026-02-18",
+          65.5
+        ],
+        [
+          "2026-02-19",
+          65.1
+        ],
+        [
+          "2026-02-20",
+          67.6
+        ],
+        [
+          "2026-02-23",
+          70.1
+        ],
+        [
+          "2026-02-24",
+          71.6
+        ],
+        [
+          "2026-02-25",
+          68.1
+        ],
+        [
+          "2026-02-26",
+          69.8
+        ],
+        [
+          "2026-02-27",
+          76.1
+        ],
+        [
+          "2026-03-02",
+          75.2
+        ],
+        [
+          "2026-03-03",
+          78.6
+        ],
+        [
+          "2026-03-04",
+          78.2
+        ],
+        [
+          "2026-03-05",
+          81.2
+        ],
+        [
+          "2026-03-06",
+          79.6
+        ],
+        [
+          "2026-03-09",
+          76.0
+        ],
+        [
+          "2026-03-10",
+          70.4
+        ],
+        [
+          "2026-03-11",
+          68.8
+        ],
+        [
+          "2026-03-12",
+          66.7
+        ],
+        [
+          "2026-03-13",
+          68.1
+        ],
+        [
+          "2026-03-16",
+          69.0
+        ],
+        [
+          "2026-03-17",
+          66.2
+        ],
+        [
+          "2026-03-18",
+          66.3
+        ],
+        [
+          "2026-03-19",
+          69.0
+        ],
+        [
+          "2026-03-20",
+          69.4
+        ],
+        [
+          "2026-03-23",
+          65.7
+        ],
+        [
+          "2026-03-24",
+          65.4
+        ],
+        [
+          "2026-03-25",
+          65.9
+        ],
+        [
+          "2026-03-26",
+          67.8
+        ],
+        [
+          "2026-03-27",
+          62.4
+        ],
+        [
+          "2026-03-30",
+          65.6
+        ],
+        [
+          "2026-03-31",
+          68.7
+        ],
+        [
+          "2026-04-01",
+          64.4
+        ],
+        [
+          "2026-04-02",
+          63.2
+        ],
+        [
+          "2026-04-06",
+          62.4
+        ],
+        [
+          "2026-04-07",
+          63.6
+        ],
+        [
+          "2026-04-08",
+          62.8
+        ],
+        [
+          "2026-04-09",
           57.0
         ],
         [
-          "2026-04-24",
+          "2026-04-10",
+          59.0
+        ],
+        [
+          "2026-04-13",
+          64.6
+        ],
+        [
+          "2026-04-14",
+          62.2
+        ],
+        [
+          "2026-04-15",
+          58.9
+        ],
+        [
+          "2026-04-16",
+          55.9
+        ],
+        [
+          "2026-04-17",
           55.7
         ],
         [
+          "2026-04-20",
+          55.4
+        ],
+        [
+          "2026-04-21",
+          54.8
+        ],
+        [
+          "2026-04-22",
+          52.7
+        ],
+        [
+          "2026-04-23",
+          56.9
+        ],
+        [
+          "2026-04-24",
+          55.6
+        ],
+        [
           "2026-04-27",
-          54.0
+          53.9
         ],
         [
           "2026-04-28",
-          54.5
+          54.4
         ],
         [
           "2026-04-29",
-          51.8
+          51.6
         ],
         [
           "2026-04-30",
-          53.5
+          53.4
         ],
         [
           "2026-05-01",
-          53.0
+          52.9
         ],
         [
           "2026-05-04",
-          51.2
+          51.1
         ],
         [
           "2026-05-05",
-          48.0
+          47.9
         ],
         [
           "2026-05-06",
@@ -2858,99 +2956,99 @@
         ],
         [
           "2026-05-07",
-          50.3
+          50.2
         ],
         [
           "2026-05-08",
-          56.0
+          55.9
         ],
         [
           "2026-05-11",
-          50.1
-        ],
-        [
-          "2026-05-12",
-          49.6
-        ],
-        [
-          "2026-05-13",
-          49.4
-        ],
-        [
-          "2026-05-14",
-          48.8
-        ],
-        [
-          "2026-05-15",
-          50.1
-        ],
-        [
-          "2026-05-18",
-          51.0
-        ],
-        [
-          "2026-05-19",
-          51.9
-        ],
-        [
-          "2026-05-20",
-          49.6
-        ],
-        [
-          "2026-05-21",
-          49.3
-        ],
-        [
-          "2026-05-22",
-          47.2
-        ],
-        [
-          "2026-05-26",
-          47.0
-        ],
-        [
-          "2026-05-27",
-          45.1
-        ],
-        [
-          "2026-05-28",
-          44.4
-        ],
-        [
-          "2026-05-29",
-          44.8
-        ],
-        [
-          "2026-06-01",
-          47.6
-        ],
-        [
-          "2026-06-02",
           49.7
         ],
         [
+          "2026-05-12",
+          49.3
+        ],
+        [
+          "2026-05-13",
+          49.0
+        ],
+        [
+          "2026-05-14",
+          48.4
+        ],
+        [
+          "2026-05-15",
+          49.7
+        ],
+        [
+          "2026-05-18",
+          50.6
+        ],
+        [
+          "2026-05-19",
+          51.6
+        ],
+        [
+          "2026-05-20",
+          49.2
+        ],
+        [
+          "2026-05-21",
+          48.9
+        ],
+        [
+          "2026-05-22",
+          46.7
+        ],
+        [
+          "2026-05-26",
+          46.5
+        ],
+        [
+          "2026-05-27",
+          44.5
+        ],
+        [
+          "2026-05-28",
+          43.9
+        ],
+        [
+          "2026-05-29",
+          44.5
+        ],
+        [
+          "2026-06-01",
+          47.4
+        ],
+        [
+          "2026-06-02",
+          49.5
+        ],
+        [
           "2026-06-03",
-          53.8
+          53.7
         ],
         [
           "2026-06-04",
-          50.3
+          50.2
         ],
         [
           "2026-06-05",
-          54.0
+          53.9
         ],
         [
           "2026-06-08",
-          50.1
+          50.0
         ],
         [
           "2026-06-09",
-          50.4
+          50.3
         ],
         [
           "2026-06-10",
-          50.1
+          50.0
         ],
         [
           "2026-06-11",
@@ -2962,7 +3060,7 @@
         ],
         [
           "2026-06-15",
-          49.9
+          49.8
         ],
         [
           "2026-06-16",
@@ -2986,15 +3084,15 @@
         ],
         [
           "2026-06-24",
-          55.4
+          55.3
         ],
         [
           "2026-06-25",
-          55.9
+          55.8
         ],
         [
           "2026-06-26",
-          55.9
+          55.8
         ],
         [
           "2026-06-29",
@@ -3002,103 +3100,103 @@
         ],
         [
           "2026-06-30",
-          45.0
+          44.6
         ],
         [
           "2026-07-01",
-          49.3
+          49.0
         ],
         [
           "2026-07-02",
-          50.3
+          49.9
         ],
         [
           "2026-07-06",
-          50.8
-        ],
-        [
-          "2026-07-07",
           50.4
         ],
         [
+          "2026-07-07",
+          49.8
+        ],
+        [
           "2026-07-08",
-          54.8
+          54.2
         ],
         [
           "2026-07-09",
-          60.6
+          60.1
         ],
         [
           "2026-07-10",
-          65.8
+          65.4
         ],
         [
           "2026-07-13",
-          70.0
+          69.4
         ],
         [
           "2026-07-14",
-          70.0
+          69.5
         ],
         [
           "2026-07-15",
-          66.8
+          66.2
         ],
         [
           "2026-07-16",
-          63.6
+          63.0
         ],
         [
           "2026-07-17",
-          64.9
+          64.4
         ],
         [
           "2026-07-20",
-          64.5
+          64.0
         ],
         [
           "2026-07-21",
-          68.9
+          68.5
         ],
         [
           "2026-07-22",
-          68.0
+          67.6
         ],
         [
           "2026-07-23",
-          68.7
+          68.2
         ],
         [
           "2026-07-24",
-          75.0
+          74.6
         ],
         [
           "2026-07-27",
-          77.0
+          76.6
         ],
         [
           "2026-07-28",
-          77.4
+          77.1
         ],
         [
           "2026-07-29",
-          77.8
+          77.5
         ],
         [
           "2026-07-30",
-          82.4
-        ],
-        [
-          "2026-07-31",
           82.2
         ],
         [
+          "2026-07-31",
+          82.0
+        ],
+        [
           "2026-08-03",
-          85.3
+          85.2
         ],
         [
           "2026-08-04",
-          85.3
+          85.2
         ],
         [
           "2026-08-05",
@@ -3106,7 +3204,7 @@
         ],
         [
           "2026-08-06",
-          85.3
+          85.2
         ],
         [
           "2026-08-07",
@@ -3114,392 +3212,396 @@
         ],
         [
           "2026-08-10",
-          80.6
+          80.5
         ],
         [
           "2026-08-11",
-          82.9
+          82.8
         ],
         [
           "2026-08-12",
-          67.9
+          67.8
         ],
         [
           "2026-08-13",
-          63.9
+          63.7
         ],
         [
           "2026-08-14",
-          65.4
+          65.3
         ],
         [
           "2026-08-17",
-          67.1
+          66.9
         ],
         [
           "2026-08-18",
-          80.9
+          80.8
         ],
         [
           "2026-08-19",
-          81.3
+          81.1
         ],
         [
           "2026-08-20",
-          81.0
+          80.8
         ],
         [
           "2026-08-21",
-          79.6
+          79.3
         ],
         [
           "2026-08-24",
-          82.1
+          81.8
         ],
         [
           "2026-08-25",
-          82.0
+          81.7
         ],
         [
           "2026-08-26",
-          83.1
+          82.8
         ],
         [
           "2026-08-27",
-          78.8
+          78.4
         ],
         [
           "2026-08-28",
-          77.7
+          77.4
         ],
         [
           "2026-08-31",
-          70.8
-        ],
-        [
-          "2026-09-01",
           70.2
         ],
         [
+          "2026-09-01",
+          69.7
+        ],
+        [
           "2026-09-02",
-          71.7
+          71.2
         ],
         [
           "2026-09-03",
-          70.7
+          70.3
         ],
         [
           "2026-09-04",
-          64.7
+          64.3
         ],
         [
           "2026-09-08",
-          57.3
+          56.9
         ],
         [
           "2026-09-09",
-          61.5
+          61.0
         ],
         [
           "2026-09-10",
-          60.2
+          59.7
         ],
         [
           "2026-09-11",
-          62.9
+          62.4
         ],
         [
           "2026-09-14",
-          65.2
+          64.8
         ],
         [
           "2026-09-15",
-          66.2
+          65.8
         ],
         [
           "2026-09-16",
-          60.8
+          60.4
         ],
         [
           "2026-09-17",
-          58.6
+          58.3
         ],
         [
           "2026-09-18",
-          54.9
+          54.6
         ],
         [
           "2026-09-21",
-          51.5
+          51.1
         ],
         [
           "2026-09-22",
-          48.8
+          48.4
         ],
         [
           "2026-09-23",
-          49.2
+          48.8
         ],
         [
           "2026-09-24",
-          52.1
+          51.7
         ],
         [
           "2026-09-25",
-          48.9
+          48.5
         ],
         [
           "2026-09-28",
-          54.0
+          53.6
         ],
         [
           "2026-09-29",
-          54.5
+          54.2
         ],
         [
           "2026-09-30",
-          53.4
+          53.0
         ],
         [
           "2026-10-01",
-          54.4
+          54.0
         ],
         [
           "2026-10-02",
-          52.0
+          50.8
+        ],
+        [
+          "2026-10-05",
+          50.2
+        ],
+        [
+          "2026-10-06",
+          47.4
+        ],
+        [
+          "2026-10-07",
+          47.4
+        ],
+        [
+          "2026-10-08",
+          47.6
+        ],
+        [
+          "2026-10-09",
+          48.9
+        ],
+        [
+          "2026-10-12",
+          48.5
+        ],
+        [
+          "2026-10-13",
+          50.0
+        ],
+        [
+          "2026-10-14",
+          63.7
+        ],
+        [
+          "2026-10-15",
+          63.9
+        ],
+        [
+          "2026-10-16",
+          72.1
+        ],
+        [
+          "2026-10-19",
+          66.7
+        ],
+        [
+          "2026-10-20",
+          65.5
+        ],
+        [
+          "2026-10-21",
+          63.5
+        ],
+        [
+          "2026-10-22",
+          65.6
+        ],
+        [
+          "2026-10-23",
+          74.0
+        ],
+        [
+          "2026-10-26",
+          73.8
+        ],
+        [
+          "2026-10-27",
+          79.1
+        ],
+        [
+          "2026-10-28",
+          80.1
+        ],
+        [
+          "2026-10-29",
+          82.2
+        ],
+        [
+          "2026-10-30",
+          86.3
+        ],
+        [
+          "2026-11-02",
+          89.9
+        ],
+        [
+          "2026-11-03",
+          89.3
+        ],
+        [
+          "2026-11-04",
+          88.2
+        ],
+        [
+          "2026-11-05",
+          92.2
+        ],
+        [
+          "2026-11-06",
+          93.5
+        ],
+        [
+          "2026-11-09",
+          91.8
+        ],
+        [
+          "2026-11-10",
+          91.4
+        ],
+        [
+          "2026-11-11",
+          90.2
+        ],
+        [
+          "2026-11-12",
+          90.7
         ]
       ],
-      "csi_prev": 54.4,
+      "csi_prev": 90.2,
       "key": "openai",
       "name": "OpenAI",
-      "note": "단일종목 CDS 없음. 컴퓨트 파트너(CoreWeave·Oracle) 크레딧으로 전가.",
+      "note": "단일종목 CDS 없음. 컴퓨트 파트너(CoreWeave·Oracle) 크레딧으로 전가 — 실측 CDS는 CoreWeave 값.",
       "type": "proxy"
     },
     {
-      "asof": "2026-10-02",
+      "asof": "2026-11-12",
       "basket": {
         "AMZN": 0.3,
         "GOOGL": 0.7
       },
       "cds": {
-        "last": 67.0,
-        "last_date": "2026-07-27",
+        "last": 80.0,
+        "last_date": "2026-10-28",
         "series": [
           [
             "2026-07-27",
             67.0
+          ],
+          [
+            "2026-10-28",
+            80.0
           ]
         ],
-        "source": "Alphabet 5Y CDS (대리지표) / LSEG",
-        "ytd_high": 67.0,
+        "source": "Alphabet 5Y CDS (대리지표) / Barclays",
+        "ytd_high": 80.0,
         "ytd_low": 67.0
       },
-      "csi": 35.7,
-      "csi_5d": 33.7,
+      "csi": 68.2,
+      "csi_5d": 75.4,
       "csi_hist": [
         [
-          "2025-09-22",
-          18.9
-        ],
-        [
-          "2025-09-23",
-          21.9
-        ],
-        [
-          "2025-09-24",
-          23.7
-        ],
-        [
-          "2025-09-25",
-          25.3
-        ],
-        [
-          "2025-09-26",
-          23.8
-        ],
-        [
-          "2025-09-29",
-          25.6
-        ],
-        [
-          "2025-09-30",
-          26.1
-        ],
-        [
-          "2025-10-01",
-          12.5
-        ],
-        [
-          "2025-10-02",
-          9.5
-        ],
-        [
-          "2025-10-03",
-          9.9
-        ],
-        [
-          "2025-10-06",
-          8.8
-        ],
-        [
-          "2025-10-07",
-          9.9
-        ],
-        [
-          "2025-10-08",
-          9.1
-        ],
-        [
-          "2025-10-09",
-          10.5
-        ],
-        [
-          "2025-10-10",
-          19.6
-        ],
-        [
-          "2025-10-13",
-          14.9
-        ],
-        [
-          "2025-10-14",
-          15.9
-        ],
-        [
-          "2025-10-15",
-          13.7
-        ],
-        [
-          "2025-10-16",
-          15.0
-        ],
-        [
-          "2025-10-17",
-          15.0
-        ],
-        [
-          "2025-10-20",
-          13.9
-        ],
-        [
-          "2025-10-21",
-          15.8
-        ],
-        [
-          "2025-10-22",
-          17.2
-        ],
-        [
-          "2025-10-23",
-          14.6
-        ],
-        [
-          "2025-10-24",
-          14.3
-        ],
-        [
-          "2025-10-27",
-          14.9
-        ],
-        [
-          "2025-10-28",
-          14.9
-        ],
-        [
-          "2025-10-29",
-          15.3
-        ],
-        [
-          "2025-10-30",
-          19.0
-        ],
-        [
           "2025-10-31",
-          22.2
+          21.7
         ],
         [
           "2025-11-03",
-          23.1
+          22.5
         ],
         [
           "2025-11-04",
-          25.4
+          25.0
         ],
         [
           "2025-11-05",
-          23.2
+          22.8
         ],
         [
           "2025-11-06",
-          24.2
+          23.8
         ],
         [
           "2025-11-07",
-          25.7
+          25.3
         ],
         [
           "2025-11-10",
-          24.7
+          24.3
         ],
         [
           "2025-11-11",
-          24.5
+          24.1
         ],
         [
           "2025-11-12",
-          26.6
+          26.2
         ],
         [
           "2025-11-13",
-          30.5
+          29.8
         ],
         [
           "2025-11-14",
-          31.6
-        ],
-        [
-          "2025-11-17",
-          30.3
-        ],
-        [
-          "2025-11-18",
-          31.8
-        ],
-        [
-          "2025-11-19",
           30.9
         ],
         [
+          "2025-11-17",
+          29.3
+        ],
+        [
+          "2025-11-18",
+          31.1
+        ],
+        [
+          "2025-11-19",
+          30.0
+        ],
+        [
           "2025-11-20",
-          33.5
+          32.5
         ],
         [
           "2025-11-21",
-          32.7
+          31.8
         ],
         [
           "2025-11-24",
-          36.4
+          36.0
         ],
         [
           "2025-11-25",
-          34.9
+          34.5
         ],
         [
           "2025-11-26",
-          35.4
+          35.0
         ],
         [
           "2025-11-28",
-          33.5
+          33.0
         ],
         [
           "2025-12-01",
-          33.5
+          33.2
         ],
         [
           "2025-12-02",
-          31.8
+          32.0
         ],
         [
           "2025-12-03",
@@ -3507,55 +3609,55 @@
         ],
         [
           "2025-12-04",
-          28.0
+          27.8
         ],
         [
           "2025-12-05",
-          25.6
+          25.5
         ],
         [
           "2025-12-08",
-          27.2
+          27.1
         ],
         [
           "2025-12-09",
-          23.2
+          22.7
         ],
         [
           "2025-12-10",
-          23.2
+          22.8
         ],
         [
           "2025-12-11",
-          24.9
+          24.5
         ],
         [
           "2025-12-12",
-          24.9
+          24.2
         ],
         [
           "2025-12-15",
-          27.1
+          26.4
         ],
         [
           "2025-12-16",
-          27.1
+          26.6
         ],
         [
           "2025-12-17",
-          28.9
+          28.2
         ],
         [
           "2025-12-18",
-          26.3
+          25.5
         ],
         [
           "2025-12-19",
-          23.7
+          22.9
         ],
         [
           "2025-12-22",
-          21.5
+          20.9
         ],
         [
           "2025-12-23",
@@ -3563,11 +3665,11 @@
         ],
         [
           "2025-12-24",
-          10.9
+          11.0
         ],
         [
           "2025-12-26",
-          11.0
+          11.1
         ],
         [
           "2025-12-29",
@@ -3575,11 +3677,11 @@
         ],
         [
           "2025-12-30",
-          11.3
+          11.4
         ],
         [
           "2025-12-31",
-          11.7
+          11.8
         ],
         [
           "2026-01-02",
@@ -3587,339 +3689,339 @@
         ],
         [
           "2026-01-05",
-          10.9
+          11.0
         ],
         [
           "2026-01-06",
-          10.6
+          10.8
         ],
         [
           "2026-01-07",
-          9.7
+          9.9
         ],
         [
           "2026-01-08",
-          9.4
+          9.6
         ],
         [
           "2026-01-09",
-          7.1
+          7.3
         ],
         [
           "2026-01-12",
-          5.2
+          5.3
         ],
         [
           "2026-01-13",
-          4.7
+          4.9
         ],
         [
           "2026-01-14",
-          6.2
-        ],
-        [
-          "2026-01-15",
           6.4
         ],
         [
+          "2026-01-15",
+          6.6
+        ],
+        [
           "2026-01-16",
-          5.8
+          6.0
         ],
         [
           "2026-01-20",
-          9.5
+          9.8
         ],
         [
           "2026-01-21",
-          7.9
+          8.2
         ],
         [
           "2026-01-22",
-          7.2
-        ],
-        [
-          "2026-01-23",
-          7.4
-        ],
-        [
-          "2026-01-26",
-          6.7
-        ],
-        [
-          "2026-01-27",
-          7.0
-        ],
-        [
-          "2026-01-28",
-          6.8
-        ],
-        [
-          "2026-01-29",
           7.5
         ],
         [
+          "2026-01-23",
+          7.8
+        ],
+        [
+          "2026-01-26",
+          7.1
+        ],
+        [
+          "2026-01-27",
+          7.5
+        ],
+        [
+          "2026-01-28",
+          7.3
+        ],
+        [
+          "2026-01-29",
+          8.0
+        ],
+        [
           "2026-01-30",
-          8.9
-        ],
-        [
-          "2026-02-02",
-          7.7
-        ],
-        [
-          "2026-02-03",
           9.5
         ],
         [
+          "2026-02-02",
+          8.2
+        ],
+        [
+          "2026-02-03",
+          9.8
+        ],
+        [
           "2026-02-04",
-          11.7
+          12.1
         ],
         [
           "2026-02-05",
-          16.3
+          16.6
         ],
         [
           "2026-02-06",
-          23.6
+          23.7
         ],
         [
           "2026-02-09",
-          23.5
+          23.7
         ],
         [
           "2026-02-10",
-          26.0
+          26.1
         ],
         [
           "2026-02-11",
-          28.3
+          28.6
         ],
         [
           "2026-02-12",
-          30.0
+          30.2
         ],
         [
           "2026-02-13",
-          31.4
+          31.7
         ],
         [
           "2026-02-17",
-          32.3
+          32.6
         ],
         [
           "2026-02-18",
-          27.6
+          27.7
         ],
         [
           "2026-02-19",
-          25.3
+          25.4
         ],
         [
           "2026-02-20",
-          28.1
+          28.2
         ],
         [
           "2026-02-23",
-          33.4
+          33.6
         ],
         [
           "2026-02-24",
-          34.6
+          34.8
         ],
         [
           "2026-02-25",
-          31.0
+          31.2
         ],
         [
           "2026-02-26",
-          36.6
+          36.8
         ],
         [
           "2026-02-27",
-          36.2
+          36.3
         ],
         [
           "2026-03-02",
-          38.6
+          38.7
         ],
         [
           "2026-03-03",
-          38.4
+          38.6
         ],
         [
           "2026-03-04",
-          35.7
+          35.9
         ],
         [
           "2026-03-05",
-          37.0
+          37.3
         ],
         [
           "2026-03-06",
-          38.1
-        ],
-        [
-          "2026-03-09",
-          34.3
-        ],
-        [
-          "2026-03-10",
-          34.3
-        ],
-        [
-          "2026-03-11",
-          32.8
-        ],
-        [
-          "2026-03-12",
-          35.2
-        ],
-        [
-          "2026-03-13",
-          36.1
-        ],
-        [
-          "2026-03-16",
-          34.7
-        ],
-        [
-          "2026-03-17",
-          31.8
-        ],
-        [
-          "2026-03-18",
-          35.5
-        ],
-        [
-          "2026-03-19",
-          36.1
-        ],
-        [
-          "2026-03-20",
-          33.5
-        ],
-        [
-          "2026-03-23",
-          33.1
-        ],
-        [
-          "2026-03-24",
-          41.4
-        ],
-        [
-          "2026-03-25",
-          40.9
-        ],
-        [
-          "2026-03-26",
-          49.5
-        ],
-        [
-          "2026-03-27",
-          56.1
-        ],
-        [
-          "2026-03-30",
-          56.5
-        ],
-        [
-          "2026-03-31",
-          53.3
-        ],
-        [
-          "2026-04-01",
-          49.0
-        ],
-        [
-          "2026-04-02",
-          49.5
-        ],
-        [
-          "2026-04-06",
-          48.0
-        ],
-        [
-          "2026-04-07",
-          46.5
-        ],
-        [
-          "2026-04-08",
-          43.1
-        ],
-        [
-          "2026-04-09",
-          41.8
-        ],
-        [
-          "2026-04-10",
-          40.4
-        ],
-        [
-          "2026-04-13",
           38.3
         ],
         [
-          "2026-04-14",
+          "2026-03-09",
+          34.7
+        ],
+        [
+          "2026-03-10",
+          34.6
+        ],
+        [
+          "2026-03-11",
+          33.3
+        ],
+        [
+          "2026-03-12",
+          35.7
+        ],
+        [
+          "2026-03-13",
+          36.5
+        ],
+        [
+          "2026-03-16",
+          35.1
+        ],
+        [
+          "2026-03-17",
+          32.2
+        ],
+        [
+          "2026-03-18",
+          36.0
+        ],
+        [
+          "2026-03-19",
+          36.6
+        ],
+        [
+          "2026-03-20",
+          33.9
+        ],
+        [
+          "2026-03-23",
           33.4
         ],
         [
+          "2026-03-24",
+          41.9
+        ],
+        [
+          "2026-03-25",
+          41.4
+        ],
+        [
+          "2026-03-26",
+          50.0
+        ],
+        [
+          "2026-03-27",
+          56.4
+        ],
+        [
+          "2026-03-30",
+          56.8
+        ],
+        [
+          "2026-03-31",
+          53.0
+        ],
+        [
+          "2026-04-01",
+          48.7
+        ],
+        [
+          "2026-04-02",
+          49.2
+        ],
+        [
+          "2026-04-06",
+          47.7
+        ],
+        [
+          "2026-04-07",
+          46.1
+        ],
+        [
+          "2026-04-08",
+          42.8
+        ],
+        [
+          "2026-04-09",
+          41.5
+        ],
+        [
+          "2026-04-10",
+          40.1
+        ],
+        [
+          "2026-04-13",
+          38.0
+        ],
+        [
+          "2026-04-14",
+          33.1
+        ],
+        [
           "2026-04-15",
-          31.1
+          30.8
         ],
         [
           "2026-04-16",
-          30.1
-        ],
-        [
-          "2026-04-17",
-          29.1
-        ],
-        [
-          "2026-04-20",
-          29.1
-        ],
-        [
-          "2026-04-21",
           29.9
         ],
         [
+          "2026-04-17",
+          28.9
+        ],
+        [
+          "2026-04-20",
+          28.9
+        ],
+        [
+          "2026-04-21",
+          29.7
+        ],
+        [
           "2026-04-22",
-          23.1
+          22.6
         ],
         [
           "2026-04-23",
-          24.2
+          23.7
         ],
         [
           "2026-04-24",
-          21.0
+          20.9
         ],
         [
           "2026-04-27",
-          20.1
+          20.3
         ],
         [
           "2026-04-28",
-          21.8
+          21.9
         ],
         [
           "2026-04-29",
-          16.3
+          16.7
         ],
         [
           "2026-04-30",
-          29.4
+          29.6
         ],
         [
           "2026-05-01",
-          27.5
+          27.6
         ],
         [
           "2026-05-04",
-          28.1
+          28.3
         ],
         [
           "2026-05-05",
-          25.5
+          25.6
         ],
         [
           "2026-05-06",
@@ -3927,11 +4029,11 @@
         ],
         [
           "2026-05-07",
-          22.6
+          22.5
         ],
         [
           "2026-05-08",
-          21.8
+          21.7
         ],
         [
           "2026-05-11",
@@ -3943,7 +4045,7 @@
         ],
         [
           "2026-05-13",
-          21.9
+          21.8
         ],
         [
           "2026-05-14",
@@ -3987,11 +4089,11 @@
         ],
         [
           "2026-05-29",
-          13.6
+          13.7
         ],
         [
           "2026-06-01",
-          16.8
+          17.0
         ],
         [
           "2026-06-02",
@@ -4007,27 +4109,27 @@
         ],
         [
           "2026-06-05",
-          24.7
+          24.9
         ],
         [
           "2026-06-08",
-          25.4
+          25.5
         ],
         [
           "2026-06-09",
-          24.6
+          24.7
         ],
         [
           "2026-06-10",
-          28.3
+          28.5
         ],
         [
           "2026-06-11",
-          24.0
+          24.3
         ],
         [
           "2026-06-12",
-          24.0
+          24.3
         ],
         [
           "2026-06-15",
@@ -4039,151 +4141,151 @@
         ],
         [
           "2026-06-17",
-          27.0
+          26.9
         ],
         [
           "2026-06-18",
-          26.6
+          26.5
         ],
         [
           "2026-06-22",
-          33.8
+          33.4
         ],
         [
           "2026-06-23",
-          34.3
+          33.8
         ],
         [
           "2026-06-24",
-          34.4
+          34.2
         ],
         [
           "2026-06-25",
-          35.7
+          35.4
         ],
         [
           "2026-06-26",
-          37.1
+          36.9
         ],
         [
           "2026-06-29",
-          37.2
-        ],
-        [
-          "2026-06-30",
           36.8
         ],
         [
+          "2026-06-30",
+          36.5
+        ],
+        [
           "2026-07-01",
-          33.1
+          32.5
         ],
         [
           "2026-07-02",
-          32.8
+          32.4
         ],
         [
           "2026-07-06",
-          30.1
+          29.7
         ],
         [
           "2026-07-07",
-          29.3
+          29.0
         ],
         [
           "2026-07-08",
-          30.5
+          30.3
         ],
         [
           "2026-07-09",
-          30.8
+          30.5
         ],
         [
           "2026-07-10",
-          31.7
+          31.4
         ],
         [
           "2026-07-13",
-          32.1
+          31.8
         ],
         [
           "2026-07-14",
-          32.0
+          31.6
         ],
         [
           "2026-07-15",
-          29.4
+          28.9
         ],
         [
           "2026-07-16",
-          35.6
+          35.3
         ],
         [
           "2026-07-17",
-          36.7
+          36.4
         ],
         [
           "2026-07-20",
-          35.6
+          35.5
         ],
         [
           "2026-07-21",
-          30.2
+          30.0
         ],
         [
           "2026-07-22",
-          32.6
+          32.4
         ],
         [
           "2026-07-23",
-          55.1
+          55.2
         ],
         [
           "2026-07-24",
-          54.6
+          54.8
         ],
         [
           "2026-07-27",
-          52.9
-        ],
-        [
-          "2026-07-28",
-          52.5
-        ],
-        [
-          "2026-07-29",
-          52.8
-        ],
-        [
-          "2026-07-30",
           53.1
         ],
         [
+          "2026-07-28",
+          52.4
+        ],
+        [
+          "2026-07-29",
+          52.7
+        ],
+        [
+          "2026-07-30",
+          53.2
+        ],
+        [
           "2026-07-31",
-          46.1
+          46.0
         ],
         [
           "2026-08-03",
-          40.1
+          40.0
         ],
         [
           "2026-08-04",
-          39.5
+          39.4
         ],
         [
           "2026-08-05",
-          44.9
+          44.8
         ],
         [
           "2026-08-06",
-          45.4
+          45.3
         ],
         [
           "2026-08-07",
-          46.1
+          46.0
         ],
         [
           "2026-08-10",
-          46.6
+          46.5
         ],
         [
           "2026-08-11",
@@ -4191,135 +4293,135 @@
         ],
         [
           "2026-08-12",
-          51.9
+          51.8
         ],
         [
           "2026-08-13",
-          50.9
+          50.8
         ],
         [
           "2026-08-14",
-          50.0
+          49.9
         ],
         [
           "2026-08-17",
-          52.0
+          51.9
         ],
         [
           "2026-08-18",
-          53.4
+          53.3
         ],
         [
           "2026-08-19",
-          51.2
+          51.1
         ],
         [
           "2026-08-20",
-          52.5
+          52.2
         ],
         [
           "2026-08-21",
-          52.1
+          51.9
         ],
         [
           "2026-08-24",
-          50.0
+          49.7
         ],
         [
           "2026-08-25",
-          48.1
+          47.8
         ],
         [
           "2026-08-26",
-          47.9
+          47.6
         ],
         [
           "2026-08-27",
-          45.6
+          45.2
         ],
         [
           "2026-08-28",
-          31.6
+          31.5
         ],
         [
           "2026-08-31",
-          31.0
+          31.2
         ],
         [
           "2026-09-01",
-          32.4
+          32.7
         ],
         [
           "2026-09-02",
-          27.4
+          27.6
         ],
         [
           "2026-09-03",
-          28.0
+          28.2
         ],
         [
           "2026-09-04",
-          27.0
+          27.2
         ],
         [
           "2026-09-08",
-          26.3
+          26.4
         ],
         [
           "2026-09-09",
-          27.7
+          27.8
         ],
         [
           "2026-09-10",
-          27.5
+          27.7
         ],
         [
           "2026-09-11",
-          25.8
+          25.9
         ],
         [
           "2026-09-14",
-          25.2
+          25.4
         ],
         [
           "2026-09-15",
-          28.8
+          29.0
         ],
         [
           "2026-09-16",
-          25.8
+          26.1
         ],
         [
           "2026-09-17",
-          22.8
+          23.1
         ],
         [
           "2026-09-18",
-          20.8
+          21.1
         ],
         [
           "2026-09-21",
-          21.0
+          21.3
         ],
         [
           "2026-09-22",
-          22.1
+          22.4
         ],
         [
           "2026-09-23",
-          31.9
+          32.1
         ],
         [
           "2026-09-24",
-          32.3
+          32.5
         ],
         [
           "2026-09-25",
-          33.7
+          33.8
         ],
         [
           "2026-09-28",
-          35.5
+          35.6
         ],
         [
           "2026-09-29",
@@ -4327,7 +4429,7 @@
         ],
         [
           "2026-09-30",
-          34.7
+          34.8
         ],
         [
           "2026-10-01",
@@ -4335,134 +4437,138 @@
         ],
         [
           "2026-10-02",
-          35.7
+          35.0
+        ],
+        [
+          "2026-10-05",
+          33.6
+        ],
+        [
+          "2026-10-06",
+          30.9
+        ],
+        [
+          "2026-10-07",
+          29.0
+        ],
+        [
+          "2026-10-08",
+          32.9
+        ],
+        [
+          "2026-10-09",
+          28.2
+        ],
+        [
+          "2026-10-12",
+          25.0
+        ],
+        [
+          "2026-10-13",
+          25.0
+        ],
+        [
+          "2026-10-14",
+          28.4
+        ],
+        [
+          "2026-10-15",
+          27.6
+        ],
+        [
+          "2026-10-16",
+          32.0
+        ],
+        [
+          "2026-10-19",
+          33.5
+        ],
+        [
+          "2026-10-20",
+          34.0
+        ],
+        [
+          "2026-10-21",
+          31.4
+        ],
+        [
+          "2026-10-22",
+          40.1
+        ],
+        [
+          "2026-10-23",
+          41.7
+        ],
+        [
+          "2026-10-26",
+          48.0
+        ],
+        [
+          "2026-10-27",
+          49.5
+        ],
+        [
+          "2026-10-28",
+          47.6
+        ],
+        [
+          "2026-10-29",
+          78.8
+        ],
+        [
+          "2026-10-30",
+          81.4
+        ],
+        [
+          "2026-11-02",
+          80.8
+        ],
+        [
+          "2026-11-03",
+          79.9
+        ],
+        [
+          "2026-11-04",
+          72.0
+        ],
+        [
+          "2026-11-05",
+          75.4
+        ],
+        [
+          "2026-11-06",
+          74.9
+        ],
+        [
+          "2026-11-09",
+          71.8
+        ],
+        [
+          "2026-11-10",
+          71.3
+        ],
+        [
+          "2026-11-11",
+          69.8
+        ],
+        [
+          "2026-11-12",
+          68.2
         ]
       ],
-      "csi_prev": 38.4,
+      "csi_prev": 69.8,
       "key": "anthropic",
       "name": "Anthropic",
       "note": "단일종목 CDS 없음. 리스 백스톱 제공자(Alphabet·Amazon) 크레딧으로 전가.",
       "type": "proxy"
     }
   ],
-  "generated_at": "2026-10-04T10:50:08+09:00",
+  "generated_at": "2026-11-13T08:10:24+09:00",
   "macro": {
-    "asof": "2026-10-01",
-    "bbb_oas_bp": 106.0,
-    "percentile_2y": 0.753,
+    "asof": "2026-11-11",
+    "bbb_oas_bp": 112.0,
+    "percentile_2y": 0.843,
     "series": [
-      [
-        "2025-10-07",
-        95.0
-      ],
-      [
-        "2025-10-08",
-        95.0
-      ],
-      [
-        "2025-10-09",
-        98.0
-      ],
-      [
-        "2025-10-10",
-        102.0
-      ],
-      [
-        "2025-10-13",
-        102.0
-      ],
-      [
-        "2025-10-14",
-        102.0
-      ],
-      [
-        "2025-10-15",
-        99.0
-      ],
-      [
-        "2025-10-16",
-        101.0
-      ],
-      [
-        "2025-10-17",
-        101.0
-      ],
-      [
-        "2025-10-20",
-        100.0
-      ],
-      [
-        "2025-10-21",
-        101.0
-      ],
-      [
-        "2025-10-22",
-        102.0
-      ],
-      [
-        "2025-10-23",
-        100.0
-      ],
-      [
-        "2025-10-24",
-        98.0
-      ],
-      [
-        "2025-10-27",
-        97.0
-      ],
-      [
-        "2025-10-28",
-        97.0
-      ],
-      [
-        "2025-10-29",
-        96.0
-      ],
-      [
-        "2025-10-30",
-        98.0
-      ],
-      [
-        "2025-10-31",
-        102.0
-      ],
-      [
-        "2025-11-03",
-        104.0
-      ],
-      [
-        "2025-11-04",
-        104.0
-      ],
-      [
-        "2025-11-05",
-        102.0
-      ],
-      [
-        "2025-11-06",
-        104.0
-      ],
-      [
-        "2025-11-07",
-        106.0
-      ],
-      [
-        "2025-11-10",
-        105.0
-      ],
-      [
-        "2025-11-11",
-        105.0
-      ],
-      [
-        "2025-11-12",
-        105.0
-      ],
-      [
-        "2025-11-13",
-        106.0
-      ],
       [
         "2025-11-14",
         106.0
@@ -5390,9 +5496,280 @@
       [
         "2026-10-01",
         106.0
+      ],
+      [
+        "2026-10-02",
+        104.0
+      ],
+      [
+        "2026-10-05",
+        104.0
+      ],
+      [
+        "2026-10-06",
+        102.0
+      ],
+      [
+        "2026-10-07",
+        102.0
+      ],
+      [
+        "2026-10-08",
+        102.0
+      ],
+      [
+        "2026-10-09",
+        102.0
+      ],
+      [
+        "2026-10-12",
+        102.0
+      ],
+      [
+        "2026-10-13",
+        103.0
+      ],
+      [
+        "2026-10-14",
+        104.0
+      ],
+      [
+        "2026-10-15",
+        105.0
+      ],
+      [
+        "2026-10-16",
+        106.0
+      ],
+      [
+        "2026-10-19",
+        108.0
+      ],
+      [
+        "2026-10-20",
+        108.0
+      ],
+      [
+        "2026-10-21",
+        109.0
+      ],
+      [
+        "2026-10-22",
+        111.0
+      ],
+      [
+        "2026-10-23",
+        113.0
+      ],
+      [
+        "2026-10-26",
+        112.0
+      ],
+      [
+        "2026-10-27",
+        109.0
+      ],
+      [
+        "2026-10-28",
+        107.0
+      ],
+      [
+        "2026-10-29",
+        110.0
+      ],
+      [
+        "2026-10-30",
+        116.0
+      ],
+      [
+        "2026-11-02",
+        117.0
+      ],
+      [
+        "2026-11-03",
+        116.0
+      ],
+      [
+        "2026-11-04",
+        113.0
+      ],
+      [
+        "2026-11-05",
+        116.0
+      ],
+      [
+        "2026-11-06",
+        116.0
+      ],
+      [
+        "2026-11-09",
+        113.0
+      ],
+      [
+        "2026-11-11",
+        112.0
       ]
     ]
   },
+  "measured": [
+    {
+      "age_days": 7,
+      "alert": false,
+      "alert_bp": 300.0,
+      "baselines": [
+        {
+          "above": true,
+          "bp": 198.0,
+          "kind": "ref",
+          "label": "2008 금융위기 최고치",
+          "source": "ICE Data Services / Bloomberg"
+        },
+        {
+          "above": false,
+          "bp": 300.0,
+          "kind": "alert",
+          "label": "경보선 · 하이일드 수준",
+          "source": "CNBC — 10/15 장중 300bp 터치"
+        }
+      ],
+      "chg": 3.0,
+      "high": 298.0,
+      "high_date": "2026-11-06",
+      "key": "oracle",
+      "last": 298.0,
+      "last_date": "2026-11-06",
+      "name": "오라클",
+      "name_en": "Oracle",
+      "prev": 295.0,
+      "prev_date": "2026-10-19",
+      "series": [
+        [
+          "2026-01-02",
+          145.0,
+          "Bloomberg (연초 기준치)"
+        ],
+        [
+          "2026-04-10",
+          198.0,
+          "Motley Fool"
+        ],
+        [
+          "2026-07-20",
+          196.6,
+          "LSEG"
+        ],
+        [
+          "2026-07-24",
+          198.2,
+          "Investing.com"
+        ],
+        [
+          "2026-07-27",
+          215.0,
+          "LSEG / FT"
+        ],
+        [
+          "2026-07-29",
+          200.0,
+          "S&P Global Market Intelligence / Reuters"
+        ],
+        [
+          "2026-09-25",
+          227.0,
+          "시장 데이터 / ms-aktuell"
+        ],
+        [
+          "2026-10-08",
+          260.0,
+          "S&P Global Market Intelligence / Reuters (10/15 보도의 1주 전 값)"
+        ],
+        [
+          "2026-10-15",
+          288.0,
+          "S&P Global Market Intelligence / Reuters"
+        ],
+        [
+          "2026-10-19",
+          295.0,
+          "CNBC"
+        ],
+        [
+          "2026-11-06",
+          298.0,
+          "CNBC"
+        ]
+      ],
+      "source": "CNBC",
+      "to_alert": 2.0
+    },
+    {
+      "age_days": 7,
+      "alert": false,
+      "alert_bp": 1289.0,
+      "baselines": [
+        {
+          "above": true,
+          "bp": 1000.0,
+          "kind": "ref",
+          "label": "디스트레스 구간",
+          "source": "1,000bp 이상은 통상 부실 신용으로 본다"
+        },
+        {
+          "above": false,
+          "bp": 1289.0,
+          "kind": "alert",
+          "label": "경보선 · 11/5 고점",
+          "source": "Deutsche Bank / CNBC"
+        }
+      ],
+      "chg": -134.0,
+      "high": 1289.0,
+      "high_date": "2026-11-05",
+      "key": "coreweave",
+      "last": 1155.0,
+      "last_date": "2026-11-06",
+      "name": "코어위브",
+      "name_en": "CoreWeave",
+      "prev": 1289.0,
+      "prev_date": "2026-11-05",
+      "series": [
+        [
+          "2026-07-28",
+          855.0,
+          "Bloomberg / 24/7 Wall St."
+        ],
+        [
+          "2026-10-15",
+          1194.5,
+          "ICE Data Services / Bloomberg (장중)"
+        ],
+        [
+          "2026-10-19",
+          1082.0,
+          "CNBC"
+        ],
+        [
+          "2026-10-27",
+          1041.4,
+          "S&P Global (Markit)"
+        ],
+        [
+          "2026-11-05",
+          1289.0,
+          "Deutsche Bank / CNBC (장중)"
+        ],
+        [
+          "2026-11-06",
+          1155.0,
+          "Deutsche Bank / CNBC"
+        ]
+      ],
+      "source": "Deutsche Bank / CNBC",
+      "to_alert": 134.0
+    }
+  ],
+  "measured_sig": "cba29e9c4d1d",
+  "measured_updated": "2026-11-13",
   "method": {
     "csi": "0.35×낙폭(252d) + 0.30×20일변동성 백분위 + 0.20×60일 모멘텀 + 0.15×BBB OAS 백분위",
     "disclaimer": "CSI는 CDS 호가가 아니라 주가·매크로 기반 대리지표다. 실측 CDS는 보도 기준 큐레이션 값이다."
