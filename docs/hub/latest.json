@@ -1,8 +1,8 @@
 {
   "as_of_kst": "2026-11-14",
-  "generated_at": "2026-11-14T10:26:22+09:00",
-  "asof": "2026-11-12",
-  "message": "<b>AI 크레딧 레이더</b> · 11/14(토)\n<i>기준 2026-11-12 종가</i>\n\n<b>실측 5Y CDS</b> · 보도 기준, 최신 11/06\n오라클 <b>298bp</b> 11/06 (+3) · 경보선 300까지 2bp\n코어위브 <b>1,155bp</b> 11/06 (-134) · 경보선 1,289까지 134bp\n엔비디아 139bp 11/06 · 알파벳(앤트로픽 대리) 80bp 10/28\n\n<b>크레딧 스트레스 지수</b> · 0-100, 주가 기반\n<code>Oracle      84.1 ▲0.8</code> <b>과열</b>\n<code>Nvidia      87.6   ▲5</code> <b>과열</b>\n<code>OpenAI*     90.4    ―</code> <b>과열</b>\n<code>Anthropic*  68.0   ▼2</code> 확대\n\n<b>시장 전체</b> BBB OAS 111bp (2년 백분위 83%)\n· 지수까지 확대 — 시스템 리스크 전이 주의\n\n<b>판단</b> 확대 국면 — 4축 중 3축 상승\n· 지수 변동은 직전 거래일 대비, 실측 CDS는 보도 시점 값입니다\n\n* 단일종목 CDS 부재 → 보증 제공자 크레딧 대리치\n<a href=\"https://jinhae8971.github.io/ai-credit-radar\">대시보드 · 실측 트렌드 차트</a>",
+  "generated_at": "2026-11-14T11:40:35+09:00",
+  "asof": "2026-11-13",
+  "message": "<b>AI 크레딧 레이더</b> · 11/14(토)\n<i>기준 2026-11-13 종가</i>\n\n<b>실측 5Y CDS</b> · 보도 기준, 최신 11/06\n오라클 <b>298bp</b> 11/06 (+3) · 경보선 300까지 2bp\n코어위브 <b>1,155bp</b> 11/06 (-134) · 경보선 1,289까지 134bp\n엔비디아 139bp 11/06 · 알파벳(앤트로픽 대리) 80bp 10/28\n\n<b>크레딧 스트레스 지수</b> · 0-100, 주가 기반\n<code>Oracle      83.9    ―</code> <b>과열</b>\n<code>Nvidia      90.0   ▲2</code> <b>과열</b>\n<code>OpenAI*     90.2    ―</code> <b>과열</b>\n<code>Anthropic*  68.1    ―</code> 확대\n\n<b>시장 전체</b> BBB OAS 111bp (2년 백분위 83%)\n· 지수까지 확대 — 시스템 리스크 전이 주의\n\n<b>판단</b> 혼조 — 4축 중 2축 상승\n· 지수 변동은 직전 거래일 대비, 실측 CDS는 보도 시점 값입니다\n\n* 단일종목 CDS 부재 → 보증 제공자 크레딧 대리치\n<a href=\"https://jinhae8971.github.io/ai-credit-radar\">대시보드 · 실측 트렌드 차트</a>",
   "photos": [],
   "photo_caption": "",
   "photo_reason": "변화 없음",
