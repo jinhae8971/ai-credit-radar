@@ -1,13 +1,11 @@
 {
-  "as_of_kst": "2026-11-17",
-  "generated_at": "2026-11-17T12:45:50+09:00",
-  "asof": "2026-11-16",
-  "message": "<b>AI 크레딧 레이더</b> · 11/17(화)\n<i>기준 2026-11-16 종가</i>\n\n<b>실측 5Y CDS</b> · 보도 기준, 최신 11/06\n오라클 <b>298bp</b> 11/06 (+3) · 경보선 300까지 2bp\n코어위브 <b>1,155bp</b> 11/06 (-134) · 경보선 1,289까지 134bp\n엔비디아 139bp 11/06 · 알파벳(앤트로픽 대리) 80bp 10/28\n\n<b>크레딧 스트레스 지수</b> · 0-100, 주가 기반\n<code>Oracle      89.8   ▲6</code> <b>과열</b>\n<code>Nvidia      92.8   ▲3</code> <b>과열</b>\n<code>OpenAI*     92.6   ▲2</code> <b>과열</b>\n<code>Anthropic*  74.1   ▲6</code> 확대\n\n<b>시장 전체</b> BBB OAS 111bp (2년 백분위 82%)\n· 지수까지 확대 — 시스템 리스크 전이 주의\n\n<b>판단</b> 확대 국면 — 4축 중 4축 상승\n· 지수 변동은 직전 거래일 대비, 실측 CDS는 보도 시점 값입니다\n\n* 단일종목 CDS 부재 → 보증 제공자 크레딧 대리치\n<a href=\"https://jinhae8971.github.io/ai-credit-radar\">대시보드 · 실측 트렌드 차트</a>",
-  "photos": [
-    "ai_credit/data/cds_measured.png"
-  ],
-  "photo_caption": "오라클·코어위브 실측 5Y CDS 추세와 기준선 (보도 기준)",
-  "photo_reason": "주간 정기",
+  "as_of_kst": "2026-11-18",
+  "generated_at": "2026-11-18T11:52:18+09:00",
+  "asof": "2026-11-17",
+  "message": "<b>AI 크레딧 레이더</b> · 11/18(수)\n<i>기준 2026-11-17 종가</i>\n\n<b>실측 5Y CDS</b> · 보도 기준, 최신 11/06\n오라클 <b>298bp</b> 11/06 (+3) · 경보선 300까지 2bp\n코어위브 <b>1,155bp</b> 11/06 (-134) · 경보선 1,289까지 134bp\n엔비디아 139bp 11/06 · 알파벳(앤트로픽 대리) 80bp 10/28\n\n<b>크레딧 스트레스 지수</b> · 0-100, 주가 기반\n<code>Oracle      90.6 ▲0.6</code> <b>과열</b>\n<code>Nvidia      93.2    ―</code> <b>과열</b>\n<code>OpenAI*     93.0    ―</code> <b>과열</b>\n<code>Anthropic*  76.2   ▲2</code> <b>과열</b>\n\n<b>시장 전체</b> BBB OAS 112bp (2년 백분위 84%)\n· 지수까지 확대 — 시스템 리스크 전이 주의\n\n<b>판단</b> 확대 국면 — 4축 중 4축 상승\n· 지수 변동은 직전 거래일 대비, 실측 CDS는 보도 시점 값입니다\n\n* 단일종목 CDS 부재 → 보증 제공자 크레딧 대리치\n<a href=\"https://jinhae8971.github.io/ai-credit-radar\">대시보드 · 실측 트렌드 차트</a>",
+  "photos": [],
+  "photo_caption": "",
+  "photo_reason": "변화 없음",
   "alert": true,
   "measured_updated": "2026-11-13",
   "dashboard": "https://jinhae8971.github.io/ai-credit-radar"
