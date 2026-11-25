@@ -1,26 +1,12 @@
 {
-  "asof": "2026-11-23",
+  "asof": "2026-11-24",
   "candidates": [
     {
       "bp_hint": null,
       "entity": "Anthropic",
-      "link": "https://news.google.com/rss/articles/CBMiZEFVX3lxTE4ybVRYX2tKRVFTNlQ5ZjhWcEU3VUNMUG9wLXlRMDdHOVVqcExtZ1FQQ3NwVHNXMFNKV2EwbTh6R0FrSmZIaTVLQzF3ZnEwbFJLQ0wxdlVxNGg0SFdZMFpaNjJ2QTQ?oc=5",
-      "published": "Tue, 17 Nov 2026 22:13:00 GMT",
-      "title": "Betting My Money on AI Companies' Rise or Fall... \"3x Long\" vs. \"Default Bet\" ETFs Launch [Investment Barometer] - 아시아경제"
-    },
-    {
-      "bp_hint": null,
-      "entity": "Anthropic",
-      "link": "https://news.google.com/rss/articles/CBMipAFBVV95cUxOWldkZHJfQVdGd0xENHhNMU1mV19wcU1aWng5ZVFwLXBrS3FKZnNLLVNSeExubG04anByaDhFeWhYd1ktdGQxMDI5UGVoVG5zR0c5T3RtSlBGdWRYQjdBQjdvRWNSMzRkd2ttWXpiczFyMTNlZ3FqUWZsNVdKTXpXWDVJWFZiT0tCbndHcWtScDB2eExlc1FVOEpmVDRIVEk2NGVWcw?oc=5",
-      "published": "Wed, 18 Nov 2026 15:50:00 GMT",
-      "title": "European Central Bank sees 'historical parallels with the dotcom and subprime bubbles' because of AI's 'rapid shift' into debt finance - Fortune"
-    },
-    {
-      "bp_hint": null,
-      "entity": "Anthropic",
-      "link": "https://news.google.com/rss/articles/CBMidkFVX3lxTFBIV1pLTVJPUFlDOWhHYUFiSDc4NjgwdnUtcXlHUGVGUkttZ0VxUklwLTFfR3VTck4zMUU3TjV2V0ktUnc2YTNCNkNCckV6bGVmYjQ4bkpkczNLeUxhZ0FxTW9sYzN0b2QtVXd1VkdiMTF3aWNOQ1E?oc=5",
-      "published": "Tue, 17 Nov 2026 22:55:00 GMT",
-      "title": "From Triple-Leverage Anthropic Bets to Default-Probability ETFs: AI Investing's Extremes Flood the Market - BigGo Finance"
+      "link": "https://news.google.com/rss/articles/CBMi4gFBVV95cUxOMF9STE5WUHJOaFpiVnVOWWJzdXBsenF4U0xtbVVHNUlpUFlIS2NiUmxQdk9BUlE2THByelNBVnpLTGlHTjVsTnM4alljOWswMjZoUnVVOE1sQkRUbE5BLVplSEFYVXZ0M0dCYktCSDA4NU4zTFllNVFXenZpYjZac0FuazU1MHctT2lyMmdvcWVGREFDQjAtaU1EdEd6eGd4THNRZjk1QjRxM2VrU08wcTRhaHRaWTBhMUpleGZaQmRlR2lVazd0MHRVYU1Ha0RRTlc4YmxONkdhckNpSTlWVTBB?oc=5",
+      "published": "Thu, 19 Nov 2026 07:52:04 GMT",
+      "title": "ECB Draws Subprime Parallels as Over $4 Trillion in AI Debt-Like Commitments Stay Off Balance Sheets - Tech Times"
     },
     {
       "bp_hint": null,
@@ -31,17 +17,17 @@
     },
     {
       "bp_hint": null,
-      "entity": "Anthropic",
-      "link": "https://news.google.com/rss/articles/CBMigAFBVV95cUxOTmY5ZkZma2lFUFpzbTRLWm4yN0xVWEJWLXRnRXV5UkxFNWpTTmlULVJESVhHYmwweTJQaUl1eXc2bm5zLXlDV1FCZWNKOG9HNGh1T2trcjllQ0t6aklXODVCZGtpMkczSTRfY3NWMFo4eFdleUxhb181UlBQT1Awb9IBlAFBVV95cUxNT0xUSWpDVk1jOVRhVzhjUl9pUndpU1BNRUJaQ2FlSEFCcDBLNHZvYzM2MzhsaWFEQXJCN2J3elFobVBJWGFwcUZyR0tLUUNvd25OZGdqUWdjZjM2SEg3Q3A5U3laN3FhQnh3YWhRSHNKYzhNVHFNOTM3X1JhUEFMNWw1UlBINHVsUVZfd29obFZPXzd6?oc=5",
-      "published": "Tue, 17 Nov 2026 23:39:00 GMT",
-      "title": "KOSPI falls before Anthropic IPO, tends to rebound after major listings - Chosunbiz"
+      "entity": "CoreWeave",
+      "link": "https://news.google.com/rss/articles/CBMimgFBVV95cUxQWDduZ3F3b2Y4UWlGNW5MaEk4STZQS0xIV1EtODZWQUt2TEM1Y2Z5YmFKM1Q5VUxlZzNhaUpmYmg5X2U3UW5LU3ZkdmRqd1Noc3p4M3V0MXlaeHYzZElqNTNRRTBsQVUzanV2S3VNRDdFeEE5QTNSdEZYR1lBQ0Y1ZFRkQnFtSk02WjdNN05BY2xhVGtXWks1Sl9B?oc=5",
+      "published": "Tue, 24 Nov 2026 19:46:14 GMT",
+      "title": "CoreWeave bonds hit record lows, wiping out the Nvidia-driven rally - Startup Fortune"
     },
     {
       "bp_hint": null,
       "entity": "CoreWeave",
-      "link": "https://news.google.com/rss/articles/CBMi6wFBVV95cUxNeXdmNmdDN2E2YkJtLTJSamtUZFk2Y2xFVW1NcGtFRFRqQVJHMUlsWmRLaEliNlNwbzN2NXJFS1Y1bjZLNUxZTzV5NW9pX0VLVF9HeFdNWmRWMC1OMXA5S0VxZGRqelMxLURxSVVMTXUtcWZqdnc5dlRweW5RZ2pjSS1sb3NiTElmaTJ3MHhpTkxHRUVVeEpaUFhGM01nNzc5UUpFZFdSY1V3VzlNeUstQ3dPSjFDcjFoaGR6VmhvV056bmJlMktMNC12WjVrMmdoX2NzTWU0eGhVQ0FIT3NValh4ZXVSQ2c4Y1RV?oc=5",
-      "published": "Tue, 17 Nov 2026 20:22:36 GMT",
-      "title": "CORRECTION – Compute Desk raises $45M led by Lightspeed to build infrastructure for hedging compute - markets.businessinsider.com"
+      "link": "https://news.google.com/rss/articles/CBMisAFBVV95cUxPWnp6SVd1T1ZDVURQdmZYNUtxb2FNZ1pWQTVxVTMzMzVXTi1qT2pubkJvVFcxQjFJUTZEcnlQWXFxLUJ4N2Nya2VFZ1ViSHdzbHJOS2N1eW91Z0RMZlJZQWdPdWN0UTloQ0FsZ3FRazBJZVBOMU8xRk5zc0JLM3g0dFJOalJMejNXUDNuRTMwaDQ3cWxaOWZ5MDZxRU5FcjJQbTBzeGN5OHQ2a19VdkdxcA?oc=5",
+      "published": "Wed, 18 Nov 2026 22:57:22 GMT",
+      "title": "Tuttle and Defiance file for funds that would profit from rising AI debt risk - Superpower Daily"
     },
     {
       "bp_hint": null,
@@ -53,30 +39,51 @@
     {
       "bp_hint": null,
       "entity": "Nvidia",
-      "link": "https://news.google.com/rss/articles/CBMidEFVX3lxTE1mWWlEUVhycjRVLUxqcDMtdXd3bXNmd3dVNzVZaUFEa1NoOEpJdFZqNUYxQ0k1VjR4Z2FpWWJEdmlhbUNIemx6ZW91V0ttWUs4ektnbVVKZ01CQ0lSa0pfVjQ3X1V0cmMxLTJabzBCV2hyenpo?oc=5",
-      "published": "Tue, 24 Nov 2026 02:02:02 GMT",
-      "title": "Nvidia Rally Hinges on AI Industry’s Ability to Secure Capital - Businesskorea"
+      "link": "https://news.google.com/rss/articles/CBMiU0FVX3lxTFBTV2ZLMWVsaGYyWnM4M19VTDRxUDhacjh0dHkydUE2Q2J1QUNvNmtXR2ZWMWhkb0F2TkhMcTJwM29iYVNhOUZjTDhrTlJjR21CRDZJ?oc=5",
+      "published": "Wed, 25 Nov 2026 02:22:32 GMT",
+      "title": "Jensen Huang’s Stunning Comeback: AI Credit Alerts Blare Nonstop Amid NVIDIA’s AI Revolution - 36Kr"
     },
     {
       "bp_hint": null,
       "entity": "Nvidia",
-      "link": "https://news.google.com/rss/articles/CBMiqAFBVV95cUxNYld6UFFfZlNIQUhUTFRUTEpkeG5jMTItdXFvQUhBUGNUeHJ2MXJNeU1QSGppNjBUaEZMOERkNmxSQU1weVVLeTB1eUowZnpvaUM4TmRhNEFiWEE4ZkdUUHViNWkzTFoyV0E1TGpySmdSYm9CdjhHSThrTjdkY2xuRGRqRUdVN2J0dWZIRWRud2JtYWlRN3pzSUQ4dC1DVDlILWxJbXl3cEI?oc=5",
-      "published": "Sun, 22 Nov 2026 03:23:27 GMT",
-      "title": "Nvidia's Leadership Shock and the AI Financing Divide | Market Wrap - Financial Sense"
+      "link": "https://news.google.com/rss/articles/CBMiugFBVV95cUxNLWJwLW1rV0JzdTRsQTRDNEdiRXY5ZmFmMHE2bjhNVnR1aDgyYXkwQi00ZlJWOENqeXdWeWZWWkQ4S1VqTTFyd29rbVNqRTJvZEh3QmwyREg4enJpYVZzbmFoaG8yb3Jna0hyeHZqSk5CQ0lDWHV1bHBURTBleFVvV3ZLMThzLWpYV0tuMllfbWh1QXYtaUpybTlxZlBMNEQ4c3FfdWR6YXYycmhOa2FaemMtVkRKdHRNN2c?oc=5",
+      "published": "Tue, 24 Nov 2026 13:43:57 GMT",
+      "title": "Nvidia CDS spreads surge as stock swings rattle markets - TradingView"
     },
     {
       "bp_hint": null,
       "entity": "Nvidia",
-      "link": "https://news.google.com/rss/articles/CBMidkFVX3lxTE5uV0FyY1IzLTVwNVhpa1BLSGZvclVkT3lDWVNkSGdSdExvX1E0OUlKR1ZJNG1xSklPeDhmb0RnX0g0U0s0Slc0VllybDlTNjQwY0IxdEh3aHRwUWpHRzFfUW85d09ydmcxeDdXTVMxdVFaQXRObnc?oc=5",
-      "published": "Wed, 18 Nov 2026 02:25:00 GMT",
-      "title": "SpaceX's $40 Billion Off-Balance-Sheet Nvidia Chip Lease Financing Hits Market This Week, Sparking Default Concerns - BigGo Finance"
+      "link": "https://news.google.com/rss/articles/CBMiiAFBVV95cUxPMnowUlFZbU5FVWIxa2ZCdVZIaE96N21BX2d6RXE4bkR1WFdkZDN3UTZDTDlzTFMxbEZSYUJyM0w0NWZTbXdnXy1wSmt0Tl82UW9nS1F4VEdCRjhzRllSVkg2OFJvN29lUXhMWGVSVVV1YTgtSmZFeUQ3WUpHT0NBcjlGUEM2UVRw?oc=5",
+      "published": "Tue, 24 Nov 2026 13:40:13 GMT",
+      "title": "Nvidia credit-default swap spreads approach record highs, Lisa Abramowicz notes - Traders Union"
     },
     {
       "bp_hint": null,
       "entity": "Nvidia",
-      "link": "https://news.google.com/rss/articles/CBMihwFBVV95cUxNNUYwR2djV1NlUlNlLW1JQUNmNkZZYVFwbFFCLUxhWDY0ZHFYN2tPZzJnZXF5WmlWRkJNMUFxcklJaVRjWjFtakkzOFBnckZKN0JYM053S1BOYm1IVDczSk9OcFBfNHNlRnRld1VLd0ZzTEdpcElKTmJ3TV9NMmdJLXNsRDdSTDg?oc=5",
-      "published": "Tue, 17 Nov 2026 21:01:11 GMT",
-      "title": "The $545 Billion AI Financing Problem: Who Carries the Risk? - The Dark Side Of The Boom"
+      "link": "https://news.google.com/rss/articles/CBMidkFVX3lxTE9oWml5UFBWT01NQllyd2dwcXRCSHZucU1PTGRISlZJSHNJX3ZfQzljd21LX1VJV3RLRUZXdFo5N2NjdWI5VEs4TERTX0V4TERMR1h1clhmTjZvMFpuOHlKc1ZQYnIyVDJsdHJqckMzRXVpOUwwMlE?oc=5",
+      "published": "Tue, 24 Nov 2026 22:05:00 GMT",
+      "title": "Nvidia's AI Credit Machine Restarts: Bond, CDS Markets Flash Warning Signs as Huang Returns - BigGo Finance"
+    },
+    {
+      "bp_hint": null,
+      "entity": "OpenAI",
+      "link": "https://news.google.com/rss/articles/CBMiuAFBVV95cUxNdzRWeExjdVpOUjNoWVNWVkl0cEpwQlYyZ21UWUNzZnU5azFLNjNvbjlRd1NRS2ZzNG4yM2lFQkJ1VW5kVmhqZHFTNnNwZkpZSUpvZ3RmeW04R1RBOUhJUFpMUDlMZlU3b3Y4MUFMTXFWaEZvcWRSRHVRYXRGNkRubHQ4NnJZQVoxXzRCSXdMWlh3d2NGSkZ2YXNrTHF6YlJzUnpzVnVlYkZ1OUp4UlZnbklKQmxWRkI0?oc=5",
+      "published": "Tue, 24 Nov 2026 17:32:11 GMT",
+      "title": "Credit Markets Stay Wary of Nvidia Despite Huang's Return - TradingView"
+    },
+    {
+      "bp_hint": null,
+      "entity": "Oracle",
+      "link": "https://news.google.com/rss/articles/CBMivgFBVV95cUxOR0hManQ2Y013TnByRHpDS254N0Rsa3dNemZSR1ZqT3dEUHNncDhnTkhWMndnYVN0YTA5SnVVQlV4VlRKMF9MMDEycmZtQnpKZVhzbnlPb1p1Uk5DRXBsR2d2M3Y3ZVhOMzBfSGE2NVVIN2hqcVFpQndBOFByN1lhNUZuOUtYY3lUalNRTXYxUEVKbURRakRFc0pQb2xoWE1DVGx4WFdYWEdHckdFUmJCNnpnczFYRkRMODJOLWdB?oc=5",
+      "published": "Tue, 24 Nov 2026 21:54:24 GMT",
+      "title": "AI Credit Markets Weaken as Jensen Huang Returns to Nvidia - TradingView"
+    },
+    {
+      "bp_hint": null,
+      "entity": "Oracle",
+      "link": "https://news.google.com/rss/articles/CBMic0FVX3lxTE1lUHNzX3RZZ2xlY1lqcWFYRmxwT01ZSlZHSmxOYS1JY0FXdEdyWnpXeVhnMUVDZHE5SExMbUpkYVZzcTNfNWRUaFAyNjVtRy1CX1NVNXFqbmhJSlFpZndtWHhXOUhGYUl3WEw3QUtIc00xSkU?oc=5",
+      "published": "Wed, 25 Nov 2026 03:45:26 GMT",
+      "title": "AI credit default swap spreads widen - KFGO"
     },
     {
       "bp_hint": null,
@@ -102,29 +109,15 @@
     {
       "bp_hint": null,
       "entity": "Oracle",
-      "link": "https://news.google.com/rss/articles/CBMitwFBVV95cUxNV2VQSDhZUXNIcUJURF9taFVWWjF2YzZjSC1mNHEwS0xMVGZqX2U1RHdMa1duY2diWW1fd0JGbWlHdFMxQndRLVJSbi1IZ3ZpTHZCdGdZQnNfcUhjS1NNWldxVHA1RGRQdkdwS3F1YTdhQ0ZOeXlqRFoxVmpfbGZxREowT1V2MXNDNlFLNFU1Y0JYN2drRDRfdkFLeFhUWjV2ajZaSzJrOXZqVWJmYjdYOGNuLVNjcU0?oc=5",
-      "published": "Tue, 17 Nov 2026 06:45:48 GMT",
-      "title": "Oracle stock slides again as its debt-funded AI buildout becomes the market's stress test - Startup Fortune"
-    },
-    {
-      "bp_hint": null,
-      "entity": "Oracle",
-      "link": "https://news.google.com/rss/articles/CBMitAFBVV95cUxPaFdaSTliemthSG5HS3h1U2l5OXQwZGZKbmtEanJ5TGVmaWlqRmpTNHdPMnM5azlJRWdLSGtDdUx6THY2aVRPY19Db2pUZTdfbE0yM25KTi1jLVYyVjluR0pDMTJUT3JpcEJrZklQTXBjMEl5SUNxZ1FSdzJ6aWdDc0dveUdrcVRCQzVXSEtsLUdrMV9TQjktOEI3amFEY1VkaFZ0ZHlfTjN3ZjNvdE84R09ycGs?oc=5",
-      "published": "Thu, 19 Nov 2026 05:01:46 GMT",
-      "title": "Tuttle and Defiance file for ETFs that would bet against AI debt through credit default swaps - MLQ.ai"
-    },
-    {
-      "bp_hint": null,
-      "entity": "Oracle",
-      "link": "https://news.google.com/rss/articles/CBMisAFBVV95cUxPWnp6SVd1T1ZDVURQdmZYNUtxb2FNZ1pWQTVxVTMzMzVXTi1qT2pubkJvVFcxQjFJUTZEcnlQWXFxLUJ4N2Nya2VFZ1ViSHdzbHJOS2N1eW91Z0RMZlJZQWdPdWN0UTloQ0FsZ3FRazBJZVBOMU8xRk5zc0JLM3g0dFJOalJMejNXUDNuRTMwaDQ3cWxaOWZ5MDZxRU5FcjJQbTBzeGN5OHQ2a19VdkdxcA?oc=5",
-      "published": "Wed, 18 Nov 2026 22:57:22 GMT",
-      "title": "Tuttle and Defiance file for funds that would profit from rising AI debt risk - Superpower Daily"
+      "link": "https://news.google.com/rss/articles/CBMitgFBVV95cUxOLWpaZkx2YmI1X3ZMd3c1RElMdGE4QzhCYThjVTVERGcwOXY3eVBTQWFac0taTl9sMVM2eDM3YjBTckhpVUIzRmU2aXJqSHRVVFB2aUR4R0pBMU1ndTlZSUcyYk1CdjRzbzVTNG5MRlpSU3AwNE51QllMQm9hTXlKUVNkZlM5RnlGTE1fTUV1RURzVXpkeExnVDZ3ZDN3Y0NPSXVnMm9JbkFQU2FrUmJfTjA2Y0g5dw?oc=5",
+      "published": "Fri, 20 Nov 2026 18:13:53 GMT",
+      "title": "Why is Oracle stock sliding to a new 52-week low today? - Investing.com"
     }
   ],
-  "candidates_date": "2026-11-24",
+  "candidates_date": "2026-11-25",
   "entities": [
     {
-      "asof": "2026-11-23",
+      "asof": "2026-11-24",
       "basket": {
         "ORCL": 1.0
       },
@@ -181,13 +174,9 @@
         "ytd_high": 298.0,
         "ytd_low": 145.0
       },
-      "csi": 97.5,
-      "csi_5d": 90.0,
+      "csi": 97.8,
+      "csi_5d": 91.3,
       "csi_hist": [
-        [
-          "2025-11-11",
-          50.0
-        ],
         [
           "2025-11-12",
           51.2
@@ -1222,17 +1211,21 @@
         ],
         [
           "2026-11-23",
-          97.5
+          97.3
+        ],
+        [
+          "2026-11-24",
+          97.8
         ]
       ],
-      "csi_prev": 97.6,
+      "csi_prev": 97.3,
       "key": "oracle",
       "name": "Oracle",
       "note": "AI 부채 공포의 대리지표. IG 지수 최대 비금융 발행사.",
       "type": "traded"
     },
     {
-      "asof": "2026-11-23",
+      "asof": "2026-11-24",
       "basket": {
         "NVDA": 1.0
       },
@@ -1273,13 +1266,9 @@
         "ytd_high": 139.0,
         "ytd_low": 42.0
       },
-      "csi": 94.5,
-      "csi_5d": 93.0,
+      "csi": 99.1,
+      "csi_5d": 93.9,
       "csi_hist": [
-        [
-          "2025-11-11",
-          29.2
-        ],
         [
           "2025-11-12",
           28.9
@@ -2314,17 +2303,21 @@
         ],
         [
           "2026-11-23",
-          94.5
+          94.4
+        ],
+        [
+          "2026-11-24",
+          99.1
         ]
       ],
-      "csi_prev": 96.0,
+      "csi_prev": 94.4,
       "key": "nvidia",
       "name": "Nvidia",
       "note": "대차대조표가 아닌 벤더 파이낸싱·보증이 스프레드를 움직인다.",
       "type": "traded"
     },
     {
-      "asof": "2026-11-23",
+      "asof": "2026-11-24",
       "basket": {
         "CRWV": 0.6,
         "ORCL": 0.4
@@ -2363,12 +2356,8 @@
         "ytd_low": 855.0
       },
       "csi": 98.0,
-      "csi_5d": 92.8,
+      "csi_5d": 93.8,
       "csi_hist": [
-        [
-          "2025-11-11",
-          52.9
-        ],
         [
           "2025-11-12",
           52.7
@@ -3403,17 +3392,21 @@
         ],
         [
           "2026-11-23",
+          97.9
+        ],
+        [
+          "2026-11-24",
           98.0
         ]
       ],
-      "csi_prev": 96.9,
+      "csi_prev": 97.9,
       "key": "openai",
       "name": "OpenAI",
       "note": "단일종목 CDS 없음. 컴퓨트 파트너(CoreWeave·Oracle) 크레딧으로 전가 — 실측 CDS는 CoreWeave 값.",
       "type": "proxy"
     },
     {
-      "asof": "2026-11-23",
+      "asof": "2026-11-24",
       "basket": {
         "AMZN": 0.3,
         "GOOGL": 0.7
@@ -3436,12 +3429,8 @@
         "ytd_low": 67.0
       },
       "csi": 78.4,
-      "csi_5d": 74.3,
+      "csi_5d": 77.0,
       "csi_hist": [
-        [
-          "2025-11-11",
-          24.4
-        ],
         [
           "2025-11-12",
           26.6
@@ -4476,26 +4465,26 @@
         ],
         [
           "2026-11-23",
+          78.3
+        ],
+        [
+          "2026-11-24",
           78.4
         ]
       ],
-      "csi_prev": 84.0,
+      "csi_prev": 78.3,
       "key": "anthropic",
       "name": "Anthropic",
       "note": "단일종목 CDS 없음. 리스 백스톱 제공자(Alphabet·Amazon) 크레딧으로 전가.",
       "type": "proxy"
     }
   ],
-  "generated_at": "2026-11-24T14:29:45+09:00",
+  "generated_at": "2026-11-25T13:07:54+09:00",
   "macro": {
-    "asof": "2026-11-20",
-    "bbb_oas_bp": 122.0,
-    "percentile_2y": 0.947,
+    "asof": "2026-11-23",
+    "bbb_oas_bp": 120.0,
+    "percentile_2y": 0.94,
     "series": [
-      [
-        "2025-11-26",
-        105.0
-      ],
       [
         "2025-11-27",
         105.0
@@ -5531,12 +5520,16 @@
       [
         "2026-11-20",
         122.0
+      ],
+      [
+        "2026-11-23",
+        120.0
       ]
     ]
   },
   "measured": [
     {
-      "age_days": 18,
+      "age_days": 19,
       "alert": false,
       "alert_bp": 300.0,
       "baselines": [
@@ -5626,7 +5619,7 @@
       "to_alert": 2.0
     },
     {
-      "age_days": 18,
+      "age_days": 19,
       "alert": false,
       "alert_bp": 1289.0,
       "baselines": [
